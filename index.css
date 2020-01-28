@@ -1,0 +1,96 @@
+@font-face {
+    font-family: BreeSerif;
+    font-display: fallback;
+    src: local('Bree Serif Regular'), local('BreeSerif-Regular'), url(https://transportsg.me/static/fonts/bree-serif.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: BreeSerif;
+    color: #c5c5c5;
+    background-color: #1e1e1e;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #c5c5c5;
+}
+
+div#header {
+    background-color: #171717;
+    height: calc(4vw + 4vh);
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+
+}
+
+div#header span#title {
+    font-size: calc((100vw + 100vh) * 0.013);
+    margin: calc(-0.3vw - 0.3vh) 0 0 calc(1vw + 1vh);
+}
+
+div#links {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#links > * {
+    margin-right: calc(1vw + 1vh);
+}
+
+div#header a#home {
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+#mrt-disruptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mrt-disruptions span {
+    font-size: calc(1.3vw + 1.3vh);
+    line-height: calc(1.5vw + 1.5vh);
+}
+
+div#header img#page-icon {
+    width: calc(2vw + 2vh);
+    height: calc(2vw + 2vh);
+    margin-left: calc(1vw + 1vh);
+}
+
+#content > a {
+    display: flex;
+    align-items: center;
+    background-color: #2a2a2a;
+}
+
+#content > a:nth-child(even) {
+    background-color: #202020;
+}
+
+#content > a > div {
+    width: calc(10vw + 10vh);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content > a > div > img {
+    width: calc(7vw + 7vh);
+    height: calc(7vw + 7vh);
+}
+
+#content > a > span {
+    margin-left: calc(2vw + 2vh);
+    font-size: calc(2.5vw + 2.5vh);
+    width: calc(100vw - (10vw + 10vh));
+}

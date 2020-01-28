@@ -1,0 +1,84 @@
+1 Moe- Traralgon Via Morwell 1 -done
+2 Morwell To Churchill 2 -done
+3 Churchill Via Fed Uni 3 -done
+4 Boolarra Via Yinnar 4 -done
+5 Moe- Traralgon Via Yallourn North 5 -done
+6 Traralgon South 6
+7 Churchill Special 7 -done
+8 Moe -done
+9 Yallourn North
+10 Traralgon -done
+11 Moe-Moe West 11 -done
+12 Moe-Moe South 12 -done
+13 Moe-Moe North 13 -done
+14 Moe-Newborough Via Old Sale Road 14 -done
+15 Moe-Newborough Via Dinwoodie Drive 15
+19 Sorry Not In Service
+20 Morwell South 20 -done
+21 Morwell To Midvalley Via Crinigan Road 21 -done
+22 Morwell To Midvalley Via Hourigan Road 22 -done
+23 Midvalley To Morwell Via Crinigan Road 21 -done
+24 Midvalley To Morwell Via Hourigan Road 22 -done
+25 Morwell -done
+30 Churchill Town Service 30 -done
+31 Churchill -done
+32 Morwell -done
+40 Traralgon-Cross’s Road 40 -done
+41 Traralgon-Traralgon West 41 -done
+42 Traralgon-Southside 42 -done
+43 Traralgon-Traralgon East 43 -done
+44 Traralgon-Ellavale 44 -done
+45 Traralgon-Traralgon North 45 -done
+50 Not In Service -done
+51 Moe Via Morwell 1 -done
+52 Morwell Via Midvalley 2 -done
+53 Traralgon Via Fed Uni 3
+54 Churchill Via Yinnar 4 -done
+55 Moe Via Yallourn North 5
+56 Traralgon 6
+57 Traralgon Special 7
+90 Sale Via Maffra -done
+91 Traralgon Via Maffra -done
+92 Sale Via Rosedale -done
+93 Traralgon Via Rosedale -done
+94 Sale Via Rosedale & Maffra -done
+95 Maffra -done
+96 Sale -done
+97 V/Line -done
+98 Train Replacement -done
+99 Flinders Street
+100 Southern Cross
+101 Glengarry Country School Bus -done
+102 Cairnbrook Road School Bus -done
+103 Traralgon East School Bus -done
+104 Ellavale School Bus -done
+105 Marie St & Garibaldi Street School Bus 4 -part done
+106 Glendonald School Bus -done
+107 Loch Park Road School Bus -done
+108 Gordon St & Chenhall Cres School Bus 3 -done
+109 Federation Uni Direct Bus -done
+110 Henry St & Kay Street School Bus -done
+114 Not In Service
+115 Charter -done
+116 School Bus -done
+117 Country Transfer
+118 East-West Transfer Bus
+119 West-East Transfer Bus
+120 Parklane School Bus -done
+121 Cowwarr Weir Country School Bus -done
+122 Callignee Country School Bus -done
+123 Hazelbank School Bus -done
+124 Koornalla School Bus -done
+125 Glen West Country School Bus -done
+126 Tyers Flats Country School Bus -done
+127 Tyers Hill Country School Bus
+128 Federation Uni Chater -done
+150 Latrobe Valley Bus Lines
+201 Morwell 1 School Bus -done
+202 Morwell 2 School Bus -done
+203 Morwell 3 School Bus -done
+204 Morwell 4 School Bus -done
+205 Morwell 5 School Bus -done
+206 Churchill 1 School Bus -done
+207 Churchill 2 School Bus -done
+208 Churchill 3 School Bus -done

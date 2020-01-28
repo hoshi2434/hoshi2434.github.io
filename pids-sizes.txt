@@ -1,0 +1,9 @@
+SmartBus PIDS:
+144x7 main,
+clock
+
+Metro Station PIDS:
+240x7
+
+Metro Mini PIDS:
+120x7
