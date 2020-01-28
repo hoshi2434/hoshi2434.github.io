@@ -1,0 +1,77 @@
+#front-eds {
+    display: grid;
+    /* grid-template-columns: repeat(160, 7px);
+    grid-row-gap: 1px;
+    grid-auto-rows: 6px; */
+    background-color: #202020;
+    /* width: calc(160 * 7px); */
+
+    padding: 2vw;
+}
+
+#front-eds-container {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #010101;
+
+}
+
+#rear-eds {
+    display: grid;
+    /* grid-template-columns: repeat(40, 10px);
+    grid-row-gap: 2px;
+    grid-auto-rows: 10px; */
+    background-color: #202020;
+    /* width: calc(40 * 10px); */
+
+    padding: 2vw;
+}
+
+/* #rear-eds .led {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+} */
+
+#rear-eds-container {
+    width: calc(50vw * 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #010101;
+}
+
+#top-row {
+    display: flex;
+}
+
+.led-cell {
+    display: flex;
+    background-color: #202020;
+    justify-content: center;
+    align-items: center;
+}
+
+.led {
+    width: 5px;
+    height: 5px;
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    display: block;
+}
+
+.led-off {
+    background-color: #303030;
+}
+
+.led-on {
+    background-color: orange;
+}
