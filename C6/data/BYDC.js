@@ -14,7 +14,7 @@ EDSFormats.BYDC = {
             margin: {
                 right: 'width(serviceNumber)'
             },
-            text: "$destination.text",
+            text: "$destination.text+' via'",
             font: "$destination.font",
             spacing: 1
         },
@@ -73,7 +73,7 @@ EDSFormats.BYDC = {
             font: {
                 $$cond: {
                     "$bottomFont !== null": "$bottomFont",
-                    "else": "Mobitec-6:5"
+                    "else": "Mobitec-7:5:1"
                 }
             },
             spacing: 1,
@@ -446,8 +446,8 @@ EDSData.BYDC = {
             renderType: "standardService",
             serviceNumber: "825",
             destination: {
-                text: "LENTOR LOOP via",
-                font: "Mobitec-6:5"
+                text: "LENTOR LOOP",
+                font: "Mobitec-7:5:1"
             },
             scrolls: [
                 {
@@ -462,7 +462,7 @@ EDSData.BYDC = {
                 "THOMSON GROVE",
                 "CASTLE GREEN"
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:5:1"
         }
     },
     8252: {
@@ -470,8 +470,8 @@ EDSData.BYDC = {
             renderType: "standardService",
             serviceNumber: "825",
             destination: {
-                text: "YIO CHU KANG via",
-                font: "Mobitec-6:5"
+                text: "YIO CHU KANG",
+                font: "Mobitec-7:5:1"
             },
             scrolls: [
                 {
@@ -482,38 +482,85 @@ EDSData.BYDC = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                  },
-                "OPP SEASONS PARK",
-                "OPP THOMSON GROVE",
-                "OPP CASTLE GREEN"
+                "OPP S. PARK",
+                "OPP T. GROVE",
+                "OPP C. GREEN"
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:5:1"
         }
     },
-    8542: {
+    8253: {
         front: {
             renderType: "standardService",
-            serviceNumber: "854",
+            serviceNumber: "825",
             destination: {
-                text: "YISHUN via",
-                font: "Mobitec-7:7"
+                text: "LENTOR LOOP",
+                font: "Mobitec-7:5:1"
             },
             scrolls: [
                 {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "YISHUN",
-                    topFont: "Mobitec-13:7"
-                },
-                "HOUGANG AVE 2",
-                "HOUGANG AVE 3",
-                "JLN EUNOS",
-                "P I E",
-                "TO BE COMPLETED"
+                	renderType: "destScroll",
+                    serviceNumber: "825",
+                    top: "THIS BUS",
+                    bottom: "IS FULL",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                 },
+                "SEASONS PARK",
+                "THOMSON GROVE",
+                "CASTLE GREEN"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "Mobitec-7:5:1"
+        }
+    },
+    8254: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "825",
+            destination: {
+                text: "YIO CHU KANG",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                {
+                	renderType: "destScroll",
+                    serviceNumber: "825",
+                    top: "THIS BUS",
+                    bottom: "IS FULL",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                 },
+                "OPP S. PARK",
+                "OPP T. GROVE",
+                "OPP C. GREEN"
+            ],
+            scrollFont: "Mobitec-7:5:1"
+        }
+    },
+    9999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "113PP",
+            destination: {
+                text: "YT NEEDS",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                {
+                	renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "THIS BUS",
+                    bottom: "IS FULL",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                 },
+                "MORE PP"
+            ],
+            scrollFont: "Mobitec-7:5:1"
         }
     },
 }
+
 
 EDSExtras.BYDC = {
     1: {
@@ -575,7 +622,7 @@ EDSExtras.BYDC = {
             text: "LAST BUS",
             spacing: 1
         }
-    }
+    },
 }
 
 EDSImages.BYDC = {
