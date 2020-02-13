@@ -60,6 +60,21 @@ function setCode(code, operator) {
     currentCode = code;
 }
 
+function setExtraCode(code, operator) {
+    code += '';
+
+    if (!EDSExtras[operator][code]) return;
+
+    let frontDisplay = EDSExtras[operator][code].front;
+    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
+    render(parsedFront, controllerPreview);
+    render(parsedFront, frontEDS);
+
+    setScreenExtra(code);
+
+    currentCode = code;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
