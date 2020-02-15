@@ -1,0 +1,1994 @@
+EDSFormats.BUSG = {
+    standardService: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-LAWO-16",
+            spacing: 2
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination.text",
+            font: "$destination.font",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination.text+' '+$serviceNumber"
+    },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-LAWO-16",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    boot: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-LAWO-16",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "left-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "left-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    logo: {
+        logo: {
+            align: "centre-x,centre-y",
+            image: "$image"
+        },
+
+        text: "$text"
+    },
+    message: {
+        display: {
+            align: "centre-x,centre-y",
+            text: "$text",
+            font: "$font",
+            spacing: "$spacing"
+        },
+
+        text: "$text"
+    },
+}
+EDSData.BUSG = {    
+    1: {
+        front: {
+            renderType: "destScroll",
+            top: "",
+            topFont: "Mobitec-7:7",
+
+            bottom: "",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    5: {
+        front: {
+            renderType: "destScroll",
+            top: "LTG EMEA Matrix Renderer",
+            topFont: "Mobitec-7:4",
+
+            bottom: "A1 R160x16",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    10: {
+        front: {
+            renderType: "destScroll",
+            top: "Bus Broken Down!",
+            topFont: "Mobitec-7:7",
+
+            bottom: "Please Do Not Board!",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    8: {
+        front: {
+            renderType: "boot",
+            top: "USB STICK FOUND! NEW DATA FOUND!",
+            topFont: "Mobitec-7:4",
+
+            bottom: "GETTING DATA... DO NOT REMOVE!",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    9: {
+        front: {
+            renderType: "boot",
+            top: "SHUTTING DOWN",
+            topFont: "Mobitec-7:4",
+
+            bottom: "REPLACING DATA WITH NEW DATA!",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    2: {
+        front: {
+            renderType: "boot",
+            top: "MOBITEC ICU-602",
+            topFont: "Mobitec-7:4",
+
+            bottom: "Version 69621-BUSGAG",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    3: {
+        front: {
+            renderType: "boot",
+            top: "CHECKING CONTROLLER AND DATA",
+            topFont: "Mobitec-7:4",
+
+            bottom: "UNDERGOING SYSTEM CHECK",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    4: {
+        front: {
+            renderType: "boot",
+            top: "SYSTEM CHECK PASS",
+            topFont: "Mobitec-7:4",
+
+            bottom: "COMMENCING BOOT SEQUENCE",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    7: {
+        front: {
+            renderType: "boot",
+            top: "SYSTEM AT CRITICAL CONDITION",
+            topFont: "Mobitec-7:4",
+
+            bottom: "DATA AND SIGN(S) MAY BE CORRUPT",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    6: {
+        front: {
+            renderType: "boot",
+            top: "SHUTTING DOWN",
+            topFont: "Mobitec-7:4",
+
+            bottom: "SYSTEM AT LOW POWER",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    11: {
+        front: {
+            renderType: "destScroll",
+            top: "Bus Under Inspection",
+            topFont: "Mobitec-7:7",
+
+            bottom: "PLEASE KEEP CLEAR!",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    1111: {
+        front: {
+            renderType: "destScroll",
+            top: "Sorry!",
+            topFont: "Mobitec-7:7",
+
+            bottom: "Not in Service",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    9999: {
+        front: {
+            renderType: "destScroll",
+            top: "Ver 1.6969-Mobi",
+            topFont: "Mobitec-7:7",
+
+            bottom: "MADE FOR BUSGAG BY PGVPS",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    3333: {
+        front: {
+            renderType: "destScroll",
+            top: "DRIVER UNDER",
+            topFont: "Mobitec-7:7",
+
+            bottom: "INSTRUCTION",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    4444: {
+        front: {
+            renderType: "destScroll",
+            top: "ON TEST",
+            topFont: "Mobitec-16:8",
+
+            bottom: "",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    69: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME ABOARD",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUSGAG TRANSIT",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    2222: {
+        front: {
+            renderType: "logo",
+            image: "logo",
+            text: "GO-AHEAD SINGAPORE"
+        }
+    },
+    21: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2",
+            destination: {
+                text: "KAMPONG BAHRU",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "2",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-13:7"
+                },
+                "CHANGI VILLAGE RD",
+                "LOYANG AVE",
+                "LOYANG WAY",
+                "UPP CHANGI RD NTH/EAST",
+                "UPP CHANGI LINK",
+                "UPP CHANGI RD",
+                "BEDOK RD",
+                "NEW UPP CHANGI RD",
+                "CHANGI RD",
+                "GEYLANG RD",
+                "KALLANG RD",
+                "VICTORIA ST",
+                "HILL ST",
+                "NEW BRIDGE RD",
+                "KG BAHRU RD",
+                "SPOONER RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    22: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2",
+            destination: {
+                text: "CHANGI VILLAGE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "2",
+                    top: "CHANGI VILLAGE",
+                    topFont: "Mobitec-13:7"
+                },
+                "SPOONER RD",
+                "KG BAHRU RD",
+                "EU TONG SEN ST",
+                "HILL ST",
+                "VICTORIA ST",
+                "KALLANG RD",
+                "SIMS AVE",
+                "SIMS AVE EAST",
+                "NEW UPP CHANGI RD",
+                "BEDOK RD",
+                "UPP CHANGI RD",
+                "UPP CHANGI LK",
+                "UPP CHANGI RD EAST/NTH",
+                "LOYANG WAY",
+                "LOYANG AVE",
+                "CHANGI VILLAGE RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    31: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "3",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "3",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
+                "TAMPINES CTRL 1",
+                "TAMPINES AVE 5/4",
+                "TAMPINES ST 21",
+                "TAMPINES AVE 2/7",
+                "LOYANG AVE",
+                "PASIR RIS DR 1",
+                "PASIR RIS ST 21",
+                "PASIR RIS DR 4/3/8/1",
+                "ELIAS RD",
+                "PASIR RIS ST 71",
+                "PASIR RIS DR 10/1/12",
+                "TPE",
+                "PUNGGOL RD",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
+                "PUNGGOL CTRL",
+                "PUNGGOL EAST"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    32: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "3",
+            destination: {
+                text: "TAMPINES",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "3",
+                    top: "TAMPINES",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PL",
+                "PUNGGOL CTRL",
+                "PUNGGOL EAST",
+                "PUNGGOL FIELD",
+                "PUNGGOL RD",
+                "TPE",
+                "PASIR RIS DR 12/1/10",
+                "PASIR RIS ST 71",
+                "ELIAS RD",
+                "PASIR RIS DR 1/8/3/4",
+                "PASIR RIS ST 21",
+                "PASIR RIS DR 1",
+                "LOYANG AVE",
+                "TAMPINES AVE 7/2",
+                "TAMPINES ST 23/21",
+                "TAMPINES AVE 4/9",
+                "TAMPINES CTRL 1"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    61: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "6",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "6",
+                    top: "PASIR RIS INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3",
+                "LOYANG AVE",
+                "LOYANG WAY",
+                "LOYANG CRESENT",
+                "LOYANG WAY",
+                "LOYANG AVE",
+                "PASIR RIS DR 3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    121: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12",
+            destination: {
+                text: "KAMPONG BAHRU",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3/6/1",
+                "LOYANG AVE",
+                "TAMPINES AVE 7/2",
+                "SIMEI RD",
+                "UPP CHANGI RD EAST",
+                "NEW UPP CHANGI RD",
+                "BEDOK STH AVE 3",
+                "BEDOK STH RD",
+                "BEDOK STH AVE 1",
+                "UPP EAST COAST RD",
+                "EAST COAST RD",
+                "MOUNTBATTEN ROAD",
+                "SIMS WAY",
+                "GEYLANG RD",
+                "KALLANG RD",
+                "VICTORIA ST",
+                "HILL ST",
+                "NEW BRIDGE RD",
+                "KAMPONG BAHRU RD",
+                "SPOONER RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    122: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "SPOONER RD",
+                "KAMPONG BAHRU RD",
+                "EU TONG SEN STREET",
+                "HILL ST",
+                "VICTORIA ST",
+                "KALLANG ROAD",
+                "SIMS AVE",
+                "SIMS WAY",
+                "MOUNTBATTEN MRT/RD",
+                "EAST COAST RD",
+                "UPP EAST COAST RD",
+                "BEDOK SOUTH AVE 1",
+                "BEDOK SOUTH RD",
+                "BEDOK SOUTH AVE 3",
+                "NEW UPP CHANGI ROAD",
+                "UPP CHANGI ROAD EAST",
+                "SIMEI ROAD",
+                "TAMPINES AVE 2/7",
+                "LOYANG AVE",
+                "PASIR RIS DR 1/6/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    123: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12e",
+            destination: {
+                text: "KAMPONG BAHRU",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12e",
+                    top: "LIMITED  KAMPONG",
+                    bottom: "STOPS     BAHRU",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/6/1",
+                "LOYANG AVE",
+                "TAMPINES AVE 7/2",
+                "SIMEI RD",
+                "UPP CHANGI RD EAST",
+                "NEW UPP CHANGI RD",
+                "BEDOK STH AVE 3/1",
+                "BEDOK STH RD",
+                "ECP",
+                "ROCHOR RD",
+                "VICTORIA ST",
+                "HILL ST",
+                "NEW BRIDGE RD",
+                "SPOONER RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    124: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12e",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12e",
+                    top: "LIMITED  PASIR RIS",
+                    bottom: "STOPS       INT    ",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "SPOONER RD",
+                "EU TONG SEN RD",
+                "HILL ST",
+                "VICTORIA ST",
+                "OPHIR RD",
+                "ECP",
+                "BEDOK STH RD",
+                "BEDOK STH AVE 1/3",
+                "NEW UPP CHANGI RD",
+                "UPP CHANGI RD EAST",
+                "SIMEI RD",
+                "TAMPINES AVE 2/7",
+                "LOYANG AVE",
+                "PASIR RIS DR 1/6/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    151: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "15",
+            destination: {
+                text: "MARINE PARADE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15",
+                    top: "MARINE PARADE",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3/1/8",
+                "PASIR RIS ST 52",
+                "TAMPINES AVE 12/9/5/7/4/1",
+                "BEDOK NTH RD EXTN (EXPRESS)",
+                "BEDOK RESERVOIR RD",
+                "KAKI BUKIT AVE 1",
+                "EUNOS LINK",
+                "JALAN EUNOS",
+                "STILL RD",
+                "JOO CHIAT PLACE",
+                "TELOK KURAU ROAD",
+                "MARINE PARADE RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    152: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "15",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15",
+                    top: "PASIR RIS INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "MARINE PARADE RD",
+                "JOO CHIAT PLACE",
+                "STILL ROAD",
+                "JALAN EUNOS",
+                "EUNOS LINK",
+                "KAKI BUKIT AVE 1",
+                "BEDOK RESERVOIR ROAD",
+                "JALAN EUNOS",
+                "BEDOK NTH RD EXTN (EXPRESS)",
+                "TAMPINES AVE 1/5/4/7/9/12",
+                "PASIR RIS ST 52",
+                "PASIR RIS DR 8/1/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    153: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "15A",
+            destination: {
+                text: "OPP EUNOS STN",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15A",
+                    top: "ENDS AT",
+                    bottom: "OPP EUNOS STN",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/1/8",
+                "PASIR RIS ST 52",
+                "TAMPINES AVE 12/9/5/7",
+                "TAMPINES AVE 4/1",
+                "BEDOK NTH RD EXTN",
+                "BEDOK RESERVOIR RD",
+                "KAKI BUKIT AVE 1",
+                "EUNOS LINK",
+                "JALAN EUNOS"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    171: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "17",
+            destination: {
+                text: "BEDOK",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17",
+                    top: "BEDOK",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3/4/1",
+                "LOYANG AVE",
+                "TAMPINES AVE 7/2",
+                "SIMEI AVE",
+                "BEDOK NORTH RD",
+                "BEDOK NORTH AVE 4/1",
+                "BEDOK NORTH DR"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    172: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "17",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "BEDOK NORTH DRIVE",
+                "BEDOK NORTH RD",
+                "BEDOK NORTH AVE 1/4",
+                "SIMEI AVE",
+                "TAMPINES AVE 2/7",
+                "LOYANG AVE",
+                "PASIR RIS DR 1/4/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    173: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "17A",
+            destination: {
+                text: "BEDOK NTH DEPOT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17A",
+                    top: "ENDS AT",
+                    bottom: "BEDOK NTH DEPOT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "BEDOK NORTH DRIVE",
+                "BEDOK NORTH RD",
+                "BEDOK NORTH AVE 4"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    341: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "CHANGI AIRPORT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "CHANGI AIRPORT",
+                    bottom: "TERMINAL 2",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL ROAD",
+                "TPE",
+                "TAMPINES AVE 10/5/2/7",
+                "PIE",
+                "AIRPORT BOULEVARD",
+                "CHANGI AIRPORT PTB 3,1,2,4"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    342: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
+                "AIRPORT BOULEVARD",
+                "PIE",
+                "TAMPINES AVE 7/2/5/10",
+                "TPE",
+                "PUNGGOL ROAD",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL PLACE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    343: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34A",
+            destination: {
+                text: "TAMPINES HUB",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34A",
+                    top: "ENDS AT",
+                    bottom: "TAMPINES HUB",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL ROAD",
+                "TPE",
+                "TAMPINES AVE 10/5"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    344: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34B",
+            destination: {
+                text: "AFT TPE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34B",
+                    top: "ENDS AT",
+                    bottom: "AFT TPE",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "TAMPINES AVE 10/5/2/7",
+                "PIE",
+                "AIRPORT BOULEVARD",
+                "CHANGI AIRPORT PTB 3,1,2",
+                "CHANGI AIRPORT TER 4",
+                "AIRPORT BOULEVARD",
+                "PIE",
+                "TAMPINES AVE 7/2/5/10"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    431: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43",
+            destination: {
+                text: "UPP EAST COAST",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43",
+                    top: "UPP EAST COAST",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PL",
+                "PUNGGOL CTRL",
+                "PUNGGOL WAY",
+                "SENGKANG EAST RD",
+                "SENGKANG CTRL",
+                "BUANGKOK DR",
+                "BUANGKOK GREEN/MRT",
+                "YIO CHU KANG RD",
+                "YIO CHU KANG LK",
+                "SERANGOON MRT/CTRL",
+                "UPP SERANGOON RD",
+                "PAYA LEBAR RD",
+                "TANJONG KATONG RD",
+                "AMBER RD",
+                "MARINE PARADE RD",
+                "BEDOK STH AVE 1",
+                "UPP EAST COAST RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    432: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
+                "UPP EAST COAST RD",
+                "BEDOK SOUTH AVE 1",
+                "MARINE PARADE RD",
+                "AMBER RD",
+                "GEYLANG RD",
+                "PAYA LEBAR RD",
+                "UPP PAYA LEBAR RD",
+                "UPP SERANGOON RD",
+                "SERANGOON MRT/CTRL",
+                "YIO CHU KANG LK",
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN/MRT",
+                "BUANGKOK DR",
+                "SENGKANG CTRL",
+                "SENGKANG EAST RD",
+                "PUNGGOL WAY",
+                "PUNGGOL CTRL",
+                "PUNGGOL PL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    433: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43M",
+            destination: {
+                text: "SERANGOON MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43M",
+                    top: "SERANGOON MRT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PL",
+                "PUNGGOL CTRL",
+                "PUNGGOL WAY",
+                "SENGKANG EAST RD",
+                "SENGKANG CTRL",
+                "BUANGKOK MRT/DR",
+                "BUANGKOK GREEN",
+                "YIO CHU KANG RD",
+                "YIO CHU KANG LK",
+                "SERANGOON MRT/CTRL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    434: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43M",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43M",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
+                "SERANGOON CENTRAL",
+                "YIO CHU KANG LINK",
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN/MRT",
+                "BUANGKOK DRIVE",
+                "SENGKANG CENTRAL",
+                "SENGKANG EAST ROAD",
+                "PUNGGOL WAY",
+                "PUNGGOL CTRL",
+                "PUNGGOL PLACE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    435: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43e",
+            destination: {
+                text: "MARINE PARADE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43e",
+                    top: "LIMITED    MARINE ",
+                    bottom: "STOPS     PARADE",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL WAY",
+                "SENGKANG EAST ROAD",
+                "SENGKANG CENTRAL",
+                "BUANGKOK MRT/DR",
+                "BUANGKOK EAST DRIVE",
+                "KPE(EXPRESS)",
+                "AIRPORT ROAD",
+                "PAYA LEBAR RD",
+                "TANJONG KATONG RD",
+                "AMBER ROAD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    436: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43e",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43e",
+                    top: "LIMITED   PUNGGOL",
+                    bottom: "STOPS        INT   ",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "MARINE PARADE RD",
+                "AMBER ROAD",
+                "TANJONG KATONG ROAD",
+                "GEYLANG ROAD",
+                "PAYA LEBAR ROAD",
+                "AIRPORT ROAD",
+                "KPE(EXPRESS)",
+                "BUANGKOK EAST DR",
+                "BUANGKOK DRIVE",
+                "BUANGKOK MRT/CTRL",
+                "SENGKANG EAST ROAD",
+                "PUNGGOL WAY",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL PLACE"
+                
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    621: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "62",
+            destination: {
+                text: "SIMS AVE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "62",
+                    top: "SIMS AVE",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PL",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
+                "SENGKANG EAST DR",
+                "UPP SERANGOON RD",
+                "HOUGANG AVE 8/6/10/2/3",
+                "TAMPINES RD",
+                "HOUGANG AVE 1",
+                "LORONG AH SOO",
+                "UPP PAYA LEBAR RD",
+                "MACPHERSON RD",
+                "ALJUNIED RD/MRT",
+                "GEYLANG RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    622: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "62",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "62",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
+                "ALJUNIED RD/MRT",
+                "MACPHERSON RD",
+                "UPP PAYA LEBAR RD",
+                "LORONG AH SOO",
+                "HOUGANG AVE 1",
+                "TAMPINES RD",
+                "HOUGANG AVE 3/2/10/6/8",
+                "UPP SERANGOON RD",
+                "SENGKANG EAST DR",
+                "PUNGGOL FIELD",
+                "PUNGGOL PL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    623: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "62A",
+            destination: {
+                text: "ALJUNED MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "62A",
+                    top: "ENDS AT",
+                    bottom: "ALJUNED MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "ABCDEFG",
+                "HIJKLMNO",
+                "PQRSTUV",
+                "WXYZ",
+                "SOUTH BRIDGE RD",
+                "TELOK BLANGAH RD",
+                "HOLLAND RD",
+                "CLEMENTI RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    624: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "62M",
+            destination: {
+                text: "UPP P. LEBAR RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "62M",
+                    top: "ENDS AT",
+                    bottom: "BLK 115",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "HOUGANG AVE 1",
+                "FEEQ WANTED THIS"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    681: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "68",
+            destination: {
+                text: "TAMPINES CENTRAL I",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "68",
+                    top: "TAMPINES CTRL I",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3/10/1/12",
+                "ELIAS RD",
+                "PASIR RIS ST 71",
+                "TAMPINES AVE 10,11,6,9",
+                "TAMPINES CONCOURSE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    682: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "68",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "68",
+                    top: "PASIR RIS INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "TAMPINES CONCOURSE",
+                "TAMPINES AVE 9/6/11/10",
+                "PASIR RIS DR 12/1/10/3",
+                "ELIAS RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    683: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "68A",
+            destination: {
+                text: "TAMPINES INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "68A",
+                    top: "ENDS AT",
+                    bottom: "TAMPINES INT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "TAMPINES AVE 11,6,9",
+                "TAMPINES CONCOURSE",
+                "TAMPINES CENTRAL I"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    684: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "68B",
+            destination: {
+                text: "REEBONZ BLDG",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "68B",
+                    top: "ENDS AT",
+                    bottom: "REEBONZ BLDG",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "TAMPINES CENTRAL I",
+                "TAMPINES CONCOURSE",
+                "TAMPINES AVE 9/6/11"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    821: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "82",
+            destination: {
+                text: "SERANGOON MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "82",
+                    top: "SERANGOON MRT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL FIELD",
+                "PUNGGOL ROAD",
+                "HOUGANG AVE 10/2",
+                "UPP SERANGOON ROAD",
+                "SERANGOON MRT/CENTRAL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    822: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "82",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "82",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
+                "SERANGOON CENTRAL",
+                "BOUNDARY ROAD",
+                "UPP SERANGOON ROAD",
+                "HOUGANG AVE 2/10",
+                "PUNGGOL ROAD",
+                "PUNGGOL FIELD",
+                "PUNGGOL PLACE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    831: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "83",
+            destination: {
+                text: "SENGKANG",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "83",
+                    top: "SENGKANG",
+                    bottom: "THIS IS THE WSOE",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL EAST",
+                "PUNGGOL FIELD",
+                "PUNGGOL ROAD",
+                "COMPASSVALE ST",
+                "SENGKANG EAST RD",
+                "SENGKANG SQUARE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    832: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "83",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "83",
+                    top: "PUNGGOL",
+                    bottom: "THIS IS THE WSOE",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "SENGKANG SQUARE",
+                "SENGKANG EAST ROAD",
+                "COMPASSVALE ST",
+                "PUNGGOL ROAD",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL PLACE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "84",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84",
+                    top: "PUNGGOL INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL ROAD",
+                "SENTUL CRESCENT",
+                "SUMANG LINK",
+                "PUNGGOL WAY",
+                "SUMANG LINK",
+                "SENTUL CRESCENT",
+                "PUNGGOL ROAD",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL PLACE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    851: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "85",
+            destination: {
+                text: "YISHUN",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "85",
+                    top: "YISHUN",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PLACE",
+                "PUNGGOL CENTRAL",
+                "PUNGGOL EAST",
+                "SENGKANG EAST DRIVE",
+                "SENGKANG EST/WST WAY",
+                "JALAN KAYU",
+                "SLE",
+                "LENTOR AVE",
+                "YISHUN AVE 2"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "354",
+            destination: {
+                text: "JLN LOYANG BR",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "354",
+                    top: "JLN LOYANG BR",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3542: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "354",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "354",
+                    top: "PASIR RIS INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS CL",
+                "PASIR RIS DR 3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3581: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "358",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "358",
+                    top: "PASIR RIS INT",
+                    bottom: "(WEST LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/1",
+                "PASIR RIS DR 10 (LOOP)",
+                "ELIAS RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3582: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "358",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "358",
+                    top: "PASIR RIS INT",
+                    bottom: "(EAST LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 6/1",
+                "PASIR RIS DR 4 (LOOP)",
+                "PASIR RIS ST 41",
+                "PASIR RIS DR 6/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3591: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "359",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "359",
+                    top: "PASIR RIS INT",
+                    bottom: "(WEST LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/12/1/10",
+                "PASIR RIS ST 71 (LOOP)",
+                "PASIR RIS 12/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3592: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "359",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "359",
+                    top: "PASIR RIS INT",
+                    bottom: "(EAST LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS CTRL",
+                "PASIR RIS ST 51/11",
+                "PASIR RIS DR 1/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    4031: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "403",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "403",
+                    top: "PASIR RIS INT",
+                    bottom: "PSR PARK(LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/1",
+                "PASIR RIS CTRL",
+                "ELIAS RD",
+                "PASIR RIS RD(LOOP)",
+                "ELIAS RD",
+                "PASIR RIS CTRL",
+                "PASIR RIS 1/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3861: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "386",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "386",
+                    top: "PUNGGOL INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PL",
+                "PUNGGOL CTRL",
+                "EDGEFIELD PLAINS",
+                "PUNGGOL DR",
+                "EDGEDALE PLAINS",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
+                "PUNGGOL CTRL",
+                "EDGEDALE PLAINS",
+                "PUNGGOL DR",
+                "EDGEFIELD PLAINS",
+                "PUNGGOL CTRL",
+                "PUNGGOL PL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    5181: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "518",
+            destination: {
+                text: "BAYFRONT AVE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "518",
+                    top: "LIMITED  BAYFRONT",
+                    bottom: "STOPS       AVE    ",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/12/1",
+                "LOYANG AVE",
+                "TAMPINES AVE 7/2/1",
+                "BEDOK NORTH MRT/RD",
+                "PIE, CTE",
+                "MOULMEIN ROAD",
+                "NEWTON ROAD",
+                "SCOTTS ROAD",
+                "ORCHARD ROAD",
+                "BRASH BASAH ROAD",
+                "TEMASEK BLVD, AVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    5182: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "518",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "518",
+                    top: "LIMITED  PASIR RIS",
+                    bottom: "STOPS       INT    ",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "ECP, KPE, PIE",
+                "BEDOK NORTH ROAD",
+                "TAMPINES AVE 1/2/7",
+                "LOYANG AVE",
+                "PASIR RIS DR 1/12/3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    5183: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "518A",
+            destination: {
+                text: "BAYFRONT AVE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "518A",
+                    top: "ENDS AT",
+                    bottom: "BAYFRONT AVE",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PASIR RIS DR 3/12/1",
+                "LOYANG AVE",
+                "PIE, CTE",
+                "MOULMEIN ROAD",
+                "NEWTON ROAD",
+                "SCOTTS ROAD",
+                "ORCHARD ROAD",
+                "BRASH BASAH ROAD",
+                "TEMASEK BLVD, AVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6441: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "644",
+            destination: {
+                text: "HARBOURFRONT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "644",
+                    top: "WELCOME ABOARD",
+                    bottom: "BUSGAG TOUR",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "KOVAN HUB ",
+                "PUNGGOL STN...",
+                "TAXI STAND",
+                "YISHUN STN...",
+                "TAXI STAND",
+                "EXPRESS",
+                "PHOTOSHOOT",
+                "EXPRESS",
+                "EXPRESS",
+                "HARBOURFRONT MRT"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6442: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "644",
+            destination: {
+                text: "HOUGANG DEPOT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "644",
+                    top: "Sorry!",
+                    bottom: "Not In Service",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "BUSGAG ADMINS ONLY",
+                "CHARTERED"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    8541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "854",
+            destination: {
+                text: "BEDOK via",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "BEDOK",
+                    topFont: "Mobitec-13:7"
+                },
+                "JLN EUNOS, MRT",
+                "HOUGANG AVE 3",
+                "HOUGANG AVE 2",
+                "YIO CHU KANG RD",
+                "TO BE COMPLETED"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    8542: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "854",
+            destination: {
+                text: "YISHUN via",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "YISHUN",
+                    topFont: "Mobitec-13:7"
+                },
+                "HOUGANG AVE 2",
+                "HOUGANG AVE 3",
+                "JLN EUNOS",
+                "P I E",
+                "TO BE COMPLETED"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+}
+
+EDSExtras.GASG = {
+
+}
+
+EDSImages.GASG = {
+    gas: [
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0],
+        [0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0],
+        [1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1],
+        [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0],
+        [0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+    ],
+    L: [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    ],
+    logo: [
+        [0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0],
+        [1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1],
+        [0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0],
+    ],
+    'limited-stops': [
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    ]
+}
