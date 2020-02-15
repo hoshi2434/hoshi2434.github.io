@@ -1,0 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
