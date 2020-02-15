@@ -276,6 +276,22 @@
     font-size: 1vw;
 }
 
+#function-label-row > div.function-empty {
+    margin-left: 0.8vw;
+    width: 5vw;
+    height: 1.2vw;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #3b9cd2;
+    color: #3b9cd2;
+
+    font-size: 1vw;
+}
+
 #controller-screen-home {
     margin-top: 1vw;
     display: flex;
@@ -303,7 +319,7 @@
     font-size: 0.8vw;
 }
 
-#controller-screen-dest {
+#controller-screen-dest, #controller-screen-extra {
     width: 28vw;
 }
 
@@ -322,13 +338,13 @@
     width: 5vw;
 }
 
-.dest-table {
+.dest-table, .extra-table {
     width: 27.6vw;
     height: 3.6vw;
     border: 0.2vw solid black;
 }
 
-.dest-table-item {
+.dest-table-item, .extra-table-item {
     height: 1.2vw;
     display: flex;
     align-items: center;
@@ -341,7 +357,14 @@
     margin-left: 0.3vw;
 }
 
-.dest-table-item > span:nth-child(3) {
+.dest-table-item > span, .extra-table-item > span {
+    height: 1.2vw;
+    font-size: 1vw;
+    width: 4.7vw;
+    margin-left: 0.3vw;
+}
+
+.dest-table-item > span:nth-child(3), .extra-table-item > span:nth-child(3) {
     width: 17.6vw;
     overflow: hidden;
 }
