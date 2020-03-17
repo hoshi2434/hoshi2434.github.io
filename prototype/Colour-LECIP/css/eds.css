@@ -1,0 +1,70 @@
+#front-eds {
+    display: grid;
+    background-color: #202020;
+
+    padding: 2vw;
+}
+
+#front-eds-container {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #010101;
+}
+
+#rear-eds {
+    display: grid;
+    background-color: #202020;
+
+    padding: 2vw;
+}
+
+#rear-eds-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #010101;
+}
+
+#bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+#top-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.led-cell {
+    display: flex;
+    background-color: #202020;
+    justify-content: center;
+    align-items: center;
+}
+
+.led {
+    width: 5px;
+    height: 5px;
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    display: block;
+}
+
+#rear-eds .led-on {
+    background-color: #21c0b5;
+}
+
+.led-off {
+    background-color: #303030;
+}
+
+.led-on {
+    background-color: white;
+}

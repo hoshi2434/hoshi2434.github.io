@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

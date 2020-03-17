@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    font-family: Arial;
+}
+
+#controller {
+    width: 45vw;
+    height: 35vw;
+    display: block;
+    background-color: #303030;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    transform: scale(1.5);
+}
+
+#screen {
+    width: 42.5vw;
+    height: 25vw;
+
+    background-color: #1b1b1b;
+}
+
+#bottom-keyarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#bottom-keyarea > img {
+    height: 1.5vw;
+}
+
+#keypad-num {
+    display: grid;
+    grid-template-columns: repeat(5, 3.5vw);
+    grid-column-gap: 0.75vw;
+    grid-row-gap: 1vw;
+}
+
+.button {
+    width: 3.5vw;
+    height: 2vw;
+
+    display: flex;
+    background-color: #c0c0c0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.button > span {
+    color: #050505;
+
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+}
+
+.button-orange {
+    background-color: #db9728;
+}
+
+#keypad-func {
+    display: grid;
+    grid-template-columns: repeat(3, 3.5vw);
+    grid-column-gap: 0.75vw;
+    grid-row-gap: 1vw;
+}
+
+.button span.arrow-left {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0.5vw solid transparent;
+    border-bottom: 0.5vw solid transparent;
+
+    border-right:0.5vw solid #050505;
+}
+
+.button span.arrow-right {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0.5vw solid transparent;
+    border-bottom: 0.5vw solid transparent;
+
+    border-left: 0.5vw solid #050505;
+}
+
+#keypad-back > img {
+    height: 1vw;
+
+    color: #050505;
+}
