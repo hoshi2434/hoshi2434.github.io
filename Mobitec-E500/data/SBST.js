@@ -32,6 +32,39 @@ EDSFormats.SBST = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
+    SBST102: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "SBST102",
+            spacing: 1
+        },
+        destination: {
+            align: "left,bottom",
+            margin: {
+                left: 1
+            },
+            text: "$destination",
+            spacing: 1
+        },
+        scroll: {
+            align: "left,top",
+            margin: {
+                left: 1,
+                top: 1
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+        text: "$serviceNumber+' '+$destination.text"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -778,10 +811,10 @@ EDSData.SBST = {
     },
     1021: {
         front: {
-            renderType: "standardService",
+            renderType: "SBST102",
             serviceNumber: "102",
             destination: {
-                text: "HOUGANG-SELETAR A'SPACE",
+                text: "H'GANG INT-SELETAR A'SPACE",
                 font: "Mobitec-7:4"
             },
             scrolls: [

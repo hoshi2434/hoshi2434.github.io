@@ -249,7 +249,7 @@ EDSFormats.STSF = {
     },
 }
 EDSData.STSF = {    
-    1: {
+    0: {
         front: {
             renderType: "destScroll",
             top: "",
@@ -261,194 +261,12 @@ EDSData.STSF = {
             serviceNumber: ""
         }
     },
-    5: {
-        front: {
-            renderType: "destScroll",
-            top: "LTG EMEA Matrix Renderer",
-            topFont: "Mobitec-7:4",
-
-            bottom: "A1 R160x16",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    10: {
-        front: {
-            renderType: "destScroll",
-            top: "Bus Broken Down!",
-            topFont: "Mobitec-7:7",
-
-            bottom: "Please Do Not Board!",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    8: {
-        front: {
-            renderType: "boot",
-            top: "USB STICK FOUND! NEW DATA FOUND!",
-            topFont: "Mobitec-7:4",
-
-            bottom: "GETTING DATA... DO NOT REMOVE!",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    9: {
-        front: {
-            renderType: "boot",
-            top: "SHUTTING DOWN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "REPLACING DATA WITH NEW DATA!",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    2: {
-        front: {
-            renderType: "boot",
-            top: "MOBITEC ICU-602",
-            topFont: "Mobitec-7:4",
-
-            bottom: "Version 040120-SENTOSA",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    3: {
-        front: {
-            renderType: "boot",
-            top: "CHECKING CONTROLLER AND DATA",
-            topFont: "Mobitec-7:4",
-
-            bottom: "UNDERGOING SYSTEM CHECK",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    4: {
-        front: {
-            renderType: "boot",
-            top: "SYSTEM CHECK PASS",
-            topFont: "Mobitec-7:4",
-
-            bottom: "COMMENCING BOOT SEQUENCE",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    7: {
-        front: {
-            renderType: "boot",
-            top: "SYSTEM AT CRITICAL CONDITION",
-            topFont: "Mobitec-7:4",
-
-            bottom: "DATA AND SIGN(S) MAY BE CORRUPT",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    6: {
-        front: {
-            renderType: "boot",
-            top: "SHUTTING DOWN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "SYSTEM AT LOW POWER",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    11: {
-        front: {
-            renderType: "destScroll",
-            top: "Bus Under Inspection",
-            topFont: "Mobitec-7:7",
-
-            bottom: "PLEASE KEEP CLEAR!",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    101: {
-        front: {
-            renderType: "autoBus",
-            top: "    Autonomous Vehicle",
-            topFont: "Mobitec-7:4",
-
-            bottom: "    On Trial",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: " 1"
-        }
-    },
-    201: {
-        front: {
-            renderType: "autoBus",
-            top: "    Autonomous Vehicle",
-            topFont: "Mobitec-7:4",
-
-            bottom: "    On Trial",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: " 2"
-        }
-    },
     1111: {
         front: {
             renderType: "destScroll",
-            top: "Sorry!",
-            topFont: "Mobitec-7:7",
-
-            bottom: "Not in Service",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    9999: {
-        front: {
-            renderType: "destScroll",
-            top: "Ver 1.6969-Mobi",
-            topFont: "Mobitec-7:7",
-
-            bottom: "MADE BY PLAGG",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    3333: {
-        front: {
-            renderType: "destScroll",
-            top: "DRIVER UNDER",
-            topFont: "Mobitec-7:7",
-
-            bottom: "INSTRUCTION",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    4444: {
-        front: {
-            renderType: "destScroll",
-            top: "ON TEST",
+            top: "OFF SERVICE",
             topFont: "Mobitec-16:8",
 
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
 
             serviceNumber: ""
         }
@@ -465,61 +283,72 @@ EDSData.STSF = {
             serviceNumber: ""
         }
     },
-    21: {
+    1: {
         front: {
             renderType: "standardService",
-            serviceNumber: "2",
+            serviceNumber: "A",
             destination: {
-                text: "KAMPONG BAHRU",
+                text: "Beach Station",
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "2",
-                    top: "KAMPONG BAHRU",
-                    topFont: "Mobitec-13:7"
-                },
-                "CHANGI VILLAGE RD",
-                "LOYANG AVE",
-                "LOYANG WAY",
-                "UPP CHANGI RD NTH/EAST",
-                "UPP CHANGI LINK",
-                "UPP CHANGI RD",
-                "BEDOK RD",
-                "NEW UPP CHANGI RD",
-                "CHANGI RD",
-                "GEYLANG RD",
-                "KALLANG RD",
-                "VICTORIA ST",
-                "HILL ST",
-                "NEW BRIDGE RD",
-                "KG BAHRU RD",
-                "SPOONER RD"
+                "via Merlion Plaza",
+                "via Amara Sanctuary",
+                "via Imbiah Lookout"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "Mobitec-7:7"
         }
     },
-    8542: {
+    2: {
         front: {
             renderType: "standardService",
-            serviceNumber: "854",
+            serviceNumber: "B",
             destination: {
-                text: "YISHUN via",
+                text: "Beach Station",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via W Hotel",
+                "via Palawan Beach",
+                "via EthonHouse",
+                "via Sentosa Golf Club"
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    3: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "C",
+            destination: {
+                text: "Beach Station",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Amara Senctuary",
+                "via Imbiah Lookout",
+                "via Siloso Point"
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    4: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "RWS8",
+            destination: {
+                text: "RESORTS WORLD",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "YISHUN",
-                    topFont: "Mobitec-13:7"
+                    serviceNumber: "RWS8",
+                    top: "RESORTS WORLD",
+                    bottom: "SENTOSA",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
                 },
-                "HOUGANG AVE 2",
-                "HOUGANG AVE 3",
-                "JLN EUNOS",
-                "P I E",
-                "TO BE COMPLETED"
             ],
             scrollFont: "Mobitec-7:4"
         }

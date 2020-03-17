@@ -311,25 +311,6 @@ EDSData.SMRT = {
             }
         }
     },
-   12: {
-        1: {
-            front: {
-                renderType: 'message',
-                text: 'ELECTRIC BUS',
-                font: 'Arial-12', // concept 100
-                spacing: 2
-            },
-            rear: { // check
-                renderType: 'twoline',
-                top: "",
-                topFont: "Arial-8",
-
-                bottom: "",
-                bottomFont: "Arial-8",
-                bottomMargin: 2
-            }
-        }
-    },
     13: {
         1: {
             front: {

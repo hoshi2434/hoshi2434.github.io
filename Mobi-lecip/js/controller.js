@@ -128,7 +128,7 @@ function startup() {
     var textSets = [
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
-        ['LECIP', 'LED Destination']
+        ['SBS Transit', 'LED Destination']
     ];
 
     textSets.forEach((lines, index) => {
@@ -156,7 +156,7 @@ function firmware() {
     document.getElementById('keypad-f4').addEventListener('click', registerKeyPress.bind(null, 'F4'));
     document.getElementById('keypad-up').addEventListener('click', registerKeyPress.bind(null, 'UP'));
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
-    setCode('2', 1);
+    setCode('1111', 1);
 
     currentScreen = 'home';
 }

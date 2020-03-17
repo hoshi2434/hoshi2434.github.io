@@ -278,6 +278,44 @@ EDSData.TTSG = {
             ]
         }
     },
+    501: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "50",
+            destination: "PUNGGOL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "50",
+                    top: "Happy Kindness Day!",
+                    topFont: "Hanover-7:3",
+                    bottom: "24 May 2019",
+                    bottomFont: "Hanover-7:3",
+                    image: "heart"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "50",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:6:2",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "50",
+                    top: "PUNGGOL"
+                }, // sort below
+                "ANG MO KIO AVE 8",
+                "ANG MO KIO AVE 5",
+                "YIO CHU KANG RD",
+                "SENGKANG WEST AVE",
+                "SENGKANG EAST WAY",
+                "PUNGGOL DR"
+            ]
+        }
+    },
     621: {
         front: {
             renderType: "standardService",

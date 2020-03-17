@@ -51,7 +51,7 @@ EDSFormats.SMRT = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "Mobitec-16:8",
+            font: "Mobitec-LAWO-16",
             spacing: 2
         },
         destination: {
@@ -85,7 +85,7 @@ EDSFormats.SMRT = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "Mobitec-16:8",
+            font: "Mobitec-LAWO-16",
             spacing: {
                 $$cond: {
                     "$spacing === null" : 2,
@@ -4347,25 +4347,6 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    501: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "50",
-            destination: {
-                text: "PUNGGOL",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "ANG MO KIO AVE 8",
-                "ANG MO KIO AVE 5",
-                "YIO CHU KANG RD",
-                "SENGKANG WEST AVE",
-                "SENGKANG EAST WAY",
-                "PUNGGOL DR"
-            ],
-            scrollFont: "Mobitec-7:7"
-        }
-    },
     504: {
         front: {
             renderType: "standardService",
@@ -8251,18 +8232,6 @@ EDSData.SMRT = {
             bottom: "BT PANJANG ROAD",
             topFont: "Mobitec-7:5:3",
             bottomFont: "Mobitec-7:5:3"
-        }
-    },
-    1837: {
-        front: {
-            renderType: "destScroll",
-            top: "SG1837J",
-            topFont: "Mobitec-7:7",
-
-            bottom: "SG6091K",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: "BBOE"
         }
     },
     1841: {
@@ -12543,6 +12512,18 @@ EDSExtras.SMRT = {
             font: "Mobitec-13:7",
             text: "LAST BUS",
             spacing: 1
+        }
+    },
+    7: {
+        front: {
+            renderType: "destScroll",
+            top: "STAY SAFE FROM WUHAN",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "WASH HANDS WITH SOAP",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
         }
     }
 }

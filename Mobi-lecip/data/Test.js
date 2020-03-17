@@ -1,4 +1,4 @@
-EDSFormats.SMRT = {
+EDSFormats.GASG = {
     standardService: {
         serviceNumber: {
             align: "right,centre-y",
@@ -6,11 +6,11 @@ EDSFormats.SMRT = {
                 right: 4
             },
             text: "$serviceNumber",
-            font: "Arial-17",
+            font: "LECIP-20:9",
             spacing: 2
         },
         destination: {
-            align: "centre-x,top",
+            align: "centre-y,top",
             margin: {
                 top: 1,
                 right: 'width(serviceNumber) + len(4)'
@@ -41,7 +41,7 @@ EDSFormats.SMRT = {
                 right: 4
             },
             text: "$serviceNumber",
-            font: "Calibri-17",
+            font: "LECIP-20:9",
             spacing: 2
         },
         destination: {
@@ -147,15 +147,15 @@ EDSFormats.SMRT = {
     }
 }
 
-EDSFormats.SMRT.scammer = EDSFormats.SBST.standardService;
+EDSFormats.GASG.scammer = EDSFormats.SBST.standardService;
 
-EDSFormats.SMRT.calibriStandardService = JSON.parse(JSON.stringify(EDSFormats.SMRT.standardService));
-EDSFormats.SMRT.calibriStandardService.serviceNumber.font = 'Calibri-17';
+EDSFormats.GASG.calibriStandardService = JSON.parse(JSON.stringify(EDSFormats.SMRT.standardService));
+EDSFormats.GASG.calibriStandardService.serviceNumber.font = 'LECIP-20:9';
 
-EDSFormats.SMRT.calibriSmallService = JSON.parse(JSON.stringify(EDSFormats.SMRT.standardService));
-EDSFormats.SMRT.calibriSmallService.serviceNumber.font = 'Calibri-15'; // TODO: make font
+EDSFormats.GASG.calibriSmallService = JSON.parse(JSON.stringify(EDSFormats.SMRT.standardService));
+EDSFormats.GASG.calibriSmallService.serviceNumber.font = 'LECIP-20:9'; // TODO: make font
 
-EDSData.SMRT = {
+EDSData.GASG= {
     1: {
         1: {
             front: {
@@ -308,25 +308,6 @@ EDSData.SMRT = {
                 text: 'MRT SHUTTLE',
                 font: 'Arial-17',
                 spacing: 2
-            }
-        }
-    },
-   12: {
-        1: {
-            front: {
-                renderType: 'message',
-                text: 'ELECTRIC BUS',
-                font: 'Arial-12', // concept 100
-                spacing: 2
-            },
-            rear: { // check
-                renderType: 'twoline',
-                top: "",
-                topFont: "Arial-8",
-
-                bottom: "",
-                bottomFont: "Arial-8",
-                bottomMargin: 2
             }
         }
     },

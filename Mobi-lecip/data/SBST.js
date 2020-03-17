@@ -8,7 +8,7 @@ EDSFormats.SBST = {
             text: "$serviceNumber",
             font: {
                 $$cond: {
-                    "$serviceFont === null": "LECIP-20:12",
+                    "$serviceFont === null": "Mobitec-16:8",
                     "else": "$serviceFont"
                 }
             },
@@ -19,11 +19,10 @@ EDSFormats.SBST = {
             margin: {
                 bottom: {
                     $$cond: {
-                        "$destinationFont === 'LECIP-6:3'": 3,
-                        "$destinationFont === 'LECIP-6:4'": 3,
-                        "$destinationFont === 'LECIP-7:5'": 2,
-                        "$destinationFont === 'LECIP-10'": 0,
-                        "$destinationFont === 'LAWO-9:6'": 0
+                        "$destinationFont === 'Mobitec-7:4'": 3,
+                        "$destinationFont === 'Mobitec-7:7'": 3,
+                        "$destinationFont === 'Mobitec-7:4'": 2,
+                        "$destinationFont === 'Mobitec-7:7'": 0
                     }
                 },
             },
@@ -31,7 +30,7 @@ EDSFormats.SBST = {
             font: "$destinationFont",
             spacing: {
                 $$cond: {
-                    "$destinationFont === 'LECIP-10'": 2,
+                    "$destinationFont === 'Mobitec-7:7'": 2,
                     "else": 1
                 }
             }
@@ -41,8 +40,8 @@ EDSFormats.SBST = {
             margin: {
                 top: {
                     $$cond: {
-                        "$destinationFont === 'LECIP-6:3'": 2,
-                        "$destinationFont === 'LECIP-6:4'": 2,
+                        "$destinationFont === 'Mobitec-7:7'": 2,
+                        "$destinationFont === 'Mobitec-7:4'": 2,
                         "else": 1
                     }
                 }
@@ -73,7 +72,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: "Mobitec-16:8",
             spacing: 3
         },
 
@@ -127,7 +126,7 @@ EDSFormats.SBST = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: "Mobitec-16:8",
             spacing: 3
         },
         branding: {
@@ -161,7 +160,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "centre-x,centre-y",
             text: "$serviceNumber",
-            font: "$font",
+            font: "Mobitec-16:8",
             spacing: "$spacing"
         },
 
@@ -201,7 +200,7 @@ EDSFormats.SBST = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: "Mobitec-16:8",
             spacing: 3
         },
         terminateAt: {
@@ -264,36 +263,14 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "1N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "1N",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
-            }
-        }
-    },
-    2: { //I need fonts pls
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "0305",
-                destinationFont: "LAWO-9:6",
-                scrolls: [
-                    "V2.8"
-                ],
-                scrollFont: "LAWO-9:6"
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "V2.8",
-                topFont: "LECIP-7:5",
-
-                bottom: "0305",
-                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -303,13 +280,13 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "2N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "2N",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -320,13 +297,13 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "3N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "3N",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -350,7 +327,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "4",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -361,13 +338,13 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "4N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "4N",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -391,7 +368,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "5",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -413,7 +390,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "5",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -424,13 +401,13 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "5N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "5N",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -455,7 +432,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "7",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -478,7 +455,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "7",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -494,7 +471,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "7A",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -510,7 +487,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "7B",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -534,7 +511,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "8",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -556,7 +533,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "8",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -580,7 +557,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "9",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }, // D2
@@ -595,7 +572,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "9A",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -618,7 +595,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "10",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -639,7 +616,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "10",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -693,7 +670,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "11",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -717,7 +694,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "13",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -739,7 +716,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "13",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -778,7 +755,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "14",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -801,7 +778,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "14",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -870,7 +847,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "16",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -892,7 +869,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "16",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -915,7 +892,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "18",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -936,7 +913,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "18",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -958,7 +935,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "19",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -978,7 +955,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "19",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1003,7 +980,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "20",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1027,7 +1004,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "21",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1051,7 +1028,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "21",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1091,7 +1068,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "22",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1114,7 +1091,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "22",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1139,7 +1116,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "23",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1162,7 +1139,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "24",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1183,7 +1160,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "24",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1206,7 +1183,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "25",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1228,7 +1205,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "25",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1251,7 +1228,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "26",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1272,7 +1249,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "26",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1296,7 +1273,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "27",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1318,7 +1295,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "27",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1357,7 +1334,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "28",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1379,7 +1356,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "28",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1407,7 +1384,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "29",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1449,7 +1426,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "30",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1473,7 +1450,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "30",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1527,7 +1504,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "31",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1549,7 +1526,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "31",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1587,7 +1564,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "32",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1608,7 +1585,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "32",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1631,7 +1608,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "33",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1652,7 +1629,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "33",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1704,7 +1681,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "35",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1724,7 +1701,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "35",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1786,7 +1763,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "37",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1810,7 +1787,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "38",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1832,7 +1809,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "38",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1855,7 +1832,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "39",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1876,7 +1853,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "39",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1899,7 +1876,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "40",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1923,7 +1900,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "42",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -1947,7 +1924,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "45",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -1969,7 +1946,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "45",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2007,7 +1984,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "46",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2028,7 +2005,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "46",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2050,7 +2027,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "48",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2074,7 +2051,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "48",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2096,7 +2073,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "48",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2121,7 +2098,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "50",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2144,7 +2121,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "50",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2168,7 +2145,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "51",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2190,7 +2167,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "51",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2214,7 +2191,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "52",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2236,7 +2213,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "52",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2247,7 +2224,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "53",
                 destination: "> CHANGI AIRPORT PTB 2",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "BISHAN RD",
                     "SERANGOON CENTRAL",
@@ -2260,7 +2237,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "53",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2282,7 +2259,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "53",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2345,7 +2322,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "54",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2367,7 +2344,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "54",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2392,7 +2369,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "55",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2415,7 +2392,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "55",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2454,7 +2431,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "56",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2476,7 +2453,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "56",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2500,7 +2477,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "57",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2522,7 +2499,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "57",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2548,7 +2525,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "58",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2572,7 +2549,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "58",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2627,7 +2604,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "59",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2649,7 +2626,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "59",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2673,7 +2650,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "60",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         } // D2?
@@ -2712,7 +2689,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "62",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2736,7 +2713,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "63",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2758,7 +2735,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "63",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2806,7 +2783,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "64",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2829,7 +2806,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "64",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2855,7 +2832,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "65",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2879,7 +2856,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "65",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2890,7 +2867,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "69",
                 destination: "> BEDOK INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "Mobitec-7:7",
                 scrolls: [
                     'TAMPINES AVE 5',
                     'TAMPINES AVE 8',
@@ -2899,12 +2876,12 @@ EDSData.SBST = {
                     'BEDOK NTH AVE 3',
                     'BEDOK NTH ST 1'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Mobitec-7:4"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "69",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2926,7 +2903,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "69",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -2951,7 +2928,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "70",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -2959,7 +2936,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "70",
-                destination: "> YIO CHU KANG INT",
+                destination: "> YIO CHU KANG TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "NICOLL HIGHWAY",
@@ -2974,7 +2951,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "70",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3054,7 +3031,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "71",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3079,7 +3056,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "72",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3102,7 +3079,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "72",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3156,7 +3133,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "73",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3178,7 +3155,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "73",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3202,7 +3179,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "74",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3224,7 +3201,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "74",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3249,7 +3226,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "76",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3272,7 +3249,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "76",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3312,7 +3289,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "80",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3334,7 +3311,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "80",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3375,7 +3352,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "81",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3399,7 +3376,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "86",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3421,7 +3398,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "86",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3445,7 +3422,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "87",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3467,7 +3444,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "87",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3491,7 +3468,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "88",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3513,7 +3490,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "88",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3568,7 +3545,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "89",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3591,7 +3568,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "89",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3660,7 +3637,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "90",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3701,7 +3678,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "91",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3728,7 +3705,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "92",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3783,7 +3760,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "93",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3805,7 +3782,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "93",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3831,7 +3808,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "94",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3870,7 +3847,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "95",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -3909,7 +3886,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "99",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         },
@@ -3931,7 +3908,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "99",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -4466,36 +4443,6 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "117",
                 font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    "117A": {
-        1: {
-            front: {
-                renderType: "swt",
-                serviceNumber: "117A",
-                landmark: "YISHUN AVE 2 (BEF KHATIB STN)"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "117A",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    "117B": {
-        1: {
-            front: {
-                renderType: "swt",
-                serviceNumber: "117B",
-                landmark: "YISHUN AVE 2 (OPP YISHUN STN)"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "117B",
-                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -5592,14 +5539,14 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "147e",
-                image: "fastForward",
-                destination: "FastForward 147e"
+                image: "express",
+                destination: "EXPRESS 147e"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
                 font: "LECIP-20:6", // check rear font for all 4 digit express
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
@@ -8123,7 +8070,7 @@ EDSData.SBST = {
         rear: {
             renderType: "rearService",
             serviceNumber: "257",
-            font: "LECIP-20:12",
+            font: "Mobitec-16:8",
             spacing: 2
         }
     },
@@ -8749,7 +8696,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "400",
                 serviceFont: "LECIP-20:9",
-                destination: "SHENTON WY-M.COASTAL DR",
+                destination: "SHENTON WY TER-M.COASTAL",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'MARINA BOULEVARD',
@@ -8891,36 +8838,6 @@ EDSData.SBST = {
                 serviceNumber: "410W",
                 font: "LECIP-20:6",
                 spacing: 1
-            }
-        }
-    },
-    "501X": {
-        1: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "501X",
-                image: "express",
-                destination: "EXPRESS 501X"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "501X",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "501X",
-                image: "express",
-                destination: "EXPRESS 501X"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "501X",
-                font: "LECIP-20:9",
-                spacing: 2
             }
         }
     },
@@ -9229,7 +9146,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "DTL",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             }
         }
@@ -9381,7 +9298,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "665",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 1
             },
             rear: {
@@ -9396,7 +9313,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "665",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 1
             },
             rear: {
@@ -10189,7 +10106,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 1",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10205,7 +10122,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 2",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10221,7 +10138,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 3",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10237,7 +10154,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 4",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10253,7 +10170,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 5",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10269,7 +10186,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 6",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10285,7 +10202,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 7",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10301,7 +10218,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 8",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10317,7 +10234,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 9",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10333,7 +10250,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 10",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10349,7 +10266,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 11",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10365,7 +10282,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 12",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10381,7 +10298,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 13",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10397,7 +10314,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 14",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10413,7 +10330,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 15",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10429,7 +10346,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 21",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10445,7 +10362,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 22",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10461,7 +10378,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 26",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10477,7 +10394,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 28",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10493,7 +10410,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 31",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10509,7 +10426,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 36",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10525,7 +10442,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 37",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10541,7 +10458,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 39",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10557,7 +10474,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 41",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10573,7 +10490,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 42",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10589,7 +10506,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 43",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10605,7 +10522,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 44",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10621,7 +10538,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 48",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10637,7 +10554,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 51",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10653,7 +10570,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EB 88",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
@@ -10669,16 +10586,16 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "OFF SERVICE",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
                 renderType: 'twoline',
                 top: "OFF",
-                topFont: "LECIP-7:4",
+                topFont: "Mobitec-7:4",
 
                 bottom: "SERVICE",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "Mobitec-7:4"
             }
         }
     },
@@ -10692,10 +10609,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "SBS",
-                topFont: "LECIP-7:4",
+                topFont: "Mobitec-7:4",
 
                 bottom: "TRANSIT",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "Mobitec-7:4"
             }
         }
     },
@@ -10704,16 +10621,16 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "FREE SHUTTLE",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 2
             },
             rear: {
                 renderType: 'twoline',
                 top: "FREE",
-                topFont: "LECIP-7:4", // check font
+                topFont: "Mobitec-7:4", // check font
 
                 bottom: "SHUTTLE",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "Mobitec-7:4"
             }
         }
     },
@@ -10722,16 +10639,16 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "ON TEST",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
                 renderType: 'twoline',
                 top: "ON",
-                topFont: "LECIP-7:5",
+                topFont: "Mobitec-7:4",
 
                 bottom: "TEST",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "Mobitec-7:4"
             }
         }
     },
@@ -10740,16 +10657,16 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "TRAINING BUS",
-                font: "LECIP-20:12",
+                font: "Mobitec-16:8",
                 spacing: 3
             },
             rear: {
                 renderType: 'twoline',
                 top: "TRAINING",
-                topFont: "LECIP-7:4",
+                topFont: "Mobitec-7:4",
 
                 bottom: "BUS",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "Mobitec-7:4"
             }
         }
     },
@@ -10764,10 +10681,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "BRIDGING",
-                topFont: "LECIP-7:4",
+                topFont: "Mobitec-7:4",
 
                 bottom: "BUS",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "Mobitec-7:4"
             }
         }
     },
@@ -10775,17 +10692,9 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "message",
-                text: "VER. 31JAN20-DD",
+                text: "VER. 09JUN19-DD",
                 font: "LECIP-14:6",
                 spacing: 1
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "VER. DD",
-                topFont: "LECIP-7:4",
-
-                bottom: "310120",
-                bottomFont: "LECIP-7:4"
             }
         }
     },
