@@ -14,7 +14,7 @@ EDSFormats.BYDC = {
             margin: {
                 right: 'width(serviceNumber)'
             },
-            text: "$destination.text+' via'",
+            text: "$destination.text",
             font: "$destination.font",
             spacing: 1
         },
@@ -206,239 +206,54 @@ EDSFormats.BYDC = {
     },
 }
 EDSData.BYDC = {    
-    1: {
+	    1: {
         front: {
-            renderType: "destScroll",
-            top: "",
-            topFont: "Mobitec-7:7",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
+            renderType: "standardService",
+            serviceNumber: "825",
+            destination: {
+                text: "",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                "LENTOR LOOP",
+                "YIO CHU KANG"
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     5: {
         front: {
-            renderType: "destScroll",
-            top: "LTG EMEA Matrix Renderer",
-            topFont: "Mobitec-7:4",
-
-            bottom: "A1 R120x16",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    10: {
-        front: {
-            renderType: "destScroll",
-            top: "Bus Broken Down",
-            topFont: "Mobitec-7:7",
-
-            bottom: "Do Not Board!",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    8: {
-        front: {
-            renderType: "boot",
-            top: "USB STICK FOUND!",
-            topFont: "Mobitec-7:4",
-
-            bottom: "GETTING DATA...",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
+            renderType: "message",
+            text: "OFF SERVICE",
+            font: "Mobitec-13:7",
+            spacing: 1
         }
     },
     9: {
         front: {
-            renderType: "boot",
-            top: "SHUTTING DOWN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "REPLACING DATA",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    2: {
-        front: {
-            renderType: "boot",
-            top: "MOBITEC ICU-600",
-            topFont: "Mobitec-7:4",
-
-            bottom: "Version 270120-BYD C6",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    3: {
-        front: {
-            renderType: "boot",
-            top: "CHECKING DATA ETC.",
-            topFont: "Mobitec-7:4",
-
-            bottom: "UNDERGOING SYSTEM CHECK",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    4: {
-        front: {
-            renderType: "boot",
-            top: "SYSTEM CHECK PASS",
-            topFont: "Mobitec-7:4",
-
-            bottom: "COMMENCING BOOT SEQUENCE",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    7: {
-        front: {
-            renderType: "boot",
-            top: "SYSTEM BROKEN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "CHECK DATA AND SIGNS",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    6: {
-        front: {
-            renderType: "boot",
-            top: "SHUTTING DOWN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "SYSTEM AT LOW POWER",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    11: {
-        front: {
             renderType: "destScroll",
-            top: "Inspection",
+            top: "ON DRIVING",
             topFont: "Mobitec-7:7",
 
-            bottom: "KEEP CLEAR OF BUS",
+            bottom: "TEST",
             bottomFont: "Mobitec-7:7",
 
             serviceNumber: ""
         }
     },
-    12: {
+    13: {
         front: {
-            renderType: "destScroll",
-            top: "恭喜发财",
-            topFont: "Chinese-15:15",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
+            renderType: "message",
+            text: "TRAINING BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
-    101: {
-        front: {
-            renderType: "autoBus",
-            top: "    Autonomous Vehicle",
-            topFont: "Mobitec-7:4",
-
-            bottom: "    On Trial",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: " 1"
-        }
-    },
-    201: {
-        front: {
-            renderType: "autoBus",
-            top: "    Autonomous Vehicle",
-            topFont: "Mobitec-7:4",
-
-            bottom: "    On Trial",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: " 2"
-        }
-    },
-    1111: {
-        front: {
-            renderType: "destScroll",
-            top: "OFF SERVICE",
-            topFont: "Mobitec-16:8",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    9999: {
-        front: {
-            renderType: "destScroll",
-            top: "Ver 27.01.2020-Mobi",
-            topFont: "Mobitec-7:7",
-
-            bottom: "BYD C6 POWER",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    3333: {
-        front: {
-            renderType: "destScroll",
-            top: "TRAINING BUS",
-            topFont: "Mobitec-16:8",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    4444: {
-        front: {
-            renderType: "destScroll",
-            top: "ON TEST",
-            topFont: "Mobitec-16:8",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    2222: {
+    117: {
         front: {
             renderType: "logo",
             image: "SMRT",
             text: "SMRT LOGO"
-        }
-    },
-    6666: {
-        front: {
-            renderType: "destScroll",
-            top: "CHARTERED",
-            topFont: "Mobitec-7:7",
-
-            bottom: "FOR 'busgag.sg'",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
         }
     },
     8251: {
@@ -450,19 +265,11 @@ EDSData.BYDC = {
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "825",
-                    top: "GONG XI",
-                    bottom: "FA CAI",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                 },
                 "SEASONS PARK",
                 "THOMSON GROVE",
                 "CASTLE GREEN"
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-6:5"
         }
     },
     8252: {
@@ -470,23 +277,15 @@ EDSData.BYDC = {
             renderType: "standardService",
             serviceNumber: "825",
             destination: {
-                text: "YIO CHU KANG",
+                text: "YIO CHU KANG MRT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "825",
-                    top: "GONG XI",
-                    bottom: "FA CAI",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                 },
-                "OPP S. PARK",
-                "OPP T. GROVE",
-                "OPP C. GREEN"
+                "OPP SEASONS PK",
+                "OPP THOMSON GR",
+                "OPP CASTLE GRN"
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-6:5"
         }
     },
     8253: {
@@ -510,7 +309,7 @@ EDSData.BYDC = {
                 "THOMSON GROVE",
                 "CASTLE GREEN"
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-6:5"
         }
     },
     8254: {
@@ -518,7 +317,7 @@ EDSData.BYDC = {
             renderType: "standardService",
             serviceNumber: "825",
             destination: {
-                text: "YIO CHU KANG",
+                text: "YIO CHU KANG MRT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -530,33 +329,19 @@ EDSData.BYDC = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                  },
-                "OPP S. PARK",
-                "OPP T. GROVE",
-                "OPP C. GREEN"
+                "OPP SEASONS PK",
+                "OPP THOMSON GR",
+                "OPP CASTLE GRN"
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-6:5"
         }
     },
-    9999: {
+    7: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "113PP",
-            destination: {
-                text: "YT NEEDS",
-                font: "Mobitec-7:5:1"
-            },
-            scrolls: [
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "THIS BUS",
-                    bottom: "IS FULL",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                 },
-                "MORE PP"
-            ],
-            scrollFont: "Mobitec-7:5:1"
+            renderType: "message",
+            text: "OUT OF SERVICE",
+            font: "Mobitec-13:7",
+            spacing: 1
         }
     },
 }
