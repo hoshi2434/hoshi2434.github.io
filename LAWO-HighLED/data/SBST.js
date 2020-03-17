@@ -2266,8 +2266,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "53",
-                destination: "> CHANGI AIRPORT PTB 2",
-                destinationFont: "LAWO-9:6",
+                destination: "> CHANGI AIRPORT",
+                destinationFont: "LAWO-11",
                 scrolls: [
                     "BISHAN RD",
                     "SERANGOON CENTRAL",
@@ -2289,7 +2289,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "53",
                 destination: "> BISHAN INT",
-                destinationFont: "LAWO-9:6",
+                destinationFont: "LAWO-11",
                 scrolls: [
                     "PASIR RIS DR 1",
                     "HOUGANG AVE 1",
