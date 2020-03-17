@@ -157,12 +157,12 @@ function setup() {
     document.getElementById('keypad-d').addEventListener('click', codeInputButtonClicked.bind(null, 'Dest'));
     document.getElementById('keypad-x').addEventListener('click', codeInputButtonClicked.bind(null, 'Out'));
 
-    setCode('6969', 1);
+    setCode('174', 1);
 }
 
 function startup() {
     var textSets = [
-        ['Made by plagg', '', 300],
+        ['abcd*******', '', 300],
         [padCentre('ERIC-H8S-1-25-2'), padCentre('Ext Port 2345'), 2000],
         ['NCP012345//', '', 300],
         [padCentre('Please wait...'), '', 300]
