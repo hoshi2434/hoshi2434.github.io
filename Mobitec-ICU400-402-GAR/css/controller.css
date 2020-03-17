@@ -1,0 +1,129 @@
+#controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#controller {
+    width: 40vw;
+    height: 18.5vw;
+    display: block;
+    background-color: #3f4552;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 0.75vw solid #a79257;
+    border-radius: 0.375vw;
+
+}
+
+#name {
+    display: flex;
+    width: 2vw;
+    height: 18.5vw;
+
+    justify-content: center;
+}
+
+.rotate-wrap {
+    position: relative;
+    width: 2vw;
+    height: 18.5vw;
+
+    display: block;
+}
+
+.rotate-wrap > span {
+    text-align: center;
+    width: 18.5vw;
+    height: 2vw;
+    white-space: pre;
+
+    transform-origin: top left;
+    transform: rotate(-90deg) translateX(-100%);
+    position: absolute;
+
+    font-family: Helvetica;
+    color: #f5f5f5;
+    font-size: 2vw;
+
+    display: block;
+}
+
+#interface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#screen {
+    width: 27vw;
+    height: 9vw;
+
+    background-color: #7aa230;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usb-container > .rotate-wrap {
+    width: 1.8vw;
+}
+
+#usb-container > .rotate-wrap > span {
+    height: 1.8vw;
+    font-size: 1.8vw;
+}
+
+#usb-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 4.5vw;
+}
+
+#usb-port {
+    width: 1.8vw;
+    height: 4vw;
+
+    display: block;
+    background-color: #1d1d1d;
+
+    border: 0.3vw solid #797979;
+    border-radius: 0.15vw;
+}
+
+#top-buttons, #bottom-buttons {
+    display: flex;
+    width: 26vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.button {
+    display: block;
+    width: 4vw;
+    height: 1vw;
+    background-color: #1A1A1A;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.button-blue {
+    background-color: #14b7cf;
+}
+
+#screen-canvas {
+    width: 26vw;
+    height: 9vw;
+}

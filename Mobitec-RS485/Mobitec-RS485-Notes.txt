@@ -1,0 +1,49 @@
+Serial communication at 4800 baud.
+
+Starting bytes:
+0xFF 0x06 0xA2
+0xFF: Header, constant
+0x06: Sign address
+0xA2: Text object
+
+Control bytes:
+0xD_
+0xD0: Width of sign
+0xD1: Height of sign
+0xD2: dx of text, from leftmost letter to left of sign (margin-left)
+0xD3: dy of text, from bottom of text (margin-bottom)
+0xD4: Font
+    0x77: Bitmap font - to be used to render as matrixbuffer is sent from render(renderoutput)
+
+Sending a matrix worth of data: ---- (1)
+Send 0xD2 0x00 - from leftmost px
+Send 0xD3 0d00 - from topmost px
+Send 0xD4 0x77 - Bitmap font
+
+Enumerating over columns in the matrixbuffer with x as the current column,
+  get 5 pixels down column x
+  Shift data into 6byte word:
+    0b1_____
+  Send word out, repeating.
+  Because no control bytes were sent, its treated as the next char and automatically dx in 0xD2 is increased in the sign
+
+Once the rightmost 5 pixels are reached, repeat (1)
+  Change 0xD3 0d00 to 0xD3 0d__, with multiples of 5
+  Repeat enumeration, with 5 pixels offset from top
+
+Once pixel data has been shifted:
+  sum all bytes starting from index 1 inclusive
+  AND checksum with 0xFF
+
+  if checksum == 0xFE
+    append checksum
+    append 0x00
+  elif checksum == 0xFF
+    append 0xFE
+    append 0x01
+  else
+    append checksum
+
+  append 0xFF to signal end of data
+  yay
+  eat ice cream??

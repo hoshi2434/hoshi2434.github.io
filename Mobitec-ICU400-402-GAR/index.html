@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='/matrix.js'></script>
+    <script src='/fonts.js'></script>
+    <script src='/eds-renderer.js'></script>
+    <script src='/matrix-primitives.js'></script>
+    <script src='/Mobitec-ICU400-402-GAR/eds.js'></script>
+
+    <script src='/Mobitec-E500-GAR/data/GASR.js'></script>
+    <link rel='stylesheet' href='/Mobitec-ICU400-402-GAR/css/eds.css'>
+    <link rel='stylesheet' href='/Mobitec-ICU400-402-GAR/css/controller.css'>
+    <link rel='stylesheet' href='/Mobitec-ICU400-402-GAR/css/style.css'>
+
+    <script src='/Mobitec-ICU400-402-GAR/js/controller.js'></script>
+    <style id='led-style'>
+    </style>
+
+    <meta name='viewport' content='user-scalable=no' />
+</head>
+<body>
+    <div id='controller-container'>
+        <div id='controller'>
+            <div id='name'>
+                <div class='rotate-wrap'>
+                    <span>mobitec   ICU 400</span>
+                </div>
+            </div>
+            <div id='interface'>
+                <div id='top-buttons'>
+                    <div id='1000-up' class='button'></div>
+                    <div id='100-up' class='button'></div>
+                    <div id='10-up' class='button'></div>
+                    <div id='1-up' class='button'></div>
+                </div>
+                <div id='screen'>
+                    <canvas id='screen-canvas'>
+                    </canvas>
+                </div>
+                <div id='bottom-buttons'>
+                    <div id='1000-down' class='button button-blue'></div>
+                    <div id='100-down' class='button'></div>
+                    <div id='10-down' class='button'></div>
+                    <div id='1-down' class='button'></div>
+                </div>
+            </div>
+            <div id='usb'>
+                <div id='usb-container'>
+                    <div class='rotate-wrap'>
+                        <span>USB</span>
+                    </div>
+                    <div id='usb-port'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
+        </div>
+    </div>
+</body>
+</html>
