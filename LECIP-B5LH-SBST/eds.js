@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
 
-    setCode(69, 'SMRT');
+    setCode(1111, 'SBST');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
@@ -69,6 +69,6 @@ window.addEventListener('load', () => {
     document.getElementById('code').addEventListener('input', () => {
         let code = document.getElementById('code').value;
 
-        setCode(code, 'SMRT');
+        setCode(code, 'SBST');
     });
 });

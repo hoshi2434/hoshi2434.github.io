@@ -341,6 +341,22 @@ EDSData.SMRT = {
             }
         }
     },
+    12: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "ELECTRIC BUS",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "BEEP",
+                destination: "ELECTRIC BUS",
+                scrolls: [" "]
+            }
+        }
+    },
     13: {
         1: {
             front: {
@@ -354,6 +370,71 @@ EDSData.SMRT = {
                 serviceNumber: "TRG",
                 destination: "TRAINING BUS",
                 scrolls: ["BUS UNDER TRAINING                        DRIVE SAFE"]
+            }
+        }
+    },
+    69: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "LECIP DISPLAYS",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "B5LH",
+                destination: "LECIP 20201502",
+                scrolls: [
+                   "WELCOME TO LECIP DISPLAYS"
+                ]
+            }
+        }
+    },
+    70: {
+    	1: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "LECIP DISPLAYS",
+                font: "ArialBold-8"
+            },
+            scrolls: [
+                "WELCOME TO LECIP DISPLAYS",
+                " ",
+                "THIS IS OUR BRAND NEW",
+                " ",
+                "HIGH DEFINITION ORANGE LED SIGN",
+                " "
+            ],
+            scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "LECIP",
+                destination: "LECIP PIDS",
+                scrolls: [
+                    "THIS IS OUR NEW COLOUR LECIP PIDS                        MADE FOR EASY VISIBILITY                        EASIER READABILITY                        AND USER FRIENDLY"
+                ]
+            }
+        },
+    },
+    113: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "AIRSHOW SHUTTLE",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "BUS 3",
+                destination: "AIRSHOW SHUTTLE",
+                scrolls: [
+                    "THIS IS BUS NUMBER 3 FOR THE AIRSHOW SHUTTLE                                     EXPO STATION TO CHANGI EXHIBITION CENTER"            
+                ]
             }
         }
     },

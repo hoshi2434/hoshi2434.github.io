@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Roboto Condensed;
+    src: url(/fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+#controller {
+    height: 60vh;
+    width: calc(50vw * 1.1);
+    background-color: #010101;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controller-container {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+
+    justify-content: center;
+
+    transform: scale(1.05);
+
+    background-color: #202020;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    border-radius: 2vw;
+}
+
+#controller-container > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controller-section {
+    width: 22.5vw;
+    display; block;
+    border: 0.3vw solid #B1B1B1;
+    border-radius: 1vw;
+}
+
+#output-section {
+    height: 8.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#output-screen {
+    width: 15vw;
+    height: 4vw;
+
+    background-color: #7AA230;
+    font-family: Courier, monospace;
+
+    display: flex;
+    flex-direction: column;
+    font-size: 1.45vw;
+
+    justify-content: center;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#output-screen > pre {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+    margin-bottom: 0;
+    margin-top: 0;
+
+    overflow: hidden;
+}
+
+#keypad-section {
+    height: 17.5vw;
+    width: 22.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#keypad-container {
+    display: grid;
+    grid-template-columns: repeat(4, 3.75vw);
+    grid-gap: 0.3vw;
+    grid-auto-rows: 3.75vw;
+
+    color: white;
+
+    font-size: 2.5vw;
+    font-family: Roboto;
+}
+
+#keypad-container > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keypad-number {
+    background-color: #E66A1A;
+    border: 0.25vw solid #EA831D;
+    border-radius: 0.2vw;
+}
+
+.keypad-function {
+    background-color: transparent;
+    border: 0.25vw solid #EAE23D;
+    border-radius: 0.2vw;
+}
+
+.keypad-arrow {
+    background-color: #C5BC15;
+    border: 0.25vw solid #EAE23D;
+    border-radius: 0.2vw;
+}
+
+#keypad-clr {
+    background-color: transparent;
+    border: 0.25vw solid #EA553D;
+    border-radius: 0.2vw;
+}
+
+#keypad-ent {
+    background-color: transparent;
+    border: 0.25vw solid #21851E;
+    border-radius: 0.24vw;
+}
+
+#keypad-ent, #keypad-clr {
+    font-family: Roboto Condensed;
+    font-weight: 100;
+    font-size: 2vw;
+}
+#keypad-ent > span, #keypad-clr > span {
+    margin-top: -0.2vw;
+}
+
+#keypad-container > div {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 0.75vw solid transparent;
+  border-right: 0.75vw solid transparent;
+
+  border-bottom: 0.75vw solid black;
+}
+
+.arrow-left {
+  width: 0;
+  height: 20;
+  border-left: 0.75vw solid transparent;
+  border-right: 0.75vw solid black;
+
+  border-bottom: 0.075vw solid transparent;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 0.75vw solid transparent;
+  border-right: 0.75vw solid transparent;
+
+  border-top: 0.75vw solid black;
+}

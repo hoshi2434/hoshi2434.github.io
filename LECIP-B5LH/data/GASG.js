@@ -1,4 +1,4 @@
-EDSFormats.SBST = {
+EDSFormats.GASG = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -7,9 +7,9 @@ EDSFormats.SBST = {
             spacing: 2
         },
         scroll: {
-            align: "left,top",
+            align: "centre-x,bottom",
             margin: {
-                top: 2,
+                top: 0,
                 left: 2
             },
             scrolls: "$scrolls",
@@ -20,9 +20,9 @@ EDSFormats.SBST = {
             spacing: 2
         },
         destination: {
-            align: "left,bottom",
+            align: "centre-x,top",
             margin: {
-                bottom: 1,
+                bottom: '-1',
                 left: 2
             },
             text: "$destination",
@@ -51,23 +51,25 @@ EDSFormats.SBST = {
     },
 }
 
-EDSFormats.SBST.pids = EDSFormats.SMRT.pids;
+EDSFormats.GASG.pids = EDSFormats.SMRT.pids;
 
 
-EDSData.SBST = { 
+EDSData.GASG = {  //4 spaces for each dest 3 for scroll
     1111: {
         1: {
             front: {
                 renderType: "message",
-                text: "OFF SERVICE",
+                text: "ELECTRIC BUS",
                 font: "LECIP-20:12",
                 spacing: 2
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "",
-                destination: "OFF SERVICE",
-                scrolls: [""]
+                serviceNumber: "OFF",
+                destination: "WELCOME ABOARD",
+                scrolls: [
+                    "WELCOME ABOARD THE ELECTRIC BUS"
+               ]
             }
         }
     },
@@ -167,107 +169,26 @@ EDSData.SBST = {
             }
         }
     },
-    87: {
+    621: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "87",
+                serviceNumber: "62",
                 destination: {
-                    text: ">BEDOK INT",
+                    text: "SIMS AVE    ",
                     font: "LECIP-10"
                 },
                 scrolls: [
-                "COMPASSVALE RD",
-                "HOUGANG AVE 10, 5, 7, 3",
-                "EUNOS LINK",
-                "KAKI BUKIT AVE 1",
-                "BEDOK NTH RD"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            pids: {
-                renderType: "pids",
-                serviceNumber: "87",
-                destination: "BEDOK INT",
-                scrolls: [
-                    "ANDY REP SVC"
-                ]
-            }
-        }
-    },
-    93: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "93",
-                destination: {
-                    text: ">HARBOURFRONT INT",
-                    font: "LECIP-8"
-                },
-                scrolls: [
-                    "EUNOS LINK"
+                    "LORONG AH SOO   "
                 ],
                 scrollFont: "LECIP-8"
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "93",
-                destination: "HARBOURFRONT INT",
+                serviceNumber: "62",
+                destination: "SIMS AVE",
                 scrolls: [
-                    "EUNOS INT",
-                    "EUNOS STN/ INT",
-                    "EUNOS STN",
-                    "BLK 17",
-                    "BLK 322",
-                    "BLK 311",
-                    "OPP EUNOS TECHNOLINK",
-                    "COMFORT DRIVING CTR",
-                    "COMFORT TEST CTR",
-                    "OPP BLK 1022",
-                    "AFT TAI SENG STN",
-                    "ASIAWIDE IND BLDG",
-                    "AFT PAYA LEBAR ST",
-                    "AFT UPP PAYA LEBAR RD",
-                    "BARTLEY STN EXIT A",
-                    "OPP BARTLEY CHR CH",
-                    "OPP GAMBIR RIDGE",
-                    "BEF UPP SERANGOON RD",
-                    // "S'PORE POWER TRG INST",
-                    "PUB RECREATION CLUB",
-                    "BEF BRADDELL FLYOVER",
-                    "COMFORTDELGRO CORP LTD",
-                    "BLK 219",
-                    "AFT MUHAJIRIN MQUE",
-                    "BLK 1004",
-                    "AFT BISHAN RD",
-                    "BRADDELL VIEW",
-                    "OPP MACRITCHIE RESERVOIR",
-                    "BEF ANDREW RD",
-                    "BEF KHEAM HOCK RD",
-                    "AFT THE JAPANESE ASSN",
-                    "OPP S'PORE BIBLE COLL",
-                    "OPP LUTHERAN TWRS",
-                    "OPP ST. MARGARET'S SEC SCH",
-                    "FARRER RD STN EXIT A",
-                    "SPANISH VILLAGE",
-                    "OPP TULIP GDN",
-                    "OPP HOLLAND HILL LODGE",
-                    "OPP BLK 95",
-                    "QUEENSWAY SEC SCH",
-                    "QUEENSTOWN POLYCLINIC",
-                    "OPP BLESSED SACRAMENT CH",
-                    "BLK 19",
-                    "BLK 166",
-                    "OPP QUEENSWAY SHOP CTR",
-                    "BEF TELOK BLANGAH HILL PK",
-                    "OPP ALEXANDRA PT",
-                    "BEF PSA BLDG",
-                    "AFT ALEXANDRA RD",
-                    "YEO'S BLDG",
-                    "OPP TELOK BLANGAH STN",
-                    "BEF CHR COMMUNITY CHAPEL",
-                    "BEF SEAH IM RD",
-                    "HARBOURFRONT INT"
+                    "PUNGGOL INT"
                 ]
             }
         }

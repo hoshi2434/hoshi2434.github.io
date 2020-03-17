@@ -1,4 +1,4 @@
-EDSFormats.SBST = {
+EDSFormats.TEST = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -51,10 +51,10 @@ EDSFormats.SBST = {
     },
 }
 
-EDSFormats.SBST.pids = EDSFormats.SMRT.pids;
+EDSFormats.TEST.pids = EDSFormats.SMRT.pids;
 
 
-EDSData.SBST = { 
+EDSData.TEST = { 
     1111: {
         1: {
             front: {
@@ -67,7 +67,7 @@ EDSData.SBST = {
                 renderType: "pids",
                 serviceNumber: "",
                 destination: "OFF SERVICE",
-                scrolls: [""]
+                scrolls: [" "]
             }
         }
     },
@@ -167,34 +167,6 @@ EDSData.SBST = {
             }
         }
     },
-    87: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "87",
-                destination: {
-                    text: ">BEDOK INT",
-                    font: "LECIP-10"
-                },
-                scrolls: [
-                "COMPASSVALE RD",
-                "HOUGANG AVE 10, 5, 7, 3",
-                "EUNOS LINK",
-                "KAKI BUKIT AVE 1",
-                "BEDOK NTH RD"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            pids: {
-                renderType: "pids",
-                serviceNumber: "87",
-                destination: "BEDOK INT",
-                scrolls: [
-                    "ANDY REP SVC"
-                ]
-            }
-        }
-    },
     93: {
         1: {
             front: {
@@ -232,7 +204,7 @@ EDSData.SBST = {
                     "OPP BARTLEY CHR CH",
                     "OPP GAMBIR RIDGE",
                     "BEF UPP SERANGOON RD",
-                    // "S'PORE POWER TRG INST",
+                    "S'PORE POWER TRG INST",
                     "PUB RECREATION CLUB",
                     "BEF BRADDELL FLYOVER",
                     "COMFORTDELGRO CORP LTD",
