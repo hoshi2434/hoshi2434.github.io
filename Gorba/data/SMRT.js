@@ -42,17 +42,17 @@ EDSFormats.SMRT = {
         serviceNumber: {
             align: "right,centre-y",
             margin: {
-                right: 7
+                right: 0
             },
             text: "$serviceNumber",
             font: "GASG-LAWOSVC",
             spacing: 2
         },
         destination: {
-            align: "centre-x,centre-y",
+            align: "centre-x, left",
             margin: {
-                top: 2,
-                right: "width(serviceNumber) + len(7)"
+                top: 8,
+                right: "width(serviceNumber) + len(45)"
             },
             text: "$destination",
             spacing: 1
@@ -176,7 +176,7 @@ EDSFormats.SMRT = {
                     hold = true;
 
                     let frameCount = scrollWidth + matrix.width - 7;
-                    let timeBetweenFrames = 0;
+                    let timeBetweenFrames = 1;
 
                     let frameNum = 70;
                     __scrollInterval__ = setInterval(() => {
@@ -709,7 +709,7 @@ EDSData.SMRT = {
                 renderType: "glitch",
                 serviceNumber: "386",
                 destination: {
-                    text: "PUNGGOL CENTRAL      ",
+                    text: "PUNGGOL CENTRAL",
                     font: "Mobitec-10:7"
                 },
                 scrolls: [
@@ -738,7 +738,7 @@ EDSData.SMRT = {
     433: {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "1842",
                 serviceNumber: "43M",
                 destination: {
                     text: "SERANGOON MRT via",

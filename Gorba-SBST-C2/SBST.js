@@ -75,7 +75,7 @@ EDSFormats.SBST = {
                 matrix.clearRectangle(0, 0, matrix.width, matrix.height);
 
                 matrixPrimitives.setStrokeColour(00000000);
-                matrixPrimitives.strokeRectangle(matrix, 0, 0, 43, 10);
+                matrixPrimitives.strokeRectangle(matrix, 0, 0, 44, 10);
 
                 let font = Font.fromNameString("Mobitec-7:7");
                 let serviceNumberObj = new TextObject(data.serviceNumber, font, null, 1);
@@ -87,40 +87,41 @@ EDSFormats.SBST = {
                     textWidth = Infinity;
                 }
 
-                if (textWidth >= 40) {
+                if (textWidth >= 32) {
                     font = Font.fromNameString("Mobitec-7:4");
                     serviceNumberObj.font = font;
                     textWidth = serviceNumberObj.takeMeasure().width;
                 }
 
-                let textPosition = Math.round(42 / 2 - textWidth / 2);
+                let textPosition = Math.round(43 / 2 - textWidth / 2);
                 serviceNumberObj.position = new Position(textPosition, 1);
 
                 matrix.drawText(serviceNumberObj, 00000000);
 
                 function drawNextStop() {
-                    let bottomRowNum = scrollNum % 3;
+                    let bottomRowNum = scrollNum % 4;
 
                     let texts = [
-                        [new TextObject("NEXT>>", Font.fromNameString("Mobitec-7:7"), new Position(1, 11), 1), 00000000],
-                        [new TextObject("STOP>>", Font.fromNameString("Mobitec-7:7"), new Position(1, 11), 1), 00000000],
-                        [new TextObject("ARR>>", Font.fromNameString("Mobitec-7:7"), new Position(3, 11), 1), 00000000],
+                        [new TextObject("NEXT>>ON-ROUTE", Font.fromNameString("Mobitec-7:7"), new Position(1, 11), 1), 00000000],
+                        [new TextObject("STOP>>BUS STOPPING", Font.fromNameString("Mobitec-7:7"), new Position(1, 11), 1), 00000000],
+                        [new TextObject("ARR>>ARRIVED", Font.fromNameString("Mobitec-7:7"), new Position(1, 11), 1), 00000000],
+                        [new TextObject(" ", Font.fromNameString("Mobitec-7:7"), new Position(1, 11), 1), 00000000],
                     ];
 
                     matrix.drawText(texts[bottomRowNum][0], texts[bottomRowNum][1]);
                 }
 
                 let {destination} = data;
-                let currentScroll = Math.floor(scrollNum / 3);
+                let currentScroll = Math.floor(scrollNum / 4);
 
                 if (data.secondDestination) {
                     if (currentScroll > data.secondDestination.changeIndex)
                         destination = data.secondDestination.name;
                 }
-                matrix.drawText(new TextObject(destination, Font.fromNameString("Mobitec-7:7"), new Position(45, 1), 1), 00000000);
+                matrix.drawText(new TextObject(destination, Font.fromNameString("Mobitec-7:7"), new Position(46, 1), 1), 00000000);
 
                 // Possibly make scrolls query TSG site? Not great for offline use tho
-                let currentScrollObj = new TextObject(data.scrolls[currentScroll], Font.fromNameString("Mobitec-7:7"), new Position(45, 11), 1);
+                let currentScrollObj = new TextObject(data.scrolls[currentScroll], Font.fromNameString("Mobitec-7:7"), new Position(160, 11), 1);
                 let measure = currentScrollObj.takeMeasure();
                 let scrollWidth = measure.width,
                     scrollHeight = measure.height;
@@ -132,9 +133,9 @@ EDSFormats.SBST = {
                     hold = true;
 
                     let frameCount = scrollWidth + matrix.width - 7;
-                    let timeBetweenFrames = 1;
+                    let timeBetweenFrames = 0;
 
-                    let frameNum = 0;
+                    let frameNum = 80;
                     __scrollInterval__ = setInterval(() => {
                         if (frameNum == frameCount) {
                             clearInterval(__scrollInterval__);
@@ -146,11 +147,11 @@ EDSFormats.SBST = {
                         currentScrollObj.position.x = matrix.width - frameNum;
 
                         matrix.drawText(currentScrollObj, 00000000);
-                        matrix.clearRectangle(0, 17 + (0 - scrollHeight), 45, 17 + scrollHeight);
+                        matrix.clearRectangle(0, 17 + (0 - scrollHeight), 160, 17 + scrollHeight);
                         drawNextStop();
 
                         matrixPrimitives.setStrokeColour(00000000);
-                        matrixPrimitives.strokeRectangle(matrix, 0, 0, 43, 10);
+                        matrixPrimitives.strokeRectangle(matrix, 0, 0, 44, 10);
 
                         frameNum++;
                     }, timeBetweenFrames);
@@ -158,7 +159,7 @@ EDSFormats.SBST = {
                     matrix.drawText(currentScrollObj, 00000000);
 
                 scrollNum++;
-                if (scrollNum >= data.scrolls.length * 3)
+                if (scrollNum >= data.scrolls.length * 4)
                     scrollNum = 0;
             }
 
@@ -209,10 +210,10 @@ EDSData.SBST = {
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "",
-                destination: "",
+                serviceNumber: "LTG EMEA",
+                destination: "A7 R144x19",
                 scrolls: [
-                    "LTG EMEA Matrix Renderer                     A7 R144x19"
+                    ""
                 ]
             }
         }
@@ -352,7 +353,7 @@ EDSData.SBST = {
                 serviceNumber: "87",
                 destination: "BEDOK INT",
                 scrolls: [
-                    "ANDY REP SVC"
+                    " "
                 ]
             }
         }
@@ -376,60 +377,7 @@ EDSData.SBST = {
                 serviceNumber: "93",
                 destination: "HARBOURFRONT INT",
                 scrolls: [
-                    "EUNOS INT",
-                    "EUNOS STN/ INT",
-                    "EUNOS STN",
-                    "BLK 17",
-                    "BLK 322",
-                    "BLK 311",
-                    "OPP EUNOS TECHNOLINK",
-                    "COMFORT DRIVING CTR",
-                    "COMFORT TEST CTR",
-                    "OPP BLK 1022",
-                    "AFT TAI SENG STN",
-                    "ASIAWIDE IND BLDG",
-                    "AFT PAYA LEBAR ST",
-                    "AFT UPP PAYA LEBAR RD",
-                    "BARTLEY STN EXIT A",
-                    "OPP BARTLEY CHR CH",
-                    "OPP GAMBIR RIDGE",
-                    "BEF UPP SERANGOON RD",
-                    // "S'PORE POWER TRG INST",
-                    "PUB RECREATION CLUB",
-                    "BEF BRADDELL FLYOVER",
-                    "COMFORTDELGRO CORP LTD",
-                    "BLK 219",
-                    "AFT MUHAJIRIN MQUE",
-                    "BLK 1004",
-                    "AFT BISHAN RD",
-                    "BRADDELL VIEW",
-                    "OPP MACRITCHIE RESERVOIR",
-                    "BEF ANDREW RD",
-                    "BEF KHEAM HOCK RD",
-                    "AFT THE JAPANESE ASSN",
-                    "OPP S'PORE BIBLE COLL",
-                    "OPP LUTHERAN TWRS",
-                    "OPP ST. MARGARET'S SEC SCH",
-                    "FARRER RD STN EXIT A",
-                    "SPANISH VILLAGE",
-                    "OPP TULIP GDN",
-                    "OPP HOLLAND HILL LODGE",
-                    "OPP BLK 95",
-                    "QUEENSWAY SEC SCH",
-                    "QUEENSTOWN POLYCLINIC",
-                    "OPP BLESSED SACRAMENT CH",
-                    "BLK 19",
-                    "BLK 166",
-                    "OPP QUEENSWAY SHOP CTR",
-                    "BEF TELOK BLANGAH HILL PK",
-                    "OPP ALEXANDRA PT",
-                    "BEF PSA BLDG",
-                    "AFT ALEXANDRA RD",
-                    "YEO'S BLDG",
-                    "OPP TELOK BLANGAH STN",
-                    "BEF CHR COMMUNITY CHAPEL",
-                    "BEF SEAH IM RD",
-                    "HARBOURFRONT INT"
+                    " "
                 ]
             }
         }
@@ -458,20 +406,7 @@ EDSData.SBST = {
                 serviceNumber: "272",
                 destination: "BT MERAH INT",
                 scrolls: [
-                    "BT MERAH INT",
-                    "AFT BT MERAH CTRL",
-                    "BLK 1",
-                    "BLK 25",
-                    "BLK 28",
-                    "BLK 36 MKT/FC",
-                    "BLK 41",
-                    "BLK 40",
-                    "BLK 27",
-                    "BLK 10",
-                    "BLK 11",
-                    "OPP BLK 1",
-                    "BEF BT MERAH CTRL",
-                    "BT MERAH INT"
+                    " "
                 ]
             }
         }
