@@ -1,0 +1,404 @@
+#controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+
+#controller * {
+    font-family: Arial;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#controller {
+    width: 60vw;
+    height: 17.5vw;
+    background-color: #000000;
+
+    display: flex;
+}
+
+#controller-left {
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    border-right: solid 0.75vw #000000;
+    border-left: solid 0.75vw #000000;
+
+    color: #ffffff;
+}
+
+#mobitec-label {
+    font-size: 2.25vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.75vw;
+
+    transform: scaleX(0.9);
+}
+
+#mobitec-model-label {
+    line-height: 2.75vw;
+    width: 16vw;
+    font-size: 2.75vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    transform: scaleX(0.65);
+}
+
+.selector {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+    width: 3.5vw;
+    height: 8vw;
+    font-size: 0.8vw;
+
+    outline: none;
+    border: 0;
+    padding-top: 0.25vw;
+    margin-bottom: 3.1vw;
+
+    background-color: #000000;
+    border-radius: 2vw;
+    color: #000000;
+
+    text-align: center;
+}
+
+#eds-selector {
+    width: 5vw;
+}
+
+#controller-right {
+    display: flex;
+}
+
+#controller-main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 17.5vw;
+    width: 36vw;
+}
+
+#controller-screen {
+    width: 30vw;
+    height: 7vw;
+    display: flex;
+    background-color: #3b9cd2;
+    border: 1.2vw solid #000000;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 1.2vw;
+}
+
+#function-buttons {
+    display: flex;
+}
+
+#home-button-icon {
+    width: 1.9vw;
+    margin-top: -0.2vw;
+}
+
+.button {
+    width: 4.2vw;
+    height: 2vw;
+
+    padding-top: 0.2vw;
+    font-size: 1.2vw;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #181818;
+    border-radius: 2vw;
+    color: #d1c72f;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.buttonempty {
+    width: 4.2vw;
+    height: 2vw;
+
+    padding-top: 0.2vw;
+    font-size: 1.2vw;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #000000;
+    border-radius: 2vw;
+    color: #000000;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+#controller-main-right {
+    display: flex;
+    flex-direction: column;
+    width: 14.5vw;
+}
+
+#numberpad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1vw;
+}
+
+#numberpad-main {
+    display: grid;
+
+    grid-template-columns: repeat(3, 3.75vw);
+    grid-column-gap: 0.75vw;
+    grid-auto-rows: 2.2vw;
+}
+
+#numberpad .button {
+    width: 3.75vw;
+    height: 1.7vw;
+    white-space: pre;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #181818;
+    border-radius: 2vw;
+    color: #d2d2d2;
+    margin: 0;
+}
+#numberpad .button > span:nth-child(1) {
+    margin-left: -0.3vw;
+    margin-right: 0.3vw;
+}
+
+#numberpad .button > span:nth-child(2) {
+    font-size: 0.7vw;
+    width: 1.5vw;
+    text-align: right;
+}
+
+#selection-pad {
+    display: flex;
+    width: 14.5vw;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 1vw;
+}
+
+#direction-pad {
+    display: grid;
+
+    grid-template-columns: repeat(3, 2vw);
+}
+
+#direction-pad > div:nth-child(odd) {
+    visibility: hidden;
+}
+
+#direction-pad > div:nth-child(even) {
+    width: 2vw;
+    height: 2vw;
+    padding: 0;
+
+    font-size: 1vw;
+    line-height: 1vw;
+
+    color: #d2d2d2;
+}
+
+#yesno-pad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 6vw;
+}
+
+#yesno-pad .button {
+    color: #d2d2d2;
+    width: 4.5vw;
+    height: 1.8vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#yesno-pad > .button > img {
+    width: 1.2vw;
+}
+
+.controller-screen {
+    width: 30vw;
+    height: 5vw;
+}
+
+#function-label-empty {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+
+    width: 29vw;
+    height: 1.5vw;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#function-label-row > div.function-empty {
+    margin-left: 0.8vw;
+    width: 5vw;
+    height: 1.2vw;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #3b9cd2;
+    color: #3b9cd2;
+
+    font-size: 1vw;
+}
+
+#function-label-row {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+
+    width: 29vw;
+    height: 1.5vw;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#function-label-row > div.function-label {
+    margin-left: 0.8vw;
+    width: 5vw;
+    height: 1.2vw;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000000;
+    color: #3b9cd2;
+
+    font-size: 1vw;
+}
+
+#controller-screen-home {
+    margin-top: 1vw;
+    display: flex;
+    height: 4vw;
+}
+
+#output-preview {
+    width: 15vw;
+    height: 2.5vw;
+    border: 0.2vw solid black;
+
+    margin-left: 3vw;
+}
+
+#preview-canvas {
+    width: 15vw;
+    height: 2.5vw;
+}
+
+#output-info {
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.8vw;
+}
+
+#controller-screen-dest {
+    width: 28vw;
+}
+
+.table-labels {
+    margin-top: 0.2vw;
+
+    line-height: 0.8vw;
+    font-size: 0.8vw;
+    height: 1vw;
+
+    display: flex;
+}
+
+.table-labels > span {
+    display: inline-block;
+    width: 5vw;
+}
+
+.dest-table {
+    width: 27.6vw;
+    height: 3.6vw;
+    border: 0.2vw solid black;
+}
+
+.dest-table-item {
+    height: 1.2vw;
+    display: flex;
+    align-items: center;
+}
+
+.dest-table-item > span {
+    height: 1.2vw;
+    font-size: 1vw;
+    width: 4.7vw;
+    margin-left: 0.3vw;
+}
+
+.dest-table-item > span:nth-child(3) {
+    width: 17.6vw;
+    overflow: hidden;
+}
+
+.table-selected-row {
+    background-color: black;
+    color: #3b9cd2;
+}

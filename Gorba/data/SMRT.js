@@ -45,14 +45,14 @@ EDSFormats.SMRT = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "GASG-LAWOSVC",
+            font: "LAWO-26:9",
             spacing: 2
         },
         destination: {
             align: "centre-x, left",
             margin: {
-                top: 8,
-                right: "width(serviceNumber) + len(45)"
+                top: 7,
+                right: "width(serviceNumber) + len(0)"
             },
             text: "$destination",
             spacing: 1
@@ -81,11 +81,11 @@ EDSFormats.SMRT = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "GASG-GORBASVC",
+            font: "LAWO-26:12",
             spacing: 3
         },
         destination: {
-            align: "centre-x,top",
+            align: "centre-x, centre-y",
             margin: {
                 top: 2,
                 right: "width(serviceNumber) + len(7)"
@@ -161,10 +161,10 @@ EDSFormats.SMRT = {
                     if (currentScroll > data.secondDestination.changeIndex)
                         destination = data.secondDestination.name;
                 }
-                matrix.drawText(new TextObject(destination, Font.fromNameString("Mobitec-7:7"), new Position(45, 1), 1), 00000000);
+                matrix.drawText(new TextObject(destination, Font.fromNameString("Mobitec-7:7"), new Position(46, 1), 1), 00000000);
 
                 // Possibly make scrolls query TSG site? Not great for offline use tho
-                let currentScrollObj = new TextObject(data.scrolls[currentScroll], Font.fromNameString("Mobitec-7:7"), new Position(45, 11), 1);
+                let currentScrollObj = new TextObject(data.scrolls[currentScroll], Font.fromNameString("Mobitec-7:7"), new Position(46, 11), 1);
                 let measure = currentScrollObj.takeMeasure();
                 let scrollWidth = measure.width,
                     scrollHeight = measure.height;
@@ -172,25 +172,25 @@ EDSFormats.SMRT = {
                 if (scrollWidth === 0) return;
                 drawNextStop();
 
-                if (scrollWidth > matrix.width - 45) { // scrolling text
+                if (scrollWidth > matrix.width - 46) { // scrolling text
                     hold = true;
 
                     let frameCount = scrollWidth + matrix.width - 7;
                     let timeBetweenFrames = 1;
 
-                    let frameNum = 70;
+                    let frameNum = 0;
                     __scrollInterval__ = setInterval(() => {
                         if (frameNum == frameCount) {
                             clearInterval(__scrollInterval__);
                             hold = false;
                             return;
                         }
-                        matrix.clearRectangle(0, 17 + (0 - scrollHeight), matrix.width, 17 + scrollHeight);
+                        matrix.clearRectangle(0, 18 + (0 - scrollHeight), matrix.width, 18 + scrollHeight);
 
                         currentScrollObj.position.x = matrix.width - frameNum;
 
                         matrix.drawText(currentScrollObj, 00000000);
-                        matrix.clearRectangle(0, 17 + (0 - scrollHeight), 45, 17 + scrollHeight);
+                        matrix.clearRectangle(0, 17 + (0 - scrollHeight), 46, 18 + scrollHeight);
                         drawNextStop();
 
                         matrixPrimitives.setStrokeColour(00000000);
@@ -577,7 +577,7 @@ EDSData.SMRT = {
                 serviceNumber: "62",
                 destination: {
                     text: "SIMS AVE via",
-                    font: "Mobitec-10:7"
+                    font: "LAWO-10"
                 },
                 scrolls: [
                 "PUNGGOL PL",
@@ -594,7 +594,7 @@ EDSData.SMRT = {
                 "ALJUNIED RD/MRT",
                 "GEYLANG RD"
                 ],
-                scrollFont: "Mobitec-10:7"
+                scrollFont: "LAWO-10"
             },
             pids: {
                 renderType: "pids",
@@ -606,6 +606,26 @@ EDSData.SMRT = {
                 },
                 scrolls: [
                     "PUNGGOL TEMP INT",
+                    "OPP BLK 201A",
+                    "COVE STN EXIT B",
+                    "MERIDIAN STN EXIT B",
+                    "CORAL EDGE EXIT B",
+                    "AFT PUNGGOL RD",
+                    "OPP BLK 157A",
+                    "OPP BLK 121E",
+                    "OPP BLK 119A",
+                    "BLK 477A",
+                    "S'GOON SEC SCH",
+                    "OPP PUNGGOL PK",
+                    "BLK 434",
+                    "OPP PUNGGOL CC",
+                    "HOUGANG STN EXIT C",
+                    "BLK 831",
+                    "OPP HOUGANG SWIM CPLX",
+                    "OPP BLK 709",
+                    "BLK 1",
+                    "AFT EN-NAEEM MQUE",
+                    "OPP BLK 232",
                     "BLK 239",
                     "BLK 105 MKT/FC",
                     "OPP BLK 115",
@@ -666,7 +686,7 @@ EDSData.SMRT = {
                 serviceNumber: "386",
                 destination: {
                     text: "PUNGGOL INT via",
-                    font: "Mobitec-10:7"
+                    font: "LAWO-10"
                 },
                 scrolls: [
                 "PUNGGOL PL",
@@ -683,7 +703,7 @@ EDSData.SMRT = {
                 "PUNGGOL CTRL",
                 "PUNGGOL PL"
                 ],
-                scrollFont: "Mobitec-10:7"
+                scrollFont: "LAWO-10"
             },
             pids: {
                 renderType: "pids",
@@ -710,7 +730,7 @@ EDSData.SMRT = {
                 serviceNumber: "386",
                 destination: {
                     text: "PUNGGOL CENTRAL",
-                    font: "Mobitec-10:7"
+                    font: "LAWO-10"
                 },
                 scrolls: [
                     " "
@@ -735,6 +755,30 @@ EDSData.SMRT = {
             }
         }
     },
+    1837: {
+        1: {
+            front: {
+                renderType: "glitch",
+                serviceNumber: "8642E",
+                destination: {
+                    text: "TEST TEST TEST",
+                    font: "Mobitec-13:7"
+                },
+                scrolls: [
+                    " "
+                ],
+                scrollFont: "LAWO-26:9"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "8642E",
+                destination: "TEST TEST TEST",
+                scrolls: [
+                    " "
+                ]
+            }
+        },
+    },
     433: {
         1: {
             front: {
@@ -742,7 +786,7 @@ EDSData.SMRT = {
                 serviceNumber: "43M",
                 destination: {
                     text: "SERANGOON MRT via",
-                    font: "Mobitec-10:7"
+                    font: "LAWO-10"
                 },
                 scrolls: [
                 "PUNGGOL PL",
@@ -756,7 +800,7 @@ EDSData.SMRT = {
                 "YIO CHU KANG LK",
                 "SERANGOON CTRL/MRT"
                 ],
-                scrollFont: "Mobitec-10:7"
+                scrollFont: "LAWO-10"
             },
             pids: {
                 renderType: "pids",

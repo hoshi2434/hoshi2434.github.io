@@ -3,7 +3,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
-            font: "LAWO-26:9",
+            font: "Gorba-26:11",
             spacing: 2
         },
         scroll: {
@@ -24,6 +24,38 @@ EDSFormats.SBST = {
             margin: {
                 bottom: 2,
                 left: 0
+            },
+            text: "$destination",
+            spacing: 2
+        },
+
+        text: "$destination"
+    },
+    Glitch: {
+        serviceNumber: {
+            align: "right",
+            text: "$serviceNumber",
+            font: "Gorba-26:11",
+            spacing: 2
+        },
+        scroll: {
+            align: "left,top",
+            margin: {
+                top: 0,
+                left: 0
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 2
+        },
+        destination: {
+            align: "bottom, left",
+            margin: {
+                bottom: 8,
+                left: 5
             },
             text: "$destination",
             spacing: 2
@@ -193,7 +225,31 @@ EDSFormats.SBST = {
 }
 
 
-EDSData.SBST = { 
+EDSData.SBST = {
+   1: {
+        1: {
+            front: {
+                renderType: "Glitch",
+                serviceNumber: "OUT OF",
+                destination: {
+                    text: "OUT OF SERVICE",
+                    font: "Gorba-11"
+                },
+                scrolls: [
+                ""
+                ],
+                scrollFont: "Gorba-11"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "OUT OF",
+                destination: "OUT OF SERVICE",
+                scrolls: [
+                    " "
+                ]
+            }
+        }
+    },
     0000: {
         1: {
             front: {
@@ -330,14 +386,64 @@ EDSData.SBST = {
             }
         }
     },
+   163: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "16M",
+                destination: {
+                    text: "> BUKIT MERAH INT",
+                    font: "Gorba-11"
+                },
+                scrolls: [
+                "HYPE DEBUT SIA",
+                "WELCOME ABOARD SBST"
+                ],
+                scrollFont: "Gorba-11"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "16M",
+                destination: "BT MERAH INT",
+                scrolls: [
+                    " "
+                ]
+            }
+        }
+    },
+    164: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "16M",
+                destination: {
+                    text: "> BEDOK INT",
+                    font: "Gorba-11"
+                },
+                scrolls: [
+                "HYPE DEBUT SIA",
+                "SG4004B ON 825 IS PERFECT"
+                ],
+                scrollFont: "Gorba-11"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "16M",
+                destination: "BEDOK INT",
+                scrolls: [
+                    " "
+                ]
+            }
+        }
+    },
     87: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "87",
                 destination: {
-                    text: ">BEDOK INT",
-                    font: "LAWO-11"
+                    text: "> BEDOK INT",
+                    font: "Gorba-11"
                 },
                 scrolls: [
                 "COMPASSVALE RD",
@@ -346,7 +452,7 @@ EDSData.SBST = {
                 "KAKI BUKIT AVE 1",
                 "BEDOK NTH RD"
                 ],
-                scrollFont: "LAWO-11"
+                scrollFont: "Gorba-11"
             },
             pids: {
                 renderType: "pids",
@@ -364,13 +470,13 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "93",
                 destination: {
-                    text: ">HARBOURFRONT INT",
-                    font: "LAWO-11"
+                    text: "> HARBOURFRONT INT",
+                    font: "Gorba-11"
                 },
                 scrolls: [
                     "EUNOS LINK"
                 ],
-                scrollFont: "LAWO-11"
+                scrollFont: "Gorba-11"
             },
             pids: {
                 renderType: "pids",
@@ -388,8 +494,8 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "272",
                 destination: {
-                    text: ">BUKIT MERAH INT",
-                    font: "LAWO-11"
+                    text: "> BUKIT MERAH INT",
+                    font: "Gorba-11"
                 },
                 scrolls: [
                     "BUKIT MERAH CTRL",
@@ -399,7 +505,7 @@ EDSData.SBST = {
                     "LOWER DELTA RD",
                     "TELOK BLANGAH CRES"
                 ],
-                scrollFont: "LAWO-11"
+                scrollFont: "Gorba-11"
             },
             pids: {
                 renderType: "pids",
