@@ -1,0 +1,17 @@
+<program ID="${program_id}">
+  <positions>
+    <position>
+      <sign_pos>2</sign_pos>
+      <sign_name>MobiLED 13.4x10 Scroll (y*x)  16 * 140 scroll</sign_name>
+      <rotation_type>2</rotation_type>
+      <rotations>
+        ${rotations}
+      </rotations>
+    </position>
+  </positions>
+  <program_type_id>1</program_type_id>
+  <bus_pgm_no>${program_id}</bus_pgm_no>
+  <bounded>true</bounded>
+  <bus_line_no>
+  </bus_line_no>
+</program>

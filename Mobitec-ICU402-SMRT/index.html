@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='/matrix.js'></script>
+    <script src='/fonts.js'></script>
+    <script src='/eds-renderer.js'></script>
+    <script src='/matrix-primitives.js'></script>
+    <script src='/Mobitec-ICU402-SMRT/eds.js'></script>
+
+    <script src='/Mobitec-E500/data/SBST.js'></script>
+    <script src='/Mobitec-E500/data/SMRT.js'></script>
+    <script src='/Mobitec-E500/data/TTSG.js'></script>
+    <script src='/Mobitec-E500/data/GASG.js'></script>
+    <script src='/Mobitec-E500/data/BUSG.js'></script>
+    <script src='/Mobitec-E500/data/STSF.js'></script>
+    <script src='/Mobitec-E500/data/GASR.js'></script>
+    <link rel='stylesheet' href='/Mobitec-ICU402/css/eds.css'>
+    <link rel='stylesheet' href='/Mobitec-ICU402/css/controller.css'>
+    <link rel='stylesheet' href='/Mobitec-ICU402/css/style.css'>
+
+    <script src='/Mobitec-ICU402/js/controller.js'></script>
+    <style id='led-style'>
+    </style>
+
+    <meta name='viewport' content='user-scalable=no' />
+</head>
+<body>
+    <div id='controller-container'>
+        <div id='controller'>
+            <div id='controller-left'>
+                <span id='mobitec-label'>Mobitec</span>
+                <span id='mobitec-model-label'>ICU402</span>
+            </div>
+            <div id='controller-right'>
+                <div id='controller-main-left'>
+                    <div id='controller-screen'>
+                        <div id='controller-screen-home' class='controller-screen'>
+                            <div id='output-preview'>
+                                <canvas id='preview-canvas' width='576' height='64'></canvas>
+                            </div>
+                            <div id='output-info'>
+                            	<span></span>
+                                <span>Dest : 0 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</span>
+                                <span>Extra: 0</span>
+                            </div>
+                        </div>
+                        <div id='controller-screen-dest' class='controller-screen' style='display: none'>
+                            <div class='table-labels' id='label-dest'>
+                                <span>Dest</span>
+                                <span>Line No.</span>
+                                <span>Destination</span>
+                            </div>
+                            <div class='dest-table' id='dest-table'>
+                            </div>
+                        </div>
+                        <div id='function-label-row'>
+                            <div class='function-empty'><span></span></div>
+                            <div class='function-empty'><span></span></div>
+                            <div class='function-empty'><span> </span></div>
+                            <div class='function-empty'><span> </span></div>
+                            <div class='function-empty'><span></span></div>
+                        </div>
+                    </div>
+                    <div id='function-buttons'>
+                        <div id='button-home' class='button'><span>&larr;</span></div>
+                        <div id='button-f1' class='button'><span>&uarr;</span></div>
+                        <div id='button-f2' class='button'><span>✓</span></div>
+                        <div id='button-f3' class='button'><span>x</span></div>
+                        <div id='button-f4' class='button'><span>&darr;</span></div>
+                        <div id='button-f5' class='button'><span>&rarr;</span></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
+        </div>
+    </div>
+</body>
+</html>
