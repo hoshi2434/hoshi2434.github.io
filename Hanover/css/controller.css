@@ -1,0 +1,146 @@
+#controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+#controller {
+    height: 20vw;
+    width: 45vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #4b667a;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+
+    border: 2vw solid #314354;
+    border-radius: 2vw;
+
+    transform: scale(0.75);
+}
+
+#controller-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 5vw);
+    grid-row-gap: 1vw;
+}
+
+#controller-grid > div {
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.75vw;
+    font-family: "Helvetica Neue";
+    font-size: 1.7vw;
+
+    color: #ffffff;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.blue-button {
+    background-color: #34b3d6;
+}
+
+.red-button {
+    background-color: #cd3b56;
+}
+
+.gray-button {
+    background-color: #8d8d8d;
+}
+
+
+.up-arrow {
+  width: 0;
+  height: 0;
+  border-left: 1.25vw solid transparent;
+  border-right: 1.25vw solid transparent;
+
+  border-bottom: 2vw solid #ffffff;
+}
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 1.25vw solid transparent;
+  border-right: 1.25vw solid transparent;
+
+  border-top: 2vw solid #ffffff;
+}
+
+#screen {
+    position: absolute;
+    width: 22.5vw;
+    height: 6vw;
+    background-color: #95be4f;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen > span {
+    white-space: pre;
+    width: 21.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    font-family: monospace;
+    font-size: 2vw;
+
+    overflow: hidden;
+    display: block;
+    height: 2vw;
+    line-height: 2vw;
+}
+
+#label {
+    font-family: "Helvetica Neue";
+    font-size: 2vw;
+    white-space: pre;
+    width: 100%;
+    color: #ffffff;
+
+    width: 40vw;
+    margin-bottom: 1.2vw;
+}
+
+#alphanum-button-container {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+}
+
+#alphanum-button-container > * {
+    position: absolute;
+    font-size: 1.1vw;
+}
+
+#alphanum-button-container > :nth-child(1) {
+    top: 0.3vw;
+    left: 0.3vw;
+}
+
+#alphanum-button-container > :nth-child(2) {
+    top: 0.3vw;
+    right: 0.3vw;
+}
+
+#alphanum-button-container > :nth-child(3) {
+    bottom: 0.3vw;
+    right: 0.3vw;
+}

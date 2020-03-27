@@ -1,5 +1,15 @@
 EDSFormats.GASR = {
     'L': {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-LAWO-16",
+            spacing: 2
+        },
+
         leftFlower: {
             align: "left",
             image: "L"
@@ -21,17 +31,17 @@ EDSFormats.GASR = {
             },
             align: "left",
             margin: {
-                left: "width(leftFlower) + len(15)"
+                left: "width(leftFlower) + len(2)"
             }
         },
         rightFlower: {
-            align: "right, centre-y",
+            align: "left",
             margin: {
-                left: "width(leftFlower) + width(displayText) + len(15)"
+                left: "width(leftFlower) + width(displayText) + len(4)"
             },
             image: "L"
         },
-        text: "Driver Under Instruction"
+        text: "UNDER INSTRUCTION"
     },
     'gar-logo': {
         serviceNumber: {
@@ -45,7 +55,7 @@ EDSFormats.GASR = {
         },
 
         leftFlower: {
-            align: "left+'     '",
+            align: "left",
             image: "gas"
         },
         displayText: {
@@ -125,19 +135,26 @@ EDSFormats.GASR = {
                     font: "Mobitec-10:7",
                     spacing: 1
                 },
+                centreBottomText: {
+                    align: "centre-x,bottom",
+                    text: "$bottom",
+                    font: "Mobitec-7:7",
+                    spacing: 1
+                }
             },
-            align: "left",
+            align: "centre-y",
             margin: {
-                left: "width(leftFlower) + len(2)"
+                left: "width(leftFlower) + len(8)"
             }
         },
         rightFlower: {
             align: "left",
             margin: {
-                left: "width(leftFlower) + width(displayText) + len(4) + ' '"
+                left: "width(leftFlower) + width(displayText) + len(14)"
             },
             image: "gas"
         },
+        text: "ROUTE TRAINING"
     },
 
     standardService: {
@@ -433,8 +450,8 @@ EDSData.GASR = {
                 {
                     renderType: "L",
                     serviceNumber: "",
-                    top: "Driver Under",
-                    bottom: "Instruction"
+                    top: "Driver",
+                    bottom: "Under Instruction"
                 }
             ],
             scrollFont: "Mobitec-7:5:3"
@@ -489,8 +506,9 @@ EDSData.GASR = {
                 {
                     renderType: "routeTRG",
                     serviceNumber: "",
-                    top: "ROUTE TRAINING"
-                },
+                    top: "ROUTE TRAINING",
+                    bottom: " "
+                }
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -1237,23 +1255,23 @@ EDSExtras.GASR = {
             serviceNumber: ""
         }
     },
+    //8: {
+        //front: {
+            //renderType: "standardService",
+            //serviceNumber: "",
+            //destination: {
+                //text: "Listen to Our Weekly Podcast,",
+                //font: "Mobitec-7:4"
+            //},
+            //scrolls: [
+                //"GARThings!",
+                //"Streamed in our Discord Server!",
+                //"Approach a MR or HR for details!"
+            //],
+            //scrollFont: "Mobitec-7:4"
+        //}
+    //},
     8: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "Listen to Our Weekly Podcast,",
-                font: "Mobitec-7:4"
-            },
-            scrolls: [
-                "GARThings!",
-                "Streamed in our Discord Server!",
-                "Approach a MR or HR for details!"
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
-    9: {
         front: {
             renderType: "standardService",
             serviceNumber: "",

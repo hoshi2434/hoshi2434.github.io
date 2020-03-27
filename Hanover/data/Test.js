@@ -12,7 +12,7 @@ EDSFormats.SBST = {
             }
         },
         destination: {
-            align: "left,bottom",
+            align: "centre-x,top",
             margin: {
                 bottom: {
                     $$cond: {
@@ -33,7 +33,7 @@ EDSFormats.SBST = {
             }
         },
         scroll: {
-            align: "left,top",
+            align: "centre-x,bottom",
             scrolls: "$scrolls",
             rotate: true,
             rotateSpeed: 3000,
@@ -180,87 +180,37 @@ EDSFormats.SBST = {
     }
 }
 
-EDSData.SBST = {
-    1234 : {
+EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
+    2: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "",
-                destination: "SPECIAL MESSAGE TESTING",
+                serviceNumber: "2",
+                destination: "KAMPONG BAHRU   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "OFF",
-                        image: "fireworks",
-
-                        top: "HAPPY NEW YEAR",
-                        topFont: "Hanover-8"
-                    },
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "OFF",
-                        image: "ingot",
-
-                        top: "HAPPY",
-                        topFont: "Hanover-7:5",
-
-                        bottom: "CHINESE NEW YEAR",
-                        bottomFont: "Hanover-7:5"
-                    },
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "OFF",
-                        image: "ingot",
-
-                        top: "新年快乐",
-                        topMargin: 0,
-                        topFont: "Chinese-18"
-                    },
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "OFF",
-                        image: "fireworks",
-
-                        top: "Happy National Day",
-                        topFont: "Hanover-7:3",
-
-                        bottom: "Singapore!",
-                        bottomFont: "Hanover-7:5"
-                    },
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "OFF",
-
-                        top: "Be Kind, Be Great !",
-                        topFont: "Hanover-12:3",
-                        topSpacing: 2
-                    },
-                ],
-                scrollFont: "Hanover-7:5"
-            }
-        },
-    },
-    50: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "50",
-                destination: "> PUNGGOL INT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "ANG MO KIO AVE 8",
-                    "ANG MO KIO AVE 5",
-                    "YIO CHU KANG RD",
-                    "SENGKANG WEST AVE",
-                    "SENGKANG EAST WAY",
-                    "PUNGGOL DR"
+                "CHANGI VILLAGE RD   ",
+                "LOYANG AVE   ",
+                "LOYANG WAY   ",
+                "UPP CHANGI RD NTH/EAST   ",
+                "UPP CHANGI LINK   ",
+                "UPP CHANGI RD   ",
+                "BEDOK RD   ",
+                "NEW UPP CHANGI RD   ",
+                "CHANGI RD   ",
+                "GEYLANG RD   ",
+                "KALLANG RD   ",
+                "VICTORIA ST   ",
+                "HILL ST   ",
+                "NEW BRIDGE RD   ",
+                "KG BAHRU RD   ",
+                "SPOONER RD   "
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "50",
+                serviceNumber: "2",
                 font: "Hanover-19:11",
                 spacing: 2
             }
@@ -268,197 +218,56 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "50",
-                destination: "> BISHAN INT",
+                serviceNumber: "2",
+                destination: "CHANGI VILLAGE   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    "PUNGGOL DR",
-                    "SENGKANG EAST WAY",
-                    "SENGKANG WEST AVE",
-                    "YIO CHU KANG RD",
-                    "ANG MO KIO AVE 5",
-                    "ANG MO KIO AVE 8"
+                    "PASIR RIS DR 1",
+                    "HOUGANG AVE 1",
+                    "LOR AH SOO",
+                    "SERANGOON CENTRAL",
+                    "BISHAN RD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "50",
+                serviceNumber: "2",
                 font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    88: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "88",
-                destination: "> TOA PAYOH INT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    'PASIR RIS DR 3',
-                    'PUNGGOL RD',
-                    'HOUGANG AVE 8',
-                    'ANG MO KIO AVE 5',
-                    'BISHAN ST 22'
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "88",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "88",
-                destination: "> PASIR RIS INT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    'BISHAN ST 22',
-                    'ANG MO KIO AVE 5',
-                    'HOUGANG AVE 8',
-                    'PUNGGOL RD',
-                    'PASIR RIS DR 3'
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "88",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    105: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "105",
-                destination: "> JURONG EAST INT",
-                destinationFont: "Hanover-10",
-                scrolls: [,
-                    "COMMONWEALTH AVE WEST",
-                    "TOH GUAN RD"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "105",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "105",
-                destination: "> SERANGOON INT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "TOH GUAN RD",
-                    "COMMONWEALTH AVE WEST"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "105",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    113: {//TODO SCROLLS
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "113",
-                destination: "HOUGANG INT-UPP PAYA LEBAR RD",
-                destinationFont: "Hanover-7:3",
-                scrolls: [
-                    'HOUGANG AVE 8',
-                    'HOUGANG AVE 10',
-                    'UPP SERANGOON RD',
-                    'HOUGANG ST 21',
-                    'LORONG AH SOO',
-                    'HOUGANG ST 21',
-                    'UPP SERANGOON RD',
-                    'HOUGANG AVE 10',
-                    'HOUGANG AVE 8'
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "113",
-                font: "LECIP-20:9",
                 spacing: 2
             }
         }
     },
-    120: {
+    2: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "120",
-                destination: "KG BAHRU TER-T.BLANGAH HTS",
-                destinationFont: "Hanover-7:3",
-                scrolls: [
-                    "JALAN BUKIT MERAH",
-                    "TELOK BLANGAH HTS",
-                    "TELOK BLANGAH RD",
-                    "ALEXANDRA RD", // <-
-                    "TIONG BAHRU RD"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "120",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    123: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "123",
-                destination: "> SENTOSA",
+                serviceNumber: "2",
+                destination: "KAMPONG BAHRU   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "123",
-                        image: "fireworks",
-
-                        top: "I AM THE",
-                        topFont: "Hanover-7:5",
-
-                        bottom: "WORST SERVICE",
-                        bottomFont: "Hanover-7:5"
-                    },
-                    "QUEENSWAY",
-                    "HOLLAND RD",
-                    "ORCHARD RD",
-                    "HAVELOCK RD",
-                    "TIONG BAHRU RD",
-                    "LOWER DELTA RD",
-                    "BUKIT PURMEI AVE"
+                "CHANGI VILLAGE RD   ",
+                "LOYANG AVE   ",
+                "LOYANG WAY   ",
+                "UPP CHANGI RD NTH/EAST   ",
+                "UPP CHANGI LINK   ",
+                "UPP CHANGI RD   ",
+                "BEDOK RD   ",
+                "NEW UPP CHANGI RD   ",
+                "CHANGI RD   ",
+                "GEYLANG RD   ",
+                "KALLANG RD   ",
+                "VICTORIA ST   ",
+                "HILL ST   ",
+                "NEW BRIDGE RD   ",
+                "KG BAHRU RD   ",
+                "SPOONER RD   "
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "123",
+                serviceNumber: "2",
                 font: "Hanover-19:11",
                 spacing: 2
             }
@@ -466,58 +275,68 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "123",
-                destination: "> BUKIT MERAH INT",
+                serviceNumber: "2",
+                destination: "CHANGI VILLAGE   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "123",
-                        image: "fireworks",
-
-                        top: "I AM THE",
-                        topFont: "Hanover-7:5",
-
-                        bottom: "WORST SERVICE",
-                        bottomFont: "Hanover-7:5"
-                    },
-                    "BUKIT PURMEI AVE",
-                    "LOWER DELTA RD",
-                    "TIONG BAHRU RD",
-                    "HAVELOCK RD",
-                    "ORCHARD BLVD",
-                    "HOLLAND RD",
-                    "QUEENSWAY"
+                "SPOONER RD  ",
+                "KG BAHRU RD   ",
+                "EU TONG SEN ST   ",
+                "HILL ST   ",
+                "VICTORIA ST   ",
+                "KALLANG RD   ",
+                "SIMS AVE   ",
+                "SIMS AVE EAST   ",
+                "NEW UPP CHANGI RD   ",
+                "BEDOK RD   ",
+                "UPP CHANGI RD   ",
+                "UPP CHANGI LK   ",
+                "UPP CHANGI RD EAST/NTH   ",
+                "LOYANG WAY   ",
+                "LOYANG AVE   ",
+                "CHANGI VILLAGE RD   "
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "123",
+                serviceNumber: "2",
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
-    124: {
+    3: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "124",
-                destination: "> ST MICHAEL'S TER",
+                serviceNumber: "3",
+                destination: "TAMPINES   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    "NEW BRIDGE RD",
-                    "KAMPONG BAHRU RD",
-                    "TELOK BLANGAH HTS",
-                    "MOULMEIN RD",
-                    "ORCHARD RD"
+                "PUNGGOL PL   ",
+                "PUNGGOL CTRL   ",
+                "PUNGGOL EAST   ",
+                "PUNGGOL FIELD   ",
+                "PUNGGOL RD   ",
+                "TPE   ",
+                "PASIR RIS DR 12/1/10   ",
+                "PASIR RIS ST 71   ",
+                "ELIAS RD   ",
+                "PASIR RIS DR 1/8/3/4   ",
+                "PASIR RIS ST 21   ",
+                "PASIR RIS DR 1   ",
+                "LOYANG AVE   ",
+                "TAMPINES AVE 7/2   ",
+                "TAMPINES ST 23/21   ",
+                "TAMPINES AVE 4/9   ",
+                "TAMPINES CTRL 1   "
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "124",
+                serviceNumber: "3",
                 font: "Hanover-19:11",
                 spacing: 2
             }
@@ -525,83 +344,58 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "124",
-                destination: "> HARBOURFRONT INT",
+                serviceNumber: "3",
+                destination: "PUNGGOL   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    "TELOK BLANGAH HTS",
-                    "TELOK BLANGAH WAY",
-                    "EU TONG SEN ST",
-                    "ORCHARD TURN",
-                    "MOULMEIN RD",
-                    "TELOK BLANGAH WAY",
-                    "KAMPONG BAHRU RD"
+                "TAMPINES CTRL 1   ",
+                "TAMPINES AVE 5/4   ",
+                "TAMPINES ST 21   ",
+                "TAMPINES AVE 2/7   ",
+                "LOYANG AVE   ",
+                "PASIR RIS DR 1   ",
+                "PASIR RIS ST 21   ",
+                "PASIR RIS DR 4/3/8/1   ",
+                "ELIAS RD   ",
+                "PASIR RIS ST 71   ",
+                "PASIR RIS DR 10/1/12   ",
+                "TPE   ",
+                "PUNGGOL RD   ",
+                "PUNGGOL FIELD   ",
+                "PUNGGOL EAST   ",
+                "PUNGGOL CTRL   ",
+                "PUNGGOL EAST   "
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "124",
+                serviceNumber: "3",
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
-    154: {
+    62: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "154",
-                destination: "> BOON LAY INT",
+                serviceNumber: "62",
+                destination: "SIMS AVE   ",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    "PAYA LEBAR RD",
-                    "JALAN TOA PAYOH",
-                    "BUKIT TIMAH RD",
-                    "CLEMENTI RD",
-                    "COMMONWEALTH AVE WEST",
-                    "AYE",
-                    "YUAN CHING RD"
+                    "BISHAN RD   ",
+                    "SERANGOON CENTRAL   ",
+                    "LORONG AH SOO   ",
+                    "HOUGANG AVE 1   ",
+                    "PASIR RIS DR 1   ",
+                    "JUST TESTING   "
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "154",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    174: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "174",
-                destination: "> BOON LAY INT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "174",
-
-                        top: "Be Kind, Be Great !",
-                        topFont: "Hanover-12:3",
-                        topSpacing: 2
-                    },
-                    "EU TONG SEN ST",
-                    "ORCHARD BLVD",
-                    "HOLLAND RD",
-                    "FARRER RD",
-                    "BT TIMAH RD",
-                    "JLN JURONG KECHIL",
-                    "BT BATOK E. AVE 6, 3"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "174",
+                serviceNumber: "53",
                 font: "Hanover-19:11",
                 spacing: 2
             }
@@ -609,91 +403,25 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "174",
-                destination: "> KAMPONG BAHRU TER",
-                destinationFont: "Hanover-8",
+                serviceNumber: "53",
+                destination: "> BISHAN INT",
+                destinationFont: "Hanover-10",
                 scrolls: [
-                    "BT BATOK E. AVE 3, 6",
-                    "JLN JURONG KECHIL",
-                    "DUNEARN RD",
-                    "FARRER RD",
-                    "HOLLAND RD",
-                    "ORCHARD RD",
-                    "NTH, STH BRIDGE RD",
+                    "PASIR RIS DR 1",
+                    "HOUGANG AVE 1",
+                    "LOR AH SOO",
+                    "SERANGOON CENTRAL",
+                    "BISHAN RD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "174",
+                serviceNumber: "53",
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
-    },
-    175: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "175",
-                destination: "> LOR 1 GEYLANG TER",
-                destinationFont: "Hanover-8",
-                scrolls: [
-                    "PASIR PANJANG RD",
-                    "ALEXANDRA RD"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "175",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    201: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "201",
-                destination: "KENT RIDGE TER-PANDAN GDNS",
-                destinationFont: "Hanover-7:4",
-                scrolls: [
-                    "C'WEALTH AVE WEST",
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "201",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-    },
-    258: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "258",
-                spacing: 1,
-                destination: "JOO KOON INT-JUR W.ST64",
-                destinationFont: "Hanover-8",
-                scrolls: [
-                    "PIONEER RD NTH",
-                    "JURONG WEST ST 61,81,75",
-                    "JLN AHMAD IBRAHIM"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "258",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
+        }
     },
     1111: {
         1: {
@@ -704,13 +432,23 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },	
+    },
     2222: {
         1: {
             front: {
                 renderType: "logo",
                 text: "SBS TRANSIT",
                 image: "logo"
+            }
+        }
+    },
+    6969: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "OUT OF SERVICE",
+                font: "Hanover-19:11",
+                spacing: 2
             }
         }
     }

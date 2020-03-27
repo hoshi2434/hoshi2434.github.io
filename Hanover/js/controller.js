@@ -14,7 +14,7 @@ function numberPressed(keyNum) {
         if (keyNum !== -1) inputs.push(keyNum); //init screen
         if (inputs.length > 4) inputs.shift();
 
-        let top = inputType;
+        let top = inputType + ' no:';
         top += Array(18 - top.length - inputs.length).fill(' ').join('');
         top += inputs.join('');
 
@@ -153,23 +153,19 @@ function setup() {
     document.getElementById('keypad-ent').addEventListener('click', entClicked);
     document.getElementById('keypad-up').addEventListener('click', upClicked);
     document.getElementById('keypad-down').addEventListener('click', downClicked);
-    document.getElementById('keypad-r').addEventListener('click', codeInputButtonClicked.bind(null, 'Route no:'));
-    document.getElementById('keypad-d').addEventListener('click', codeInputButtonClicked.bind(null, 'Dest no:'));
-    document.getElementById('keypad-x').addEventListener('click', codeInputButtonClicked.bind(null, 'Out no:'));
-    document.getElementById('keypad-y').addEventListener('click', codeInputButtonClicked.bind(null, 'Return no:'));
-    document.getElementById('keypad-I').addEventListener('click', codeInputButtonClicked.bind(null, 'Info no:'));
-    document.getElementById('keypad-N').addEventListener('click', codeInputButtonClicked.bind(null, 'Advert no:'));
-    document.getElementById('keypad-F').addEventListener('click', codeInputButtonClicked.bind(null, 'Lock code:'));
+    document.getElementById('keypad-r').addEventListener('click', codeInputButtonClicked.bind(null, 'Route'));
+    document.getElementById('keypad-d').addEventListener('click', codeInputButtonClicked.bind(null, 'Dest'));
+    document.getElementById('keypad-x').addEventListener('click', codeInputButtonClicked.bind(null, 'Out'));
 
-    setCode('2222', 1);
+    setCode('6969', 1);
 }
 
 function startup() {
     var textSets = [
-        [padCentre('abcd**...0'), '', 1000],
-        [padCentre('ERIC-H8S-1-23'), padCentre('Ext Port 2345'), 2000],
-        ['NCP012345//', '', 1000],
-        [padCentre('Please wait...'), '', 1000]
+        ['Made by plagg', '', 300],
+        [padCentre('ERIC-H8S-1-25-2'), padCentre('Ext Port 2345'), 2000],
+        ['NCP012345//', '', 300],
+        [padCentre('Please wait...'), '', 300]
     ];
 
     let currentDelay = 0;

@@ -177,7 +177,48 @@ EDSFormats.SBST = {
             }
         },
         text: "$top"
-    }
+    },
+    swt: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Hanover-19:11",
+            spacing: 3
+        },
+        terminateAt: {
+            align: "centre-x,top",
+            margin: {
+                top: 2,
+                right: "width(serviceNumber)"
+            },
+            text: {
+                $$cond: {
+                    "$terminateAt === undefined": "TERMINATING AT",
+                    "else": "'TERMINATING AT '+$terminateAt"
+                }
+            },
+            font: "Hanover-6:3",
+            spacing: 1
+        },
+        landmark: {
+            align: "centre-x,bottom",
+            margin: {
+                bottom: 3,
+                right: "width(serviceNumber)"
+            },
+            text: "$landmark",
+            font: "Hanover-6:3",
+            spacing: 1
+        },
+
+        text: {
+            $$cond: {
+                "$terminateAt === undefined": "'TERMINATING AT '+$landmark",
+                "else": "'TERMINATING AT '+$terminateAt+' '+$landmark"
+     }
 }
 
 EDSData.SBST = {
@@ -287,7 +328,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     88: {
         1: {
@@ -333,7 +374,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     105: {
         1: {
@@ -373,34 +414,6 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
-    },
-    113: {//TODO SCROLLS
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "113",
-                destination: "HOUGANG INT-UPP PAYA LEBAR RD",
-                destinationFont: "Hanover-7:3",
-                scrolls: [
-                    'HOUGANG AVE 8',
-                    'HOUGANG AVE 10',
-                    'UPP SERANGOON RD',
-                    'HOUGANG ST 21',
-                    'LORONG AH SOO',
-                    'HOUGANG ST 21',
-                    'UPP SERANGOON RD',
-                    'HOUGANG AVE 10',
-                    'HOUGANG AVE 8'
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "113",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
         }
     },
     120: {
@@ -425,7 +438,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     123: {
         1: {
@@ -497,7 +510,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     124: {
         1: {
@@ -545,7 +558,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     154: {
         1: {
@@ -571,7 +584,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     174: {
         1: {
@@ -629,7 +642,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     175: {
         1: {
@@ -650,7 +663,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     201: {
         1: {
@@ -670,7 +683,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     258: {
         1: {
@@ -693,7 +706,7 @@ EDSData.SBST = {
                 font: "Hanover-19:11",
                 spacing: 2
             }
-        },
+        }
     },
     1111: {
         1: {
@@ -704,7 +717,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },	
+    },
     2222: {
         1: {
             front: {

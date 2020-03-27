@@ -17,7 +17,7 @@
 #controller {
     width: 60vw;
     height: 17.5vw;
-    background-color: #254075;
+    background-color: #000000;
 
     display: flex;
 }
@@ -30,10 +30,10 @@
     align-items: center;
     justify-content: flex-start;
 
-    border-right: solid 0.75vw #1b2f56;
-    border-left: solid 0.75vw #1b2f56;
+    border-right: solid 0.75vw #000000;
+    border-left: solid 0.75vw #000000;
 
-    color: #4571c7;
+    color: #ffffff;
 }
 
 #mobitec-label {
@@ -71,9 +71,9 @@
     padding-top: 0.25vw;
     margin-bottom: 3.1vw;
 
-    background-color: #181818;
+    background-color: #000000;
     border-radius: 2vw;
-    color: #d1c72f;
+    color: #000000;
 
     text-align: center;
 }
@@ -99,7 +99,7 @@
     height: 7vw;
     display: flex;
     background-color: #3b9cd2;
-    border: 1.2vw solid #2c4b8a;
+    border: 1.2vw solid #000000;
 
     flex-direction: column;
     justify-content: space-between;
@@ -133,7 +133,7 @@
 
     background-color: #181818;
     border-radius: 2vw;
-    color: #d1c72f;
+    color: #ffffff;
     margin-left: 0.8vw;
     margin-right: 0.8vw;
 

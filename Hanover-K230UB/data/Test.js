@@ -21,7 +21,7 @@ EDSFormats.SBST = {
                     }
                 }
             },
-            text: "$destination",
+            text: "$destination+'   '",
             font: "$destinationFont",
             spacing: {
                 $$cond: {
@@ -38,11 +38,12 @@ EDSFormats.SBST = {
             rotate: true,
             rotateSpeed: 3000,
 
+            text: "$scrolls",
             font: "$scrollFont",
             spacing: 1
         },
 
-        text: "$serviceNumber+'\n'+$destination" // format to tts for now, check sbst later hopefully if no one kena pok
+        text: "$serviceNumber+' '+$destination+'\n'+'            '+$serviceNumber+'0000000000'" //GASG format
     },
     logo: {
         logo: {
@@ -50,7 +51,7 @@ EDSFormats.SBST = {
             image: "$image"
         },
 
-        text: "$text"
+        text: "$text+'\n'+'            '+'22220000'"
     },
     logoSvc: {
         logo: {
@@ -64,7 +65,7 @@ EDSFormats.SBST = {
             spacing: 2
         },
 
-        text: "$serviceNumber+'\n'+$destination"
+        text: "$serviceNumber+' '+$destination+'\n'+'            '+$serviceNumber+'0000000000'"
     },
     message: {
         display: {
@@ -74,7 +75,7 @@ EDSFormats.SBST = {
             spacing: "$spacing"
         },
 
-        text: "$text"
+        text: "$text+'\n'+'            '+'______'"
     },
     brandedSvc: {
         serviceNumber: {
@@ -180,13 +181,13 @@ EDSFormats.SBST = {
     }
 }
 
-EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
+EDSData.SBST = { //Add Spacing 3 spacing for Scroll
     2: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "2",
-                destination: "KAMPONG BAHRU   ",
+                destination: "KAMPONG BAHRU",
                 destinationFont: "Hanover-10",
                 scrolls: [
                 "CHANGI VILLAGE RD   ",
@@ -219,64 +220,7 @@ EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
             front: {
                 renderType: "standardService",
                 serviceNumber: "2",
-                destination: "CHANGI VILLAGE   ",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "PASIR RIS DR 1",
-                    "HOUGANG AVE 1",
-                    "LOR AH SOO",
-                    "SERANGOON CENTRAL",
-                    "BISHAN RD"
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "2",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        }
-    },
-    2: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "2",
-                destination: "KAMPONG BAHRU   ",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                "CHANGI VILLAGE RD   ",
-                "LOYANG AVE   ",
-                "LOYANG WAY   ",
-                "UPP CHANGI RD NTH/EAST   ",
-                "UPP CHANGI LINK   ",
-                "UPP CHANGI RD   ",
-                "BEDOK RD   ",
-                "NEW UPP CHANGI RD   ",
-                "CHANGI RD   ",
-                "GEYLANG RD   ",
-                "KALLANG RD   ",
-                "VICTORIA ST   ",
-                "HILL ST   ",
-                "NEW BRIDGE RD   ",
-                "KG BAHRU RD   ",
-                "SPOONER RD   "
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "2",
-                font: "Hanover-19:11",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "2",
-                destination: "CHANGI VILLAGE   ",
+                destination: "CHANGI VILLAGE",
                 destinationFont: "Hanover-10",
                 scrolls: [
                 "SPOONER RD  ",
@@ -311,7 +255,7 @@ EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
             front: {
                 renderType: "standardService",
                 serviceNumber: "3",
-                destination: "TAMPINES   ",
+                destination: "TAMPINES",
                 destinationFont: "Hanover-10",
                 scrolls: [
                 "PUNGGOL PL   ",
@@ -345,7 +289,7 @@ EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
             front: {
                 renderType: "standardService",
                 serviceNumber: "3",
-                destination: "PUNGGOL   ",
+                destination: "PUNGGOL",
                 destinationFont: "Hanover-10",
                 scrolls: [
                 "TAMPINES CTRL 1   ",
@@ -381,7 +325,7 @@ EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
             front: {
                 renderType: "standardService",
                 serviceNumber: "62",
-                destination: "SIMS AVE   ",
+                destination: "SIMS AVE",
                 destinationFont: "Hanover-10",
                 scrolls: [
                     "BISHAN RD   ",
@@ -395,7 +339,7 @@ EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "53",
+                serviceNumber: "62",
                 font: "Hanover-19:11",
                 spacing: 2
             }
@@ -403,15 +347,92 @@ EDSData.SBST = { //Add Spacing 3 spacing for Dest and Scroll
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "53",
-                destination: "> BISHAN INT",
+                serviceNumber: "62",
+                destination: "PUNGGOL",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    "PASIR RIS DR 1",
-                    "HOUGANG AVE 1",
-                    "LOR AH SOO",
-                    "SERANGOON CENTRAL",
-                    "BISHAN RD"
+                "ALJUNIED RD/MRT   ",
+                "MACPHERSON RD   ",
+                "UPP PAYA LEBAR RD   ",
+                "LORONG AH SOO   ",
+                "HOUGANG AVE 1   ",
+                "TAMPINES RD   ",
+                "HOUGANG AVE 3/2/10/6/8   ",
+                "UPP SERANGOON RD   ",
+                "SENGKANG EAST DR   ",
+                "PUNGGOL FIELD   ",
+                "PUNGGOL PL   "
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    43: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43",
+                destination: "UPPER EAST COAST",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                "PUNGGOL PL   ",
+                "PUNGGOL CTRL   ",
+                "PUNGGOL WAY   ",
+                "SENGKANG EAST RD   ",
+                "SENGKANG CTRL   ",
+                "BUANGKOK DR   ",
+                "BUANGKOK GREEN/MRT   ",
+                "YIO CHU KANG RD   ",
+                "YIO CHU KANG LK   ",
+                "SERANGOON MRT/CTRL   ",
+                "UPP SERANGOON RD   ",
+                "PAYA LEBAR RD   ",
+                "TANJONG KATONG RD   ",
+                "AMBER RD   ",
+                "MARINE PARADE RD   ",
+                "BEDOK STH AVE 1   ",
+                "UPP EAST COAST RD   "
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43",
+                destination: "PUNGGOL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                "UPP EAST COAST RD   ",
+                "BEDOK SOUTH AVE 1   ",
+                "MARINE PARADE RD   ",
+                "AMBER RD   ",
+                "GEYLANG RD   ",
+                "PAYA LEBAR RD   ",
+                "UPP PAYA LEBAR RD   ",
+                "UPP SERANGOON RD   ",
+                "SERANGOON MRT/CTRL   ",
+                "YIO CHU KANG LK   ",
+                "YIO CHU KANG RD   ",
+                "BUANGKOK GREEN/MRT   ",
+                "BUANGKOK DR   ",
+                "SENGKANG CTRL   ",
+                "SENGKANG EAST RD   ",
+                "PUNGGOL WAY   ",
+                "PUNGGOL CTRL   ",
+                "PUNGGOL PL   "
                 ],
                 scrollFont: "Hanover-7:5"
             },

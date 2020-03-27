@@ -8,22 +8,23 @@ EDSFormats.SBST = {
             text: "$serviceNumber",
             font: {
                 $$cond: {
-                    "$serviceFont === null": "LAWO-26:14",
+                    "$serviceFont === null": "LAWO-SMRT-26:9",
                     "else": "$serviceFont"
                 }
             },
             spacing: 3
         },
         destination: {
-            align: "left,bottom",
+            align: "centre-x,top",
             margin: {
                 bottom: {
                     $$cond: {
-                        "$destinationFont === 'LAWO-9'": 2,
-                        "$destinationFont === 'LAWO-11'": 2,
-                        "$destinationFont === 'LAWO-9:4'": 2,
+                        "$destinationFont === 'LAWO-9'": 0,
+                        "$destinationFont === 'LAWO-11'": 0,
+                        "$destinationFont === 'LAWO-9:4'": 0,
                         "$destinationFont === 'LAWO-8'": 0,
-                        "$destinationFont === 'Mobitec-7:4'": 10
+                        "$destinationFont === 'Mobitec-7:4'": 0,
+                        "$destinationFont === 'LAWO-SMRT-11'": 0
                     }
                 },
             },
@@ -37,12 +38,12 @@ EDSFormats.SBST = {
             }
         },
         scroll: {
-            align: "left,top",
+            align: "centre-x,top",
             margin: {
                 top: {
                     $$cond: {
-                        "$destinationFont === 'LAWO-9'": 2,
-                        "$destinationFont === 'LAWO-9'": 2,
+                        "$destinationFont === 'LAWO-9'": 0,
+                        "$destinationFont === 'LAWO-9'": 0,
                         "else": 1
                     }
                 }
@@ -73,7 +74,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
-            font: "LAWO-26:14",
+            font: "LAWO-SMRT-26:9",
             spacing: 3
         },
 
@@ -127,7 +128,7 @@ EDSFormats.SBST = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LAWO-26:14",
+            font: "LAWO-SMRT-26:9",
             spacing: 3
         },
         branding: {
@@ -201,7 +202,7 @@ EDSFormats.SBST = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LAWO-26:14",
+            font: "LAWO-SMRT-26:9",
             spacing: 3
         },
         terminateAt: {
@@ -2312,7 +2313,7 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "53A",
-                landmark: "CHANGI AIRPORT PTB2"
+                landmark: "CHANGI AIRPORT (PTB2)"
             },
             rear: {
                 renderType: "rearService",
@@ -2328,7 +2329,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "53M",
                 destination: "HOUGANG AVE 1-S'GOON CTRL",
-                destinationFont: "LAWO-9:4",
+                destinationFont: "LAWO-9",
                 scrolls: [
                     "HOUGANG AVE 1",
                     "LOR AH SOO",
@@ -4021,8 +4022,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "101",
-                destination: "S'GOON INT-BUANGKOK LK",
-                destinationFont: "LAWO-11",
+                destination: "S'GOON INT-BUANGKOK LINK",
+                destinationFont: "LAWO-9",
                 scrolls: [
                     "UPPER SERANGOON RD",
                     "HOUGANG CENTRAL",
@@ -4253,8 +4254,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "109",
-                destination: ">CHANGI VILLAGE TER",
-                destinationFont: "LAWO-11",
+                destination: "> CHANGI VILLAGE TER",
+                destinationFont: "LAWO-9",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "HOUGANG AVE 9",
