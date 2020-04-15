@@ -627,6 +627,29 @@ EDSData.GASR = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+ 541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "54",
+            destination: {
+                text: "KAMPONG GARANG CTRL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "54",
+                    top: "KAMPONG GARANG CTRL",
+                    topFont: "Mobitec-7:5:3"
+                },
+                "TEUER LANE",
+                "KGE",
+                "HORIZON LINK",
+                "KAMPONG GARANG RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     573: {
         front: {
             renderType: "standardService",
