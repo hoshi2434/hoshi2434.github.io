@@ -656,14 +656,14 @@ EDSData.GASR = {
             serviceNumber: "54",
             destination: {
                 text: "D'RESORT SAMOSA",
-                font: "Mobitec-7:5:2"
+                font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "54",
                     top: "D'RESORT SAMOSA",
-                    topFont: "Mobitec-7:5:3"
+                    topFont: "Mobitec-7:7"
                 },
                 "KAMPONG GARANG CTRL",
                 "KAMPONG GARANG RD",
