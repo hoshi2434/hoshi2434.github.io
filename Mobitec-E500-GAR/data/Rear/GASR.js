@@ -780,6 +780,44 @@ EDSData.GASR = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "54",
+            destination: {
+                text: "KAMPONG GARANG CTRL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "54",
+                    topFont: "Mobitec-LAWO-16"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    542: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "54",
+            destination: {
+                text: "D'RESORT SAMOSA",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "54",
+                    topFont: "Mobitec-LAWO-16"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     573: {
         front: {
             renderType: "standardService",
