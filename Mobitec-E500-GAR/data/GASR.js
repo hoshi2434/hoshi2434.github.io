@@ -650,6 +650,30 @@ EDSData.GASR = {
             scrollFont: "Mobitec-7:4"
         }
     },
+  542: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "54",
+            destination: {
+                text: "D'RESORT SAMOSA",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "54",
+                    top: "D'RESORT SAMOSA",
+                    topFont: "Mobitec-7:5:3"
+                },
+                "KAMPONG GARANG CTRL",
+                "KAMPONG GARANG RD",
+                "HORIZON LINK",
+                "KGE",
+                "TEUER LANE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     573: {
         front: {
             renderType: "standardService",
