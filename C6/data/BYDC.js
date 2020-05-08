@@ -206,22 +206,7 @@ EDSFormats.BYDC = {
     },
 }
 EDSData.BYDC = {    
-	    1: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "825",
-            destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
-            },
-            scrolls: [
-                "LENTOR LOOP",
-                "YIO CHU KANG"
-            ],
-            scrollFont: "Mobitec-7:7"
-        }
-    },
-    5: {
+    8: {
         front: {
             renderType: "message",
             text: "OFF SERVICE",
@@ -229,27 +214,83 @@ EDSData.BYDC = {
             spacing: 1
         }
     },
-    9: {
+    10: {
+        front: {
+            renderType: "message",
+            text: "FERRY SERVICE",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    166: {
         front: {
             renderType: "destScroll",
-            top: "ON DRIVING",
+            top: "MERRY CHRISTMAS",
             topFont: "Mobitec-7:7",
 
-            bottom: "TEST",
+            bottom: "HAPPY NEW YEAR",
             bottomFont: "Mobitec-7:7",
 
             serviceNumber: ""
         }
     },
-    13: {
+    167: {
         front: {
             renderType: "message",
-            text: "TRAINING BUS",
-            font: "Mobitec-16:8",
+            text: "GONG XI FA CAI",
+            font: "Mobitec-13:7",
             spacing: 1
         }
     },
-    117: {
+    168: {
+        front: {
+            renderType: "destScroll",
+            top: "SELAMAT",
+            topFont: "Mobitec-7:4",
+
+            bottom: "HARI RAYA",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    169: {
+        front: {
+            renderType: "message",
+            text: "HAPPY DEEPAVALI",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    170: {
+        front: {
+            renderType: "destScroll",
+            top: "HAPPY NATIONAL DAY",
+            topFont: "Mobitec-7:4",
+
+            bottom: "SINGAPORE",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+   199: {
+        front: {
+            renderType: "message",
+            text: "ON TEST",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+   2: {
+        front: {
+            renderType: "message",
+            text: "ANG MO KIO DEPOT",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    4: {
         front: {
             renderType: "logo",
             image: "SMRT",
@@ -261,8 +302,8 @@ EDSData.BYDC = {
             renderType: "standardService",
             serviceNumber: "825",
             destination: {
-                text: "LENTOR LOOP",
-                font: "Mobitec-7:5:1"
+                text: "LENTOR LOOP via",
+                font: "Mobitec-6:5"
             },
             scrolls: [
                 "SEASONS PARK",
@@ -278,60 +319,21 @@ EDSData.BYDC = {
             serviceNumber: "825",
             destination: {
                 text: "YIO CHU KANG MRT",
-                font: "Mobitec-7:5:1"
+                font: "Mobitec-7:5:1-TEMP"
             },
             scrolls: [
                 "OPP SEASONS PK",
                 "OPP THOMSON GR",
-                "OPP CASTLE GRN"
-            ],
-            scrollFont: "Mobitec-6:5"
+          {
+            renderType: "destScroll",
+            top: "YIO CHU KANG MRT",
+            topFont: "Mobitec-7:5:1-TEMP",
+
+            bottom: "OPP CASTLE GREEN",
+            bottomFont: "LECIP-6:4",
+
+            serviceNumber: "825"
         }
-    },
-    8253: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "825",
-            destination: {
-                text: "LENTOR LOOP",
-                font: "Mobitec-7:5:1"
-            },
-            scrolls: [
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "825",
-                    top: "THIS BUS",
-                    bottom: "IS FULL",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                 },
-                "SEASONS PARK",
-                "THOMSON GROVE",
-                "CASTLE GREEN"
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    },
-    8254: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "825",
-            destination: {
-                text: "YIO CHU KANG MRT",
-                font: "Mobitec-7:5:1"
-            },
-            scrolls: [
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "825",
-                    top: "THIS BUS",
-                    bottom: "IS FULL",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                 },
-                "OPP SEASONS PK",
-                "OPP THOMSON GR",
-                "OPP CASTLE GRN"
             ],
             scrollFont: "Mobitec-6:5"
         }
