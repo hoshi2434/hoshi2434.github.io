@@ -2,7 +2,7 @@ window.frontEDS = null; window.controllerPreview = null;
 
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'BYDC';
 
-let startupCodes = {'BYDC': 117}
+let startupCodes = {'BYDC': 4}
 
 let EDSFormats = {};
 let EDSData = {};
