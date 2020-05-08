@@ -1,8 +1,9 @@
 # plaggeds.github.io
-Updated: 15 April 2020
+Updated: 8 May 2020
 
-State: UNDER TESTING. IF YOU ARE GIVEN THIS LINK, DO NOT LEAK.
+State: UNDER TESTING. Most data incorrect and/or broken. IF YOU ARE GIVEN THIS LINK, DO NOT LEAK.
 
 Version 15042020:
 
->Added svc 54 in GAR eds
+>Colour LECIP now works
+>C6 data now matches irl
