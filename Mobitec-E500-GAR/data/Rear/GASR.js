@@ -459,10 +459,8 @@ EDSData.GASR = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "Instr-",
-                    bottom: "uction",
-                    topFont: "Mobitec-7:4",
-                    bottomFont: "Mobitec-7:4"
+                    top: "Instruction"
+                    topFont: "LECIP-6:3"
                 },
                 {
                     renderType: "destScroll",
@@ -483,10 +481,8 @@ EDSData.GASR = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "Pat-",
-                    bottom: "ience",
-                    topFont: "Mobitec-7:4",
-                    bottomFont: "Mobitec-7:4"
+                    top: "Patience"
+                    topFont: "LECIP-6:3"
                 }
             ],
             scrollFont: "Mobitec-7:5:3"
@@ -549,13 +545,45 @@ EDSData.GASR = {
     },
     5556: {
         front: {
-            renderType: "destScroll",
-            top: "Route",
-            bottom: "Trg",
-            topFont: "Mobitec-7:4",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Route Training",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Route",
+                    bottom: "Training",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "LECIP-6:3"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Thank",
+                    bottom: "You",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "For",
+                    bottom: "Your",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Patience"
+                    topFont: "LECIP-6:3"
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     10: {
