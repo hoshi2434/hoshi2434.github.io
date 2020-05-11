@@ -459,7 +459,7 @@ EDSData.GASR = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "Instruction"
+                    top: "Instruction",
                     topFont: "LECIP-6:3"
                 },
                 {
@@ -481,7 +481,7 @@ EDSData.GASR = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "Patience"
+                    top: "Patience",
                     topFont: "LECIP-6:3"
                 }
             ],
@@ -579,7 +579,7 @@ EDSData.GASR = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "Patience"
+                    top: "Patience",
                     topFont: "LECIP-6:3"
                 }
             ],
