@@ -267,7 +267,7 @@ EDSData.SBST = {
             }
         }
     },
-    87: {
+    871: {
         1: {
             front: {
                 renderType: "standardService",
@@ -367,6 +367,59 @@ EDSData.SBST = {
                     "OPP TELOK BLANGAH STN",
                     "BEF CHR COMMUNITY CHAPEL",
                     "BEF SEAH IM RD",
+                    "HARBOURFRONT INT"
+                ]
+            }
+        }
+    },
+   1233: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "123M",
+                destination: {
+                    text: "HARBOURFRONT-T.BAHRU",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                "SEAH IM RD",
+                "TELOK BANGLAH RD",
+                "KG BAHRU RD",
+                "LOWER DELTA RD",
+                "BT PURMEI AVE",
+                "TIONG BAHRU RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "123M",
+                destination: "HARBOURFRONT INT",
+                scrolls: [
+                    "HARBOURFRONT INT",
+                    "HARBOURFRONT STN EXIT A",
+                    "OPP VIVO CITY",
+                    "BEF MT FABER LODGE",
+                    "THE PEARL AT MT FABER",
+                    "BLK 40"
+                    "OPP BLK 109",
+                    "BLK 109",
+                    "ST. THERESA'S CONVENT",
+                    "CENDEX CTR",
+                    "BLK 129",
+                    "TIONG BAHRU STN",
+                    "BLK 1",
+                    "BLK 18",
+                    "CTRL GREEN CONDO",
+                    "OPP TIONG BAHRU STN",
+                    "BLK 25B",
+                    "OPP CENDEX CTR",
+                    "OPP ST. THERESA'S CONVENT",
+                    "OPP BLK 109",
+                    "BLK 109",
+                    "BLK 105",
+                    "OPP MT FABER LODGE",
+                    "HARBOURFRONT STN/VIVOCITY",
                     "HARBOURFRONT INT"
                 ]
             }
