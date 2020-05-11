@@ -327,7 +327,7 @@ EDSData.BYDC = {
           {
             renderType: "destScroll",
             top: "YIO CHU KANG MRT",
-            topFont: "Mobitec-7:5:1-TEMP",
+            topFont: "Mobitec-6:5", //TEMPORARY
 
             bottom: "OPP CASTLE GREEN",
             bottomFont: "LECIP-6:4",
