@@ -2039,16 +2039,8 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "83",
-                    top: "SENGKANG",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "83",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    top: "Sengkang",
+                    topFont: "Mobitec-13:10"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL CENTRAL",
@@ -2074,16 +2066,8 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "83",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "83",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    top: "Punggol",
+                    topFont: "Mobitec-13:10"
                 },
                 "SENGKANG SQUARE",
                 "SENGKANG EAST ROAD",
