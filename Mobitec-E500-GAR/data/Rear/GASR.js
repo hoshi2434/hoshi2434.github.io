@@ -482,7 +482,7 @@ EDSData.GASR = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "Patience",
-                    topFont: "LECIP-6:3"
+                    topFont: "Mobitec-6:5"
                 }
             ],
             scrollFont: "Mobitec-7:5:3"
@@ -580,7 +580,7 @@ EDSData.GASR = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "Patience",
-                    topFont: "LECIP-6:3"
+                    topFont: "Mobitec-6:5"
                 }
             ],
             scrollFont: "Mobitec-7:5:3"
