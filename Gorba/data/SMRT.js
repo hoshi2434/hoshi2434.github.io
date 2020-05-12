@@ -176,7 +176,7 @@ EDSFormats.SMRT = {
                     hold = true;
 
                     let frameCount = scrollWidth + matrix.width - 7;
-                    let timeBetweenFrames = 10;
+                    let timeBetweenFrames = 30;
 
                     let frameNum = 0;
                     __scrollInterval__ = setInterval(() => {
