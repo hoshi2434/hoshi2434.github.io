@@ -401,7 +401,7 @@ EDSData.SBST = {
                     "OPP VIVO CITY",
                     "BEF MT FABER LODGE",
                     "THE PEARL AT MT FABER",
-                    "BLK 40"
+                    "BLK 40",
                     "OPP BLK 109",
                     "BLK 109",
                     "ST. THERESA'S CONVENT",
