@@ -158,7 +158,7 @@ window.addEventListener('load', () => {
     document.getElementById('button-down').addEventListener('click', onDownPressed);
 
     document.getElementById('button-no').addEventListener('click', onCrossPressed);
-    document.getElementById('button-yes').addEventListener('click', onTickPressed);
+    document.getElementById('button-yes').addEventListener('hold', onTickPressed);
 
     for (let i = 0; i <= 9; i++) {
         document.getElementById('button-' + i).addEventListener('click', onNumberPressed.bind(null, i));
