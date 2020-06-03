@@ -138,11 +138,6 @@ function onTickPressed() {
     if (currentScreen === 'controller-screen-dest') {
         setCode(currentScreenCode, currentOperator);
         setScreen('controller-screen-home');
-    else (currentScreen == 'controller-screen-home') {
-        setScreen('controller-screen-dest');
-        drawSelectionScreen(1);
-        currentScreenCode = 1;
-        }
     }
 }
 
