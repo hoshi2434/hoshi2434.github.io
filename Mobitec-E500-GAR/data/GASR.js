@@ -640,7 +640,7 @@ EDSData.GASR = {
                     renderType: "gar-logo",
                     serviceNumber: "",
                     top: "       Staff Shuttle Bus",
-                    bottom: "       KGITH <> SAMOSA"
+                    bottom: "        KGITH <> SAMOSA"
                 }
             ],
             scrollFont: "Mobitec-7:5:3"
