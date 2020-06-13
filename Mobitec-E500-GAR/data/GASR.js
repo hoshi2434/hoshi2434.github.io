@@ -627,6 +627,25 @@ EDSData.GASR = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    16: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "KG Staff Shuttle",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "gar-logo",
+                    serviceNumber: "",
+                    top: "       Staff Shuttle Bus",
+                    bottom: "    KGITH <> SAMOSA"
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
  541: {
         front: {
             renderType: "standardService",
