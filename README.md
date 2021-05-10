@@ -1,10 +1,10 @@
 # plaggeds.github.io
-Updated: 11 May 2020
+Updated: 11 May 2021
 
-Dev notes: Most likely discontinued. Too many broken codes and missing route data. If I have the time, I will occasionally fix them.
+Dev notes: DISCONTINUED DO NOT USE
 
-State: UNDER TESTING. Most data incorrect and/or broken. IF YOU ARE GIVEN THIS LINK, DO NOT LEAK.
+State: Discontinued.
 
-Version 06112020:
+Version 11052020:
 
->Try not to use this anymore. Instead, use the more reliable EDS Simulator, tinyurl.com/richtigsauerapps If there is a demand for a web version, I'll continue updating code. Maybe a collab with RichtigSauer soon? (I doubt but ok)
+>Do not to use this anymore. Instead, use the more reliable EDS Simulator, tinyurl.com/richtigsauerapps.
