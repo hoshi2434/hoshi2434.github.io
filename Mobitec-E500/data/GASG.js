@@ -2889,6 +2889,29 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    3841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "384",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "384",
+                    top: "PUNGGOL INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "PUNGGOL PL",
+                "PUNGGOL CTRL",
+                "PUNGGOL WAY",
+                "NORTHSHORE DRIVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     5181: {
         front: {
             renderType: "standardService",
