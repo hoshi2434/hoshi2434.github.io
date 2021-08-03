@@ -3,7 +3,7 @@ Updated: 11 May 2021
 
 Dev notes: DISCONTINUED DO NOT USE
 
-State: Discontinued.
+State: Discontinued. For private use only.
 
 Version 11052020:
 
