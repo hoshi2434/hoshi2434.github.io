@@ -1796,6 +1796,66 @@ EDSData.TTSG = {
             bottomFont: "Hanover-6:3",
             image: "mrt"
         }
+    },
+  9902: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "990",
+            destination: "BUKIT BATOK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "BUKIT BATOK",
+                    image: "mrt"
+                },
+                "BOON LAY WAY",
+                "TOH GUAN RD",
+                "JURONG EAST CTRL",
+                "BUKIT BATOK AVE 1",
+                "BUKIT BATOK EAST AVE 6/3",
+                "BUKIT BATOK CTRL"
+            ]
+        }
+    },
+ 9901: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "990",
+            destination: "JURONG EAST",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "974",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "JURONG EAST"
+                },
+                "BUKIT BATOK CTRL",
+                "BUKIT BATOK EAST AVE 3/6",
+                "BUKIT BATOK AVE 1",
+                "JURONG EAST CTRL",
+                "TOH GUAN RD",
+                "BOON LAY WAY",
+                "JURONG EAST GATEWAY"
+            ]
+        }
     }
 }
 
