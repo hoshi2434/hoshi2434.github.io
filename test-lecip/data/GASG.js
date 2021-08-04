@@ -525,10 +525,10 @@ EDSData.GASG = {
     1111: {
         front: {
             renderType: "destScroll",
-            top: "Sorry!",
+            top: "SORRY!",
             topFont: "LAWO-12:5",
 
-            bottom: "Not in Service",
+            bottom: "NOT IN SERVICE",
             bottomFont: "LAWO-12:5",
 
             serviceNumber: ""
