@@ -11,7 +11,7 @@ let EDSExtras = {};
 
 let frontEDSWidth = 144;
 
-let edsHeight = 16;
+let edsHeight = 24;
 
 function generateLEDCssCode() {
     let cssData =
