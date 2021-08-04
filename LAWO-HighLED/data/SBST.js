@@ -4401,6 +4401,29 @@ EDSData.SBST = {
             }
         }
     },
+    114: {//TODO SCROLLS
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "114",
+                destination: "BUANGKOK STN-BUANGKOK CRES",
+                destinationFont: "LAWO-9:4",
+                scrolls: [
+                    'SENGKANG CTRL',
+                    'BUANGKOK DR',
+                    'BUANGKOK LINK',
+                    'BUANGKOK CRES'
+                ],
+                scrollFont: "LAWO-9"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "114",
+                font: "LAWO-26:14",
+                spacing: 2
+            }
+        }
+    },
     115: {// TODO:  SCROLLS
         1: {
             front: {
@@ -4415,7 +4438,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "114",
+                serviceNumber: "115",
                 font: "LAWO-26:14",
                 spacing: 2
             }
