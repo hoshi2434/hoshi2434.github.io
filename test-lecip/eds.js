@@ -1,8 +1,8 @@
 window.frontEDS = null; window.controllerPreview = null;
 
-let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'GASR';
+let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'GASG';
 
-let startupCodes = {'GASR': 1}
+let startupCodes = {'GASG': 1}
 
 let EDSFormats = {};
 let EDSData = {};
