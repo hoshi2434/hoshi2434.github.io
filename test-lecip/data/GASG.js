@@ -1433,14 +1433,6 @@ EDSData.GASG = {
                     top: "UPP EAST COAST",
                     topFont: "Mobitec-13:7"
                 },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PUNGGOL PL",
                 "PUNGGOL CTRL",
                 "PUNGGOL WAY",
@@ -1476,14 +1468,6 @@ EDSData.GASG = {
                     serviceNumber: "43",
                     top: "PUNGGOL",
                     topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
                 },
                 "UPP EAST COAST RD",
                 "BEDOK SOUTH AVE 1",
