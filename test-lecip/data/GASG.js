@@ -113,7 +113,7 @@ EDSFormats.GASG = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "Mobitec-LAWO-16",
+            font: "LAWO-26:12",
             spacing: 2
         },
         destination: {
@@ -249,7 +249,7 @@ EDSFormats.GASG = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "Mobitec-LAWO-16",
+            font: "LAWO-26:12",
             spacing: {
                 $$cond: {
                     "$spacing === null" : 2,
