@@ -22,8 +22,7 @@ EDSFormats.SBST = {
                         "$destinationFont === 'LECIP-6:3'": 3,
                         "$destinationFont === 'LECIP-6:4'": 3,
                         "$destinationFont === 'LECIP-7:5'": 2,
-                        "$destinationFont === 'LECIP-10'": 0,
-                        "$destinationFont === 'LAWO-9:6'": 0
+                        "$destinationFont === 'LECIP-10'": 0
                     }
                 },
             },
@@ -272,28 +271,6 @@ EDSData.SBST = {
                 serviceNumber: "1N",
                 font: "LECIP-20:12",
                 spacing: 2
-            }
-        }
-    },
-    2: { //I need fonts pls
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "0305",
-                destinationFont: "LAWO-9:6",
-                scrolls: [
-                    "V2.8"
-                ],
-                scrollFont: "LAWO-9:6"
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "V2.8",
-                topFont: "LECIP-7:5",
-
-                bottom: "0305",
-                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -2246,8 +2223,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "53",
-                destination: "> CHANGI AIRPORT PTB 2",
-                destinationFont: "LECIP-7:5",
+                destination: "> CHANGI AIRPORT",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "BISHAN RD",
                     "SERANGOON CENTRAL",
@@ -2693,30 +2670,6 @@ EDSData.SBST = {
             }
         }
     },
-    62: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "62",
-                destination: "PUNGGOL-SIMS AVE",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    'ERROR',
-                    'DATA NOT COMPLETE',
-                    'ENTER A DIFF CODE',
-                    'LIMITED STOPS',
-                    'A RARE CAMEO'
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "62",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
     63: {
         1: {
             front: {
@@ -2959,7 +2912,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "70",
-                destination: "> YIO CHU KANG INT",
+                destination: "> YIO CHU KANG TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "NICOLL HIGHWAY",
@@ -4470,36 +4423,6 @@ EDSData.SBST = {
             }
         }
     },
-    "117A": {
-        1: {
-            front: {
-                renderType: "swt",
-                serviceNumber: "117A",
-                landmark: "YISHUN AVE 2 (BEF KHATIB STN)"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "117A",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    "117B": {
-        1: {
-            front: {
-                renderType: "swt",
-                serviceNumber: "117B",
-                landmark: "YISHUN AVE 2 (OPP YISHUN STN)"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "117B",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
     120: { //todo font
         1: {
             front: {
@@ -5351,8 +5274,8 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "139",
-                font: "LECIP-20:9",
+                serviceNumber: "139M",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -5592,14 +5515,14 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "147e",
-                image: "fastForward",
-                destination: "FastForward 147e"
+                image: "express",
+                destination: "EXPRESS 147e"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
                 font: "LECIP-20:6", // check rear font for all 4 digit express
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
@@ -8749,7 +8672,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "400",
                 serviceFont: "LECIP-20:9",
-                destination: "SHENTON WY-M.COASTAL DR",
+                destination: "SHENTON WY TER-M.COASTAL",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'MARINA BOULEVARD',
@@ -8891,36 +8814,6 @@ EDSData.SBST = {
                 serviceNumber: "410W",
                 font: "LECIP-20:6",
                 spacing: 1
-            }
-        }
-    },
-    "501X": {
-        1: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "501X",
-                image: "express",
-                destination: "EXPRESS 501X"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "501X",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "501X",
-                image: "express",
-                destination: "EXPRESS 501X"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "501X",
-                font: "LECIP-20:9",
-                spacing: 2
             }
         }
     },
@@ -9291,55 +9184,6 @@ EDSData.SBST = {
                 serviceNumber: "JK-13",
                 font: "LECIP-14:6",
                 spacing: 1
-            }
-        }
-    },
-    "644U": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "644U",
-                destination: "CHARTERED",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    'WELCOME ABOARD',
-                    'KOVAN HUB',
-                    'PUNGGOL STN...',
-                    '...TAXI STAND',
-                    'YISHUN STN...',
-                    '...TAXI STAND',
-                    'EXPRESS',
-                    'PHOTOSHOOT',
-                    'EXPRESS',
-                    'HARBOURFRONT',
-                    'THIS BUS IS...',
-                    'NOT FOR PUBLIC'
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "BARSE",
-                topFont: "LECIP-7:5",
-
-                bottom: "TOUR",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "644U",
-                destination: "OUT OF SVC",
-                font: "LECIP-10:9",
-            },
-            rear: {
-                renderType: "twoline",
-                top: "OUT OF",
-                topFont: "LECIP-7:5",
-
-                bottom: "SERVICE",
-                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -10760,32 +10604,16 @@ EDSData.SBST = {
                 text: "FREE BRIDGING BUS",
                 font: "LECIP-20:9",
                 spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "BRIDGING",
-                topFont: "LECIP-7:4",
-
-                bottom: "BUS",
-                bottomFont: "LECIP-7:4"
-            }
+            } // check
         }
     },
     9999: {
         1: {
             front: {
                 renderType: "message",
-                text: "VER. 31JAN20-DD",
+                text: "VER. 09JUN19-DD",
                 font: "LECIP-14:6",
                 spacing: 1
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "VER. DD",
-                topFont: "LECIP-7:4",
-
-                bottom: "310120",
-                bottomFont: "LECIP-7:4"
             }
         }
     },
