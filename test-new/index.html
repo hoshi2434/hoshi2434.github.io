@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='/matrix.js'></script>
+    <script src='/fonts.js'></script>
+    <script src='/eds-renderer.js'></script>
+    <script src='/matrix-primitives.js'></script>
+    <script src='/LECIP-B9TL/eds.js'></script>
+
+    <script src='/LECIP-B9TL/data/SBST.js'></script>
+    <script src='/LECIP-B9TL/data/SMRT.js'></script>
+    <link rel='stylesheet' href='/LECIP-B9TL/css/eds.css'>
+    <link rel='stylesheet' href='/LECIP-B9TL/css/controller.css'>
+    <link rel='stylesheet' href='/LECIP-B9TL/css/style.css'>
+
+    <script src='/LECIP-B9TL/js/controller.js'></script>
+    <style id='led-style'>
+    </style>
+
+
+    <meta name='viewport' content='user-scalable=no' />
+</head>
+
+<body>
+    <div id='top-row'>
+        <div id='controller'>
+            <div id='controller-container'>
+                <div id='output-section' class='controller-section'>
+                    <div id='output-screen'>
+                        <pre id='output-line1'></pre>
+                        <pre id='output-line2'></pre>
+                    </div>
+                </div>
+                <div id='keypad-section' class='controller-section'>
+                    <div id='keypad-container'>
+                        <div id='keypad-f4' class='keypad-function'>F4</div>
+                        <div id='keypad-1' class='keypad-number'>1</div>
+                        <div id='keypad-2' class='keypad-number'>2</div>
+                        <div id='keypad-3' class='keypad-number'>3</div>
+
+                        <div id='keypad-f3' class='keypad-function'>F3</div>
+                        <div id='keypad-4' class='keypad-number'>4</div>
+                        <div id='keypad-5' class='keypad-number'>5</div>
+                        <div id='keypad-6' class='keypad-number'>6</div>
+
+                        <div id='keypad-up' class='keypad-arrow'><div class='arrow-up'></div></div>
+                        <div id='keypad-7' class='keypad-number'>7</div>
+                        <div id='keypad-8' class='keypad-number'>8</div>
+                        <div id='keypad-9' class='keypad-number'>9</div>
+
+                        <div id='keypad-down' class='keypad-arrow'><div class='arrow-down'></div></div>
+                        <div id='keypad-clr'><span>CLR</span></div>
+                        <div id='keypad-0' class='keypad-number'>0</div>
+                        <div id='keypad-ent'><span>ENT</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='rear-eds-container'>
+            <div id='rear-eds'></div>
+        </div>
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
+        </div>
+    </div>
+</body>
+</html>
