@@ -128,7 +128,8 @@ function startup() {
     var textSets = [
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
-        ['LECIP', 'LED Destination']
+        ['Running syschk', 'Please wait'],
+        ['LECIP', 'Displays']
     ];
 
     textSets.forEach((lines, index) => {
