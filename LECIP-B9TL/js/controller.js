@@ -129,6 +129,7 @@ function startup() {
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
         ['Running syschk', 'Please wait'],
+        ['syschk success', 'Booting...'],
         ['LECIP', 'Displays']
     ];
 

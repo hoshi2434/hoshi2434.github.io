@@ -122,16 +122,18 @@ function setScreenText(line1, line2) {
 }
 
 function showRouteInput() {
-    setScreenText('Choose Code:', `           ${inputs.join('')}`);
+    setScreenText('Enter Code:', `           ${inputs.join('')}`);
 }
 
 function startup() {
     var textSets = [
-        ['BOOT SEQUENCE', ''],
-        ['LAWO DISPLAYS', 'LUMINATOR TECH'],
-        ['System Check...', ' '],
-        ['Sign 1: OK', 'Sign 2: OK'],
-        ['Welcome!', 'Pls Drive Safe!']
+        ['Adr 1.', 'SYSTEM OK'],
+        ['VERSION R312', 'BIOS:211'],
+        ['SIGNS OK', 'DATA OK'],
+        ['LAWO DISPLAYS', 'BOOTING...'],
+        ['LAWO DISPLAYS', 'BOOTING...'],
+        ['LAWO DISPLAYS', 'BOOTING...'],
+        ['SYSTEM BOOTED', 'STARTING DATA']
     ];
 
     textSets.forEach((lines, index) => {
