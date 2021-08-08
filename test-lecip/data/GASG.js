@@ -417,11 +417,11 @@ EDSData.GASG = {
     2: {
         front: {
             renderType: "boot",
-            top: "MOBITEC DISPLAYS",
-            topFont: "Mobitec-7:4",
+            top: "V301",
+            topFont: "LECIP-11",
 
-            bottom: "Version 070320-GAS",
-            bottomFont: "Mobitec-7:4",
+            bottom: "0450",
+            bottomFont: "LECIP-11",
 
             serviceNumber: ""
         }
@@ -1673,23 +1673,9 @@ EDSData.GASG = {
             serviceNumber: "62",
             destination: {
                 text: "SIMS AVE",
-                font: "Mobitec-7:7"
+                font: "LECIP-11"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62",
-                    top: "SIMS AVE",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PUNGGOL PL",
                 " ",
                 "PUNGGOL FIELD",
@@ -1726,23 +1712,9 @@ EDSData.GASG = {
             serviceNumber: "62",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "LECIP-11"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "ALJUNIED RD/MRT",
                 " ",
                 "MACPHERSON RD",
@@ -1775,25 +1747,9 @@ EDSData.GASG = {
             serviceNumber: "62A",
             destination: {
                 text: "ALJUNED MRT",
-                font: "Mobitec-7:7"
+                font: "LECIP-11"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62A",
-                    top: "ENDS AT",
-                    bottom: "ALJUNED MRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62A",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PUNGGOL PL",
                 "PUNGGOL FIELD",
                 "PUNGGOL EAST",
@@ -2033,15 +1989,9 @@ EDSData.GASG = {
             serviceNumber: "83",
             destination: {
                 text: "SENGKANG",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "83",
-                    top: "Sengkang",
-                    topFont: "Mobitec-13:10"
-                },
                 " ",
                 "PUNGGOL PLACE",
                 " ",
@@ -2059,7 +2009,7 @@ EDSData.GASG = {
                 " ",
                 "SENGKANG SQUARE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "Hanover-8"
         }
     },
     832: {
@@ -2068,15 +2018,9 @@ EDSData.GASG = {
             serviceNumber: "83",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "83",
-                    top: "Punggol",
-                    topFont: "Mobitec-13:10"
-                },
                 " ",
                 "SENGKANG SQUARE",
                 " ",
@@ -2254,16 +2198,10 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "118",
             destination: {
-                text: "CHANGI BUISNESS PARK",
-                font: "Mobitec-7:5:2"
+                text: "CHANGI BIZ PARK",
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "118",
-                    top: "Changi Buisness Park",
-                    topFont: "Mobitec-7:5:2"
-                },
                 " ",
                 "PUNGGOL PLACE",
                 " ",
@@ -2294,15 +2232,9 @@ EDSData.GASG = {
             serviceNumber: "118",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "LECIP-11"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "118",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
                 " ",
                 "CHANGI SOUTH AVE 1",
                 " ",
@@ -2389,15 +2321,9 @@ EDSData.GASG = {
             serviceNumber: "119",
             destination: {
                 text: "KOVAN",
-                font: "Mobitec-7:7"
+                font: "LECIP-11"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "119",
-                    top: "KOVAN",
-                    topFont: "Mobitec-13:7"
-                },
                 " ",
                 "PUNGGOL PLACE",
                 " ",
@@ -2430,15 +2356,9 @@ EDSData.GASG = {
             serviceNumber: "119",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "LECIP-11"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "119",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
                 " ",
                 "UPP SERANGOON ROAD",
                 " ",
