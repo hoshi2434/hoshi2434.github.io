@@ -2170,7 +2170,10 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "YIO CHU KANG RD"
+                    "YIO CHU KANG RD",
+                    "HOUGANG AVE 2",
+                    "HOUGANG AVE 3",
+                    "JLN EUNOS, MRT"
                 ],
                 scrollFont: 'Arial-8'
             },
