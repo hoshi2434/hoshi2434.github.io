@@ -1746,24 +1746,13 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "62A",
             destination: {
-                text: "ALJUNED MRT",
+                text: "TERMINATES AT",
                 font: "LECIP-11"
             },
             scrolls: [
-                "PUNGGOL PL",
-                "PUNGGOL FIELD",
-                "PUNGGOL EAST",
-                "SENGKANG EAST DR",
-                "UPP SERANGOON RD",
-                "HOUGANG AVE 8/6/10/2/3",
-                "TAMPINES RD",
-                "HOUGANG AVE 1",
-                "LORONG AH SOO",
-                "UPP PAYA LEBAR RD",
-                "MACPHERSON RD",
-                "ALJUNIED RD/MRT"
+                "ALJUNID MRT"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-11"
         }
     },
     624: {
