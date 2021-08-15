@@ -1,10 +1,11 @@
 # plaggeds.github.io
-Updated: 11 May 2021
+Updated: 15 August 2021
 
-Dev notes: DISCONTINUED DO NOT USE
+Dev notes: Still updating for now till other project finishes
 
-State: Discontinued. For private use only.
+State: Slow Progress
 
-Version 11052020:
+Version 15082020:
 
 >Do not to use this anymore. Instead, use the more reliable EDS Simulator, tinyurl.com/richtigsauerapps.
+>Periodically update Data.
