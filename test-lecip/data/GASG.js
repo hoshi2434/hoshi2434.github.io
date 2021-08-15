@@ -356,170 +356,14 @@ EDSData.GASG = {
     },
     1: {
         front: {
-            renderType: "destScroll",
-            top: "",
-            topFont: "Mobitec-7:7",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    5: {
-        front: {
-            renderType: "destScroll",
-            top: "LTG EMEA Matrix Renderer",
-            topFont: "Mobitec-7:4",
-
-            bottom: "A1 R144x16",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    10: {
-        front: {
-            renderType: "destScroll",
-            top: "Bus Broken Down!",
-            topFont: "Mobitec-7:7",
-
-            bottom: "Please Do Not Board!",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    8: {
-        front: {
             renderType: "boot",
-            top: "USB STICK FOUND! NEW DATA FOUND!",
-            topFont: "Mobitec-7:4",
+            top: "V315",
+            topFont: "LAWO-12:5",
 
-            bottom: "GETTING DATA... DO NOT REMOVE!",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    9: {
-        front: {
-            renderType: "boot",
-            top: "SHUTTING DOWN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "REPLACING DATA WITH NEW DATA!",
-            bottomFont: "Mobitec-7:4",
+            bottom: "0308",
+            bottomFont: "LAWO-12:5",
 
             serviceNumber: ""
-        }
-    },
-    2: {
-        front: {
-            renderType: "boot",
-            top: "V301",
-            topFont: "LECIP-11",
-
-            bottom: "0450",
-            bottomFont: "LECIP-11",
-
-            serviceNumber: ""
-        }
-    },
-    3: {
-        front: {
-            renderType: "boot",
-            top: "CHECKING CONTROLLER AND DATA",
-            topFont: "Mobitec-7:4",
-
-            bottom: "UNDERGOING SYSTEM CHECK",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    4: {
-        front: {
-            renderType: "boot",
-            top: "SYSTEM CHECK PASS",
-            topFont: "Mobitec-7:4",
-
-            bottom: "COMMENCING BOOT SEQUENCE",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    7: {
-        front: {
-            renderType: "boot",
-            top: "SYSTEM AT CRITICAL CONDITION",
-            topFont: "Mobitec-7:4",
-
-            bottom: "DATA AND SIGN(S) MAY BE CORRUPT",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    6: {
-        front: {
-            renderType: "boot",
-            top: "SHUTTING DOWN",
-            topFont: "Mobitec-7:4",
-
-            bottom: "SYSTEM AT LOW POWER",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
-        }
-    },
-    11: {
-        front: {
-            renderType: "destScroll",
-            top: "Bus Under Inspection",
-            topFont: "Mobitec-7:7",
-
-            bottom: "PLEASE KEEP CLEAR!",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
-    12: {
-        front: {
-            renderType: "destScroll",
-            top: "恭喜发财",
-            topFont: "Chinese-15:15",
-
-            bottom: "",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: "113"
-        }
-    },
-    101: {
-        front: {
-            renderType: "autoBus",
-            top: "    Autonomous Vehicle",
-            topFont: "Mobitec-7:4",
-
-            bottom: "    On Trial",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: " 1"
-        }
-    },
-    201: {
-        front: {
-            renderType: "autoBus",
-            top: "    Autonomous Vehicle",
-            topFont: "Mobitec-7:4",
-
-            bottom: "    On Trial",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: " 2"
         }
     },
     1111: {
@@ -534,38 +378,14 @@ EDSData.GASG = {
             serviceNumber: ""
         }
     },
-    6969: {
-        front: {
-            renderType: "destScroll",
-            top: "I PLAY POKEMON GO",
-            topFont: "Mobitec-7:7",
-
-            bottom: "EVERYDAY",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: "69"
-        }
-    },
-    9999: {
-        front: {
-            renderType: "destScroll",
-            top: "Ver 26.01.2020-Mobi",
-            topFont: "Mobitec-7:7",
-
-            bottom: "MOBITEC THE BEST",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
-        }
-    },
     3333: {
         front: {
             renderType: "routeTRG",
             top: "DRIVER UNDER",
-            topFont: "Mobitec-7:7",
+            topFont: "LAWO-12:5",
 
             bottom: "INSTRUCTION",
-            bottomFont: "Mobitec-7:7",
+            bottomFont: "LAWO-12:5",
 
             serviceNumber: ""
         }
@@ -574,7 +394,7 @@ EDSData.GASG = {
         front: {
             renderType: "destScroll",
             top: "On Test",
-            topFont: "Mobitec-10:7",
+            topFont: "LAWO-12:5",
 
             serviceNumber: ""
         }
@@ -613,37 +433,56 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9999: {
+        front: {
+            renderType: "destScroll",
+            top: "VER. 16082021-DD",
+            topFont: "LAWO-12:5",
+
+            serviceNumber: ""
+        }
+    },
     21: {
         front: {
             renderType: "standardService",
             serviceNumber: "2",
             destination: {
                 text: "KAMPONG BAHRU",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "2",
-                    top: "Kampong Bahru",
-                    topFont: "Mobitec-12"
-                },
                 "CHANGI VILLAGE RD",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "LOYANG WAY",
+                " ",
                 "UPP CHANGI RD NTH/EAST",
+                " ",
                 "UPP CHANGI LINK",
+                " ",
                 "UPP CHANGI RD",
+                " ",
                 "BEDOK RD",
+                " ",
                 "NEW UPP CHANGI RD",
+                " ",
                 "CHANGI RD",
+                " ".
                 "GEYLANG RD",
+                " ",
                 "KALLANG RD",
+                " ",
                 "VICTORIA ST",
+                " ",
                 "HILL ST",
+                " ",
                 "NEW BRIDGE RD",
+                " ",
                 "KG BAHRU RD",
-                "SPOONER RD"
+                " ",
+                "SPOONER RD",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -654,31 +493,41 @@ EDSData.GASG = {
             serviceNumber: "2",
             destination: {
                 text: "CHANGI VILLAGE",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "2",
-                    top: "CHANGI VILLAGE",
-                    topFont: "Mobitec-16:8"
-                },
                 "SPOONER RD",
+                " ",
                 "KG BAHRU RD",
+                " ".
                 "EU TONG SEN ST",
+                " ",
                 "HILL ST",
+                " ",
                 "VICTORIA ST",
+                " ",
                 "KALLANG RD",
+                " ",
                 "SIMS AVE",
+                " ",
                 "SIMS AVE EAST",
+                " ",
                 "NEW UPP CHANGI RD",
+                " ",
                 "BEDOK RD",
+                " ",
                 "UPP CHANGI RD",
+                " ",
                 "UPP CHANGI LK",
+                " ",
                 "UPP CHANGI RD EAST/NTH",
+                " ",
                 "LOYANG WAY",
+                " ",
                 "LOYANG AVE",
-                "CHANGI VILLAGE RD"
+                " ",
+                "CHANGI VILLAGE RD",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -689,32 +538,43 @@ EDSData.GASG = {
             serviceNumber: "3",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "3",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-16:8"
-                },
                 "TAMPINES CTRL 1",
+                " ",
                 "TAMPINES AVE 5/4",
+                " ",
                 "TAMPINES ST 21",
+                " ",
                 "TAMPINES AVE 2/7",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "PASIR RIS DR 1",
+                " ",
                 "PASIR RIS ST 21",
+                " ",
                 "PASIR RIS DR 4/3/8/1",
+                " ",
                 "ELIAS RD",
+                " ",
                 "PASIR RIS ST 71",
+                " ",
                 "PASIR RIS DR 10/1/12",
+                " ",
                 "TPE",
+                " ",
                 "PUNGGOL RD",
+                " ",
                 "PUNGGOL FIELD",
+                " ",
                 "PUNGGOL EAST",
+                " ",
                 "PUNGGOL CTRL",
-                "PUNGGOL EAST"
+                " ",
+                "PUNGGOL EAST",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -728,29 +588,40 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "3",
-                    top: "TAMPINES",
-                    topFont: "Mobitec-16:8"
-                },
                 "PUNGGOL PL",
+                " ",
                 "PUNGGOL CTRL",
+                " ",
                 "PUNGGOL EAST",
+                " ",
                 "PUNGGOL FIELD",
+                " ",
                 "PUNGGOL RD",
+                " ",
                 "TPE",
+                " ",
                 "PASIR RIS DR 12/1/10",
+                " ",
                 "PASIR RIS ST 71",
+                " ",
                 "ELIAS RD",
+                " ",
                 "PASIR RIS DR 1/8/3/4",
+                " ",
                 "PASIR RIS ST 21",
+                " ",
                 "PASIR RIS DR 1",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "TAMPINES AVE 7/2",
+                " ",
                 "TAMPINES ST 23/21",
+                " ",
                 "TAMPINES AVE 4/9",
-                "TAMPINES CTRL 1"
+                " ",
+                "TAMPINES CTRL 1",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -761,22 +632,17 @@ EDSData.GASG = {
             serviceNumber: "6",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "6",
-                    top: "PASIR RIS",
-                    topFont: "Mobitec-16:8"
-                },
                 "PASIR RIS DR 3",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "LOYANG WAY",
+                " ",
                 "LOYANG CRESENT",
-                "LOYANG WAY",
-                "LOYANG AVE",
-                "PASIR RIS DR 3"
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -787,35 +653,48 @@ EDSData.GASG = {
             serviceNumber: "12",
             destination: {
                 text: "KAMPONG BAHRU",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12",
-                    top: "Kampong Bahru",
-                    topFont: "Mobitec-12"
-                },
                 "PASIR RIS DR 3/6/1",
+                " ",
                 "LOYANG AVE",
                 "TAMPINES AVE 7/2",
+                " ",
                 "SIMEI RD",
+                " ",
                 "UPP CHANGI RD EAST",
+                " ",
                 "NEW UPP CHANGI RD",
+                " ",
                 "BEDOK STH AVE 3",
+                " ",
                 "BEDOK STH RD",
+                " ",
                 "BEDOK STH AVE 1",
+                " ",
                 "UPP EAST COAST RD",
+                " ",
                 "EAST COAST RD",
+                " ",
                 "MOUNTBATTEN ROAD",
+                " ",
                 "SIMS WAY",
+                " ",
                 "GEYLANG RD",
+                " ",
                 "KALLANG RD",
+                " ",
                 "VICTORIA ST",
+                " ",
                 "HILL ST",
+                " ",
                 "NEW BRIDGE RD",
+                " ",
                 "KAMPONG BAHRU RD",
-                "SPOONER RD"
+                " ",
+                "SPOONER RD",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -826,48 +705,54 @@ EDSData.GASG = {
             serviceNumber: "12",
             destination: {
                 text: "PASIR RIS",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12",
-                    top: "PASIR RIS",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "SPOONER RD",
+                " ",
                 "KAMPONG BAHRU RD",
+                " ",
                 "EU TONG SEN STREET",
+                " ",
                 "HILL ST",
+                " ",
                 "VICTORIA ST",
+                " ",
                 "KALLANG ROAD",
+                " ",
                 "SIMS AVE",
+                " ",
                 "SIMS WAY",
+                " ",
                 "MOUNTBATTEN MRT/RD",
+                " ",
                 "EAST COAST RD",
+                " ",
                 "UPP EAST COAST RD",
+                " ",
                 "BEDOK SOUTH AVE 1",
+                " ",
                 "BEDOK SOUTH RD",
+                " ",
                 "BEDOK SOUTH AVE 3",
+                " ",
                 "NEW UPP CHANGI ROAD",
+                " ",
                 "UPP CHANGI ROAD EAST",
+                " ",
                 "SIMEI ROAD",
+                " ",
                 "TAMPINES AVE 2/7",
+                " ",
                 "LOYANG AVE",
-                "PASIR RIS DR 1/6/3"
+                " ",
+                "PASIR RIS DR 1/6/3",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
     },
-    123: {
+    123: { //TEMP UNAVAILABLE Cuz gas like to put hosp or smth
         front: {
             renderType: "standardService",
             serviceNumber: "12e",
@@ -876,36 +761,34 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12e",
-                    top: "LIMITED  KAMPONG",
-                    bottom: "STOPS     BAHRU",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12e",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PASIR RIS DR 3/6/1",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "TAMPINES AVE 7/2",
+                " ",
                 "SIMEI RD",
+                " ",
                 "UPP CHANGI RD EAST",
+                " ",
                 "NEW UPP CHANGI RD",
+                " ",
                 "BEDOK STH AVE 3/1",
+                " ",
                 "BEDOK STH RD",
+                " ",
                 "ECP",
+                " ",
                 "ROCHOR RD",
+                " ",
                 "VICTORIA ST",
+                " ",
                 "HILL ST",
+                " ",
                 "NEW BRIDGE RD",
-                "SPOONER RD"
+                " ",
+                "SPOONER RD",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
