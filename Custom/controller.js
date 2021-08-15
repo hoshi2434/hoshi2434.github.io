@@ -171,6 +171,11 @@ function startup() {
         ['BOOTING WINDOWS', '...', 500],
         ['BOOTING WINDOWS', '..', 500],
         ['BOOTING WINDOWS', '.', 500],
+        ['STARTING APP...', 'LAWO.exe', 3000],
+        ['RUNNING SYSCHK...', 2000],
+        ['SYSCHK OK', 'RUNNING PWRCHK', 2000],
+        ['PWRCHK OK', 1000],
+        ['REMOTE NETWORK OK', 'RUNNING SYSCHK2', 1000]
         ['Power: Sufficient', 'LAWO Displays', 'Luminator Tech', 'TOPFORM CU2', 2000],
         ['SYSTEM CHECK...', 'CONTROLLER: CHECKING...', 2000],
         ['SYSTEM CHECK...', 'CONTROLLER: Ok', 'DATA: CHECKING...', 2000],
