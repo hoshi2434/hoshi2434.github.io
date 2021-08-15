@@ -128,8 +128,7 @@ function startup() {
     var textSets = [
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
-        ['Running syschk', 'Please wait'],
-        ['syschk success', 'Booting...'],
+        ['V122', '0305']
         ['LECIP', 'Displays']
     ];
 
