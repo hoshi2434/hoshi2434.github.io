@@ -171,7 +171,7 @@ function startup() {
         ['BOOTING WINDOWS SERVER 2019', '...', 500],
         ['BOOTING WINDOWS SERVER 2019', '..', 500],
         ['BOOTING WINDOWS SERVER 2019', '.', 500],
-        ['WELCOME USER2210', 'LOGGING IN...', 3000]
+        ['WELCOME USER2210', 'LOGGING IN...', 3000],
         ['STARTING LAWOController.exe', 3000],
         ['RUNNING SYSTEMCHECK.exe...', 6000],
         ['SYSTEMCHECK RETURN: OK', 'RUNNING POWERCHECK.exe', 5000],
