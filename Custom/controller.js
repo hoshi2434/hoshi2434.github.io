@@ -193,10 +193,10 @@ function startup() {
         ['Signs Not Found!', 'Preview only!', 'Continue -1-', '   v Abort and Check', 1000],
         ['Signs Not Found!', 'Preview only!', 'Continue -0-', '   v Abort and Check', 1000],
         ['Proceeding to boot...', 2000],
-        ['BOOTING>', 1000],
-        ['BOOTING>>', 1000],
-        ['BOOTING>>>', 1000],
-        ['BOOTING>>>', 'OK', 1000],
+        ['BOOTING.', 1000],
+        ['BOOTING..', 1000],
+        ['BOOTING...', 1000],
+        ['BOOTING...', 'OK', 1000],
         ['Boot Check Complete', 'Loading Selected Boot Code', 'Version 190220', 'Preview of Data only', 2500],
     ];
 
