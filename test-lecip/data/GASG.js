@@ -799,39 +799,37 @@ EDSData.GASG = {
             serviceNumber: "12e",
             destination: {
                 text: "PASIR RIS",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12e",
-                    top: "LIMITED  PASIR RIS",
-                    bottom: "STOPS       INT    ",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "12e",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "SPOONER RD",
+                " ",
                 "EU TONG SEN RD",
+                " ",
                 "HILL ST",
+                " ",
                 "VICTORIA ST",
+                " ",
                 "OPHIR RD",
+                " ",
                 "ECP",
+                " ",
                 "BEDOK STH RD",
+                " ",
                 "BEDOK STH AVE 1/3",
+                " ",
                 "NEW UPP CHANGI RD",
+                " ",
                 "UPP CHANGI RD EAST",
+                " ",
                 "SIMEI RD",
+                " ",
                 "TAMPINES AVE 2/7",
+                " ",
                 "LOYANG AVE",
-                "PASIR RIS DR 1/6/3"
+                " ",
+                "PASIR RIS DR 1/6/3",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
