@@ -922,8 +922,8 @@ EDSData.GASG = {
                     serviceNumber: "15A",
                     top: "TERMINATES AT",
                     bottom: "OPP EUNOS STN",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
+                    topFont: "LECIP-11",
+                    bottomFont: "LEICP-11"
                 }
             ],
             scrollFont: "LECIP-8"
@@ -997,8 +997,8 @@ EDSData.GASG = {
                     serviceNumber: "17A",
                     top: "TERMINATES AT",
                     bottom: "BEDOK NTH DEPOT",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
+                    topFont: "LECIP-11",
+                    bottomFont: "LECIP-11"
                 }
             ],
             scrollFont: "LECIP-8"
@@ -1074,8 +1074,8 @@ EDSData.GASG = {
                     serviceNumber: "34A",
                     top: "ENDS AT",
                     bottom: "TAMPINES HUB",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
+                    topFont: "LECIP-11",
+                    bottomFont: "LECIP-11"
                 }
             ],
             scrollFont: "LECIP-8"
@@ -1095,25 +1095,9 @@ EDSData.GASG = {
                     serviceNumber: "34B",
                     top: "ENDS AT",
                     bottom: "AFT TPE",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "34B",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                "TAMPINES AVE 10/5/2/7",
-                "PIE",
-                "AIRPORT BOULEVARD",
-                "CHANGI AIRPORT PTB 3,1,2",
-                "CHANGI AIRPORT TER 4",
-                "AIRPORT BOULEVARD",
-                "PIE",
-                "TAMPINES AVE 7/2/5/10"
+                    topFont: "LECIP-11",
+                    bottomFont: "LECIP-11"
+                }
             ],
             scrollFont: "LECIP-8"
         }
@@ -1562,29 +1546,6 @@ EDSData.GASG = {
                 "ALJUNID MRT"
             ],
             scrollFont: "LECIP-11"
-        }
-    },
-    624: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "62M",
-            destination: {
-                text: "UPP P. LEBAR RD",
-                font: "Mobitec-13:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62M",
-                    top: "ENDS AT",
-                    bottom: "BLK 115",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                "HOUGANG AVE 1",
-                "FEEQ WANTED THIS"
-            ],
-            scrollFont: "LECIP-8"
         }
     },
     681: {
