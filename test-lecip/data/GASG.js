@@ -19,13 +19,13 @@ EDSFormats.GASG = {
                 centreTopText: {
                     align: "left,top",
                     text: "$top",
-                    font: "Mobitec-7:4",
+                    font: "LECIP-8",
                     spacing: 1
                 },
                 centreBottomText: {
                     align: "left,bottom",
                     text: "$bottom",
-                    font: "Mobitec-7:4",
+                    font: "LECIP-8",
                     spacing: 1
                 }
             },
@@ -334,10 +334,10 @@ EDSData.GASG = {
         front: {
             renderType: "boot",
             top: "Erase all Data",
-            topFont: "Mobitec-7:4",
+            topFont: "LECIP-8",
 
             bottom: "Press 'F4' or 'Home'",
-            bottomFont: "Mobitec-7:4",
+            bottomFont: "LECIP-8",
 
             serviceNumber: ""
         }
@@ -346,10 +346,10 @@ EDSData.GASG = {
         front: {
             renderType: "boot",
             top: "Data Erased",
-            topFont: "Mobitec-7:4",
+            topFont: "LECIP-8",
 
             bottom: "Click 'Home' to continue",
-            bottomFont: "Mobitec-7:4",
+            bottomFont: "LECIP-8",
 
             serviceNumber: ""
         }
@@ -358,10 +358,10 @@ EDSData.GASG = {
         front: {
             renderType: "boot",
             top: "V315",
-            topFont: "LAWO-12:5",
+            topFont: "Mobitec-13:7",
 
             bottom: "0308",
-            bottomFont: "LAWO-12:5",
+            bottomFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -370,10 +370,10 @@ EDSData.GASG = {
         front: {
             renderType: "destScroll",
             top: "SORRY!",
-            topFont: "LAWO-12:5",
+            topFont: "Mobitec-13:7",
 
             bottom: "NOT IN SERVICE",
-            bottomFont: "LAWO-12:5",
+            bottomFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -382,10 +382,10 @@ EDSData.GASG = {
         front: {
             renderType: "routeTRG",
             top: "DRIVER UNDER",
-            topFont: "LAWO-12:5",
+            topFont: "Mobitec-13:7",
 
             bottom: "INSTRUCTION",
-            bottomFont: "LAWO-12:5",
+            bottomFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -394,7 +394,7 @@ EDSData.GASG = {
         front: {
             renderType: "destScroll",
             top: "On Test",
-            topFont: "LAWO-12:5",
+            topFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -437,7 +437,7 @@ EDSData.GASG = {
         front: {
             renderType: "destScroll",
             top: "VER. 16082021-DD",
-            topFont: "LAWO-12:5",
+            topFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -448,7 +448,7 @@ EDSData.GASG = {
             serviceNumber: "2",
             destination: {
                 text: "KAMPONG BAHRU",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "CHANGI VILLAGE RD",
@@ -484,7 +484,7 @@ EDSData.GASG = {
                 "SPOONER RD",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     22: {
@@ -493,7 +493,7 @@ EDSData.GASG = {
             serviceNumber: "2",
             destination: {
                 text: "CHANGI VILLAGE",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "SPOONER RD",
@@ -529,7 +529,7 @@ EDSData.GASG = {
                 "CHANGI VILLAGE RD",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     31: {
@@ -538,7 +538,7 @@ EDSData.GASG = {
             serviceNumber: "3",
             destination: {
                 text: "PUNGGOL",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "TAMPINES CTRL 1",
@@ -576,7 +576,7 @@ EDSData.GASG = {
                 "PUNGGOL EAST",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     32: {
@@ -585,7 +585,7 @@ EDSData.GASG = {
             serviceNumber: "3",
             destination: {
                 text: "TAMPINES",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PUNGGOL PL",
@@ -623,7 +623,7 @@ EDSData.GASG = {
                 "TAMPINES CTRL 1",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     61: {
@@ -632,7 +632,7 @@ EDSData.GASG = {
             serviceNumber: "6",
             destination: {
                 text: "PASIR RIS INT",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PASIR RIS DR 3",
@@ -644,7 +644,7 @@ EDSData.GASG = {
                 "LOYANG CRESENT",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     121: {
@@ -653,7 +653,7 @@ EDSData.GASG = {
             serviceNumber: "12",
             destination: {
                 text: "KAMPONG BAHRU",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PASIR RIS DR 3/6/1",
@@ -696,7 +696,7 @@ EDSData.GASG = {
                 "SPOONER RD",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     122: {
@@ -705,7 +705,7 @@ EDSData.GASG = {
             serviceNumber: "12",
             destination: {
                 text: "PASIR RIS",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "SPOONER RD",
@@ -749,7 +749,7 @@ EDSData.GASG = {
                 "PASIR RIS DR 1/6/3",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     123: { //TEMP wrong data Cuz gas like to put hosp or smth
@@ -758,7 +758,7 @@ EDSData.GASG = {
             serviceNumber: "12e",
             destination: {
                 text: "KAMPONG BAHRU",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PASIR RIS DR 3/6/1",
@@ -790,7 +790,7 @@ EDSData.GASG = {
                 "SPOONER RD",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     124: {
@@ -799,7 +799,7 @@ EDSData.GASG = {
             serviceNumber: "12e",
             destination: {
                 text: "PASIR RIS",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "SPOONER RD",
@@ -831,7 +831,7 @@ EDSData.GASG = {
                 "PASIR RIS DR 1/6/3",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     151: {
@@ -840,7 +840,7 @@ EDSData.GASG = {
             serviceNumber: "15",
             destination: {
                 text: "MARINE PARADE",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PASIR RIS DR 3/1/8",
@@ -868,7 +868,7 @@ EDSData.GASG = {
                 "MARINE PARADE RD",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     152: {
@@ -877,7 +877,7 @@ EDSData.GASG = {
             serviceNumber: "15",
             destination: {
                 text: "PASIR RIS INT",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "MARINE PARADE RD",
@@ -905,7 +905,7 @@ EDSData.GASG = {
                 "PASIR RIS DR 8/1/3",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     153: {
@@ -914,7 +914,7 @@ EDSData.GASG = {
             serviceNumber: "15A",
             destination: {
                 text: "OPP EUNOS STN",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -922,11 +922,11 @@ EDSData.GASG = {
                     serviceNumber: "15A",
                     top: "TERMINATES AT",
                     bottom: "OPP EUNOS STN",
-                    topFont: "LAWO-12:5",
-                    bottomFont: "LAWO-12:5"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 }
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     171: {
@@ -935,7 +935,7 @@ EDSData.GASG = {
             serviceNumber: "17",
             destination: {
                 text: "BEDOK",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PASIR RIS DR 3/4/1",
@@ -953,7 +953,7 @@ EDSData.GASG = {
                 "BEDOK NORTH DR",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     172: {
@@ -962,7 +962,7 @@ EDSData.GASG = {
             serviceNumber: "17",
             destination: {
                 text: "PASIR RIS",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "BEDOK NORTH DRIVE",
@@ -980,7 +980,7 @@ EDSData.GASG = {
                 "PASIR RIS DR 1/4/3",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     173: {
@@ -989,7 +989,7 @@ EDSData.GASG = {
             serviceNumber: "17A",
             destination: {
                 text: "BEDOK NTH DEPOT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -997,11 +997,11 @@ EDSData.GASG = {
                     serviceNumber: "17A",
                     top: "TERMINATES AT",
                     bottom: "BEDOK NTH DEPOT",
-                    topFont: "LAWO-12:5",
-                    bottomFont: "LAWO-12:5"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 }
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     341: {
@@ -1010,7 +1010,7 @@ EDSData.GASG = {
             serviceNumber: "34",
             destination: {
                 text: "CHANGI AIRPORT",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PUNGGOL PLACE",
@@ -1030,7 +1030,7 @@ EDSData.GASG = {
                 "CHANGI AIRPORT PTB 3,1,2,4",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     342: {
@@ -1057,7 +1057,7 @@ EDSData.GASG = {
                 "PUNGGOL PLACE",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     343: {
@@ -1066,7 +1066,7 @@ EDSData.GASG = {
             serviceNumber: "34A",
             destination: {
                 text: "TAMPINES HUB",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1074,24 +1074,11 @@ EDSData.GASG = {
                     serviceNumber: "34A",
                     top: "ENDS AT",
                     bottom: "TAMPINES HUB",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "34A",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "PUNGGOL PLACE",
-                "PUNGGOL CENTRAL",
-                "PUNGGOL ROAD",
-                "TPE",
-                "TAMPINES AVE 10/5"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
+                }
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     344: {
@@ -1100,7 +1087,7 @@ EDSData.GASG = {
             serviceNumber: "34B",
             destination: {
                 text: "AFT TPE",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1108,16 +1095,16 @@ EDSData.GASG = {
                     serviceNumber: "34B",
                     top: "ENDS AT",
                     bottom: "AFT TPE",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "34B",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "TAMPINES AVE 10/5/2/7",
                 "PIE",
@@ -1128,7 +1115,7 @@ EDSData.GASG = {
                 "PIE",
                 "TAMPINES AVE 7/2/5/10"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     361: {
@@ -1137,7 +1124,7 @@ EDSData.GASG = {
             serviceNumber: "36",
             destination: {
                 text: "CHANGI AIRPORT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1166,7 +1153,7 @@ EDSData.GASG = {
                 "BRAS BASAH RD",
                 "SINGLAP RD/LK"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     362: {
@@ -1175,7 +1162,7 @@ EDSData.GASG = {
             serviceNumber: "36A",
             destination: {
                 text: "TOMLINSON RD",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1183,8 +1170,8 @@ EDSData.GASG = {
                     serviceNumber: "36A",
                     top: "TERMINATES AT",
                     bottom: "THE REGENT S'PORE",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "CHANGI AIRPORT PTB 3,1,2",
                 "AIRPORT BOULEVARD",
@@ -1203,7 +1190,7 @@ EDSData.GASG = {
                 "GRANGE RD",
                 "TOMLISON RD"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     363: {
@@ -1212,7 +1199,7 @@ EDSData.GASG = {
             serviceNumber: "36B",
             destination: {
                 text: "SINGLAP RD",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1237,7 +1224,7 @@ EDSData.GASG = {
                 "BRAS BASAH RD",
                 "SINGLAP RD"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     431: {
@@ -1246,7 +1233,7 @@ EDSData.GASG = {
             serviceNumber: "43",
             destination: {
                 text: "UPP EAST COAST",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1273,7 +1260,7 @@ EDSData.GASG = {
                 "BEDOK STH AVE 1",
                 "UPP EAST COAST RD"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     432: {
@@ -1282,7 +1269,7 @@ EDSData.GASG = {
             serviceNumber: "43",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1310,7 +1297,7 @@ EDSData.GASG = {
                 "PUNGGOL CTRL",
                 "PUNGGOL PL"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     433: {
@@ -1319,14 +1306,14 @@ EDSData.GASG = {
             serviceNumber: "43M",
             destination: {
                 text: "SERANGOON MRT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "43M",
                     top: "Serangoon MRT",
-                    topFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PL",
                 "PUNGGOL CTRL",
@@ -1339,7 +1326,7 @@ EDSData.GASG = {
                 "YIO CHU KANG LK",
                 "SERANGOON MRT/CTRL"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     434: {
@@ -1348,7 +1335,7 @@ EDSData.GASG = {
             serviceNumber: "43M",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1362,8 +1349,8 @@ EDSData.GASG = {
                     serviceNumber: "43M",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "SERANGOON CENTRAL",
                 "YIO CHU KANG LINK",
@@ -1376,7 +1363,7 @@ EDSData.GASG = {
                 "PUNGGOL CTRL",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     435: {
@@ -1385,7 +1372,7 @@ EDSData.GASG = {
             serviceNumber: "43e",
             destination: {
                 text: "MARINE PARADE",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1393,16 +1380,16 @@ EDSData.GASG = {
                     serviceNumber: "43e",
                     top: "EXPRESS  MARINE ",
                     bottom: "Service  PARADE",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "43e",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL CENTRAL",
@@ -1417,7 +1404,7 @@ EDSData.GASG = {
                 "TANJONG KATONG RD",
                 "AMBER ROAD"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     436: {
@@ -1426,7 +1413,7 @@ EDSData.GASG = {
             serviceNumber: "43e",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1434,16 +1421,16 @@ EDSData.GASG = {
                     serviceNumber: "43e",
                     top: "EXPRESS PUNGGOL",
                     bottom: "Service      INT   ",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "43e",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "MARINE PARADE RD",
                 "AMBER ROAD",
@@ -1461,7 +1448,7 @@ EDSData.GASG = {
                 "PUNGGOL PLACE"
                 
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     501: {
@@ -1470,7 +1457,7 @@ EDSData.GASG = {
             serviceNumber: "50",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1486,7 +1473,7 @@ EDSData.GASG = {
                 "SENGKANG EAST WAY",
                 "PUNGGOL DR"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     621: {
@@ -1525,7 +1512,7 @@ EDSData.GASG = {
                 "GEYLANG RD",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     622: {
@@ -1560,7 +1547,7 @@ EDSData.GASG = {
                 "PUNGGOL PL",
                 " "
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     623: {
@@ -1583,7 +1570,7 @@ EDSData.GASG = {
             serviceNumber: "62M",
             destination: {
                 text: "UPP P. LEBAR RD",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1591,13 +1578,13 @@ EDSData.GASG = {
                     serviceNumber: "62M",
                     top: "ENDS AT",
                     bottom: "BLK 115",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "HOUGANG AVE 1",
                 "FEEQ WANTED THIS"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     681: {
@@ -1606,7 +1593,7 @@ EDSData.GASG = {
             serviceNumber: "68",
             destination: {
                 text: "TAMPINES CENTRAL I",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1620,8 +1607,8 @@ EDSData.GASG = {
                     serviceNumber: "68",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 3/10/1/12",
                 "ELIAS RD",
@@ -1629,7 +1616,7 @@ EDSData.GASG = {
                 "TAMPINES AVE 10,11,6,9",
                 "TAMPINES CONCOURSE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     682: {
@@ -1638,7 +1625,7 @@ EDSData.GASG = {
             serviceNumber: "68",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1652,15 +1639,15 @@ EDSData.GASG = {
                     serviceNumber: "68",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "TAMPINES CONCOURSE",
                 "TAMPINES AVE 9/6/11/10",
                 "PASIR RIS DR 12/1/10/3",
                 "ELIAS RD"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     683: {
@@ -1669,7 +1656,7 @@ EDSData.GASG = {
             serviceNumber: "68A",
             destination: {
                 text: "TAMPINES INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1677,22 +1664,22 @@ EDSData.GASG = {
                     serviceNumber: "68A",
                     top: "ENDS AT",
                     bottom: "TAMPINES INT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "68A",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "TAMPINES AVE 11,6,9",
                 "TAMPINES CONCOURSE",
                 "TAMPINES CENTRAL I"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     684: {
@@ -1701,7 +1688,7 @@ EDSData.GASG = {
             serviceNumber: "68B",
             destination: {
                 text: "REEBONZ BLDG",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1709,22 +1696,22 @@ EDSData.GASG = {
                     serviceNumber: "68B",
                     top: "ENDS AT",
                     bottom: "REEBONZ BLDG",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "68B",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "TAMPINES CENTRAL I",
                 "TAMPINES CONCOURSE",
                 "TAMPINES AVE 9/6/11"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     821: {
@@ -1733,22 +1720,22 @@ EDSData.GASG = {
             serviceNumber: "82",
             destination: {
                 text: "SERANGOON MRT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "82",
                     top: "Serangoon MRT",
-                    topFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "82",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL FIELD",
@@ -1757,7 +1744,7 @@ EDSData.GASG = {
                 "UPP SERANGOON ROAD",
                 "SERANGOON MRT/CENTRAL"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     822: {
@@ -1766,7 +1753,7 @@ EDSData.GASG = {
             serviceNumber: "82",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1780,8 +1767,8 @@ EDSData.GASG = {
                     serviceNumber: "82",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "SERANGOON CENTRAL",
                 "BOUNDARY ROAD",
@@ -1791,7 +1778,7 @@ EDSData.GASG = {
                 "PUNGGOL FIELD",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     831: {
@@ -1800,7 +1787,7 @@ EDSData.GASG = {
             serviceNumber: "83",
             destination: {
                 text: "SENGKANG",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 " ",
@@ -1829,7 +1816,7 @@ EDSData.GASG = {
             serviceNumber: "83",
             destination: {
                 text: "PUNGGOL",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 " ",
@@ -1849,7 +1836,7 @@ EDSData.GASG = {
                 " ",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     833: {
@@ -1858,7 +1845,7 @@ EDSData.GASG = {
             serviceNumber: "83W",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1866,16 +1853,16 @@ EDSData.GASG = {
                     serviceNumber: "83W",
                     top: "",
                     bottom: "THIS IS THE WSOE",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "83W",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "SENGKANG SQUARE",
                 "SENGKANG EAST ROAD",
@@ -1886,7 +1873,7 @@ EDSData.GASG = {
                 "PUNGGOL CENTRAL",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     841: {
@@ -1895,7 +1882,7 @@ EDSData.GASG = {
             serviceNumber: "84",
             destination: {
                 text: "PUNGGOL INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1909,8 +1896,8 @@ EDSData.GASG = {
                     serviceNumber: "84",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL CENTRAL",
@@ -1924,7 +1911,7 @@ EDSData.GASG = {
                 "PUNGGOL CENTRAL",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     851: {
@@ -1933,7 +1920,7 @@ EDSData.GASG = {
             serviceNumber: "85",
             destination: {
                 text: "YISHUN",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1947,8 +1934,8 @@ EDSData.GASG = {
                     serviceNumber: "85",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL CENTRAL",
@@ -1961,7 +1948,7 @@ EDSData.GASG = {
                 "YISHUN AVE 2",
                 "YISHUN CTRL"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     852: {
@@ -1970,7 +1957,7 @@ EDSData.GASG = {
             serviceNumber: "85",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -1984,8 +1971,8 @@ EDSData.GASG = {
                     serviceNumber: "85",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "YISHUN CTRL",
                 "YISHUN AVE 2",
@@ -2001,7 +1988,7 @@ EDSData.GASG = {
                 "PUNGGOL CENTRAL",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1181: {
@@ -2010,7 +1997,7 @@ EDSData.GASG = {
             serviceNumber: "118",
             destination: {
                 text: "CHANGI BIZ PARK",
-                font: "LAWO-12:5"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 " ",
@@ -2034,7 +2021,7 @@ EDSData.GASG = {
                 " ",
                 "CHANGI SOUTH AVE 1"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1182: {
@@ -2067,7 +2054,7 @@ EDSData.GASG = {
                 " ",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1183: {
@@ -2076,7 +2063,7 @@ EDSData.GASG = {
             serviceNumber: "118A",
             destination: {
                 text: "ITE COLL EAST",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2084,14 +2071,14 @@ EDSData.GASG = {
                     serviceNumber: "118A",
                     top: "ENDS AT",
                     bottom: "ITE COLLEGE EAST",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "TAMPINES EXPRESSWAY",
                 "TAMPINES AVE 10/5/8/1",
                 "SIMEI AVE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1184: {
@@ -2100,7 +2087,7 @@ EDSData.GASG = {
             serviceNumber: "118B",
             destination: {
                 text: "BEF PUNGGOL RD",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2108,22 +2095,22 @@ EDSData.GASG = {
                     serviceNumber: "118B",
                     top: "ENDS AT",
                     bottom: "BEF PUNGGOL RD",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "118B",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "SIMEI AVE",
                 "TAMPINES AVE 1/8/5/10",
                 "TAMPINES EXPRESSWAY"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1191: {
@@ -2158,7 +2145,7 @@ EDSData.GASG = {
                 " ",
                 "HOUGANG STREET 21"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1192: {
@@ -2191,7 +2178,7 @@ EDSData.GASG = {
                 " ",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1361: {
@@ -2200,7 +2187,7 @@ EDSData.GASG = {
             serviceNumber: "136",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2214,8 +2201,8 @@ EDSData.GASG = {
                     serviceNumber: "136",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "ANG MO KIO AVE 8/3/6/1",
                 "LORONG CHUAN",
@@ -2230,7 +2217,7 @@ EDSData.GASG = {
                 "PUNGGOL CENTRAL",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     1362: {
@@ -2239,7 +2226,7 @@ EDSData.GASG = {
             serviceNumber: "136",
             destination: {
                 text: "ANG MO KIO",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2253,8 +2240,8 @@ EDSData.GASG = {
                     serviceNumber: "136",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL CENTRAL",
@@ -2269,7 +2256,7 @@ EDSData.GASG = {
                 "LORONG CHUAN",
                 "ANG MO KIO AVE 1/6/3/8"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3811: {
@@ -2278,7 +2265,7 @@ EDSData.GASG = {
             serviceNumber: "381",
             destination: {
                 text: "PUNGGOL INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2292,8 +2279,8 @@ EDSData.GASG = {
                     serviceNumber: "381",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL FIELD",
@@ -2302,7 +2289,7 @@ EDSData.GASG = {
                 "PUNGGOL FIELD",
                 "PUNGGOL EAST"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3821: {
@@ -2311,7 +2298,7 @@ EDSData.GASG = {
             serviceNumber: "382G",
             destination: {
                 text: "PUNGGOL INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2325,8 +2312,8 @@ EDSData.GASG = {
                     serviceNumber: "382G",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "PUNGGOL FIELD",
@@ -2337,7 +2324,7 @@ EDSData.GASG = {
                 "SENTUL CRESCENT",
                 "PUNGGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3822: {
@@ -2346,7 +2333,7 @@ EDSData.GASG = {
             serviceNumber: "382W",
             destination: {
                 text: "PUNGGOL INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2360,8 +2347,8 @@ EDSData.GASG = {
                     serviceNumber: "382W",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PLACE",
                 "SENTUL CRESCENT",
@@ -2372,7 +2359,7 @@ EDSData.GASG = {
                 "PUNGGOL FIELD",
                 "PUNNGOL PLACE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3541: {
@@ -2381,7 +2368,7 @@ EDSData.GASG = {
             serviceNumber: "354",
             destination: {
                 text: "JLN LOYANG BR",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2395,12 +2382,12 @@ EDSData.GASG = {
                     serviceNumber: "354",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3542: {
@@ -2409,7 +2396,7 @@ EDSData.GASG = {
             serviceNumber: "354",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2423,13 +2410,13 @@ EDSData.GASG = {
                     serviceNumber: "354",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS CL",
                 "PASIR RIS DR 3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3581: {
@@ -2438,7 +2425,7 @@ EDSData.GASG = {
             serviceNumber: "358",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2446,22 +2433,22 @@ EDSData.GASG = {
                     serviceNumber: "358",
                     top: "PASIR RIS INT",
                     bottom: "(WEST LOOP)",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "358",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 3/1",
                 "PASIR RIS DR 10 (LOOP)",
                 "ELIAS RD"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3582: {
@@ -2470,7 +2457,7 @@ EDSData.GASG = {
             serviceNumber: "358",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2478,23 +2465,23 @@ EDSData.GASG = {
                     serviceNumber: "358",
                     top: "PASIR RIS INT",
                     bottom: "(EAST LOOP)",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "358",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 6/1",
                 "PASIR RIS DR 4 (LOOP)",
                 "PASIR RIS ST 41",
                 "PASIR RIS DR 6/3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3591: {
@@ -2503,7 +2490,7 @@ EDSData.GASG = {
             serviceNumber: "359",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2511,22 +2498,22 @@ EDSData.GASG = {
                     serviceNumber: "359",
                     top: "PASIR RIS INT",
                     bottom: "(WEST LOOP)",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "359",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 3/12/1/10",
                 "PASIR RIS ST 71 (LOOP)",
                 "PASIR RIS 12/3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3592: {
@@ -2535,7 +2522,7 @@ EDSData.GASG = {
             serviceNumber: "359",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2543,22 +2530,22 @@ EDSData.GASG = {
                     serviceNumber: "359",
                     top: "PASIR RIS INT",
                     bottom: "(EAST LOOP)",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "359",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS CTRL",
                 "PASIR RIS ST 51/11",
                 "PASIR RIS DR 1/3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     4031: {
@@ -2567,7 +2554,7 @@ EDSData.GASG = {
             serviceNumber: "403",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2575,16 +2562,16 @@ EDSData.GASG = {
                     serviceNumber: "403",
                     top: "PASIR RIS INT",
                     bottom: "PSR PARK(LOOP)",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "403",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 3/1",
                 "PASIR RIS CTRL",
@@ -2594,7 +2581,7 @@ EDSData.GASG = {
                 "PASIR RIS CTRL",
                 "PASIR RIS 1/3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3841: {
@@ -2603,7 +2590,7 @@ EDSData.GASG = {
             serviceNumber: "384",
             destination: {
                 text: "PUNGGOL INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2617,7 +2604,7 @@ EDSData.GASG = {
                 "PUNGGOL WAY",
                 "NORTHSHORE DRIVE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     3861: {
@@ -2626,7 +2613,7 @@ EDSData.GASG = {
             serviceNumber: "386",
             destination: {
                 text: "PUNGGOL INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2640,8 +2627,8 @@ EDSData.GASG = {
                     serviceNumber: "386",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PUNGGOL PL",
                 "PUNGGOL CTRL",
@@ -2657,7 +2644,7 @@ EDSData.GASG = {
                 "PUNGGOL CTRL",
                 "PUNGGOL PL"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     5181: {
@@ -2666,7 +2653,7 @@ EDSData.GASG = {
             serviceNumber: "518",
             destination: {
                 text: "BAYFRONT AVE",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2674,16 +2661,16 @@ EDSData.GASG = {
                     serviceNumber: "518",
                     top: "EXPRESSBAYFRONT",
                     bottom: "Service     AVE    ",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                 	renderType: "destScroll",
                     serviceNumber: "518",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                  },
                 "PASIR RIS DR 3/12/1",
                 "LOYANG AVE",
@@ -2697,7 +2684,7 @@ EDSData.GASG = {
                 "BRASH BASAH ROAD",
                 "TEMASEK BLVD, AVE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     5182: {
@@ -2706,7 +2693,7 @@ EDSData.GASG = {
             serviceNumber: "518",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2714,16 +2701,16 @@ EDSData.GASG = {
                     serviceNumber: "518",
                     top: "EXPRESS PASIR RIS",
                     bottom: "Service      INT    ",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                 	renderType: "destScroll",
                     serviceNumber: "518",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                  },
                 "ECP, KPE, PIE",
                 "BEDOK NORTH ROAD",
@@ -2731,7 +2718,7 @@ EDSData.GASG = {
                 "LOYANG AVE",
                 "PASIR RIS DR 1/12/3"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     5183: {
@@ -2740,7 +2727,7 @@ EDSData.GASG = {
             serviceNumber: "518A",
             destination: {
                 text: "BAYFRONT AVE",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2748,16 +2735,16 @@ EDSData.GASG = {
                     serviceNumber: "518A",
                     top: "ENDS AT",
                     bottom: "BAYFRONT AVE",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "518A",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "PASIR RIS DR 3/12/1",
                 "LOYANG AVE",
@@ -2769,7 +2756,7 @@ EDSData.GASG = {
                 "BRASH BASAH ROAD",
                 "TEMASEK BLVD, AVE"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     6611: { //following gorbit for now
@@ -2778,7 +2765,7 @@ EDSData.GASG = {
             serviceNumber: "661",
             destination: {
                 text: "CITY DIRECT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2788,7 +2775,7 @@ EDSData.GASG = {
                     topFont: "Mobitec-10:7"
                 },
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     6661: { //following gorbit for now
@@ -2797,7 +2784,7 @@ EDSData.GASG = {
             serviceNumber: "666",
             destination: {
                 text: "CITY DIRECT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2807,7 +2794,7 @@ EDSData.GASG = {
                     topFont: "Mobitec-10:7"
                 },
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     6261: {
@@ -2816,7 +2803,7 @@ EDSData.GASG = {
             serviceNumber: "6264",
             destination: {
                 text: "HARBOURFRONT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2824,27 +2811,27 @@ EDSData.GASG = {
                     serviceNumber: "",
                     top: "WELCOME ABOARD PC6264K!",
                     bottom: "SHOW YOUR TICKETS TO OUR STAFF",
-                    topFont: "Mobitec-7:4",
-                    bottomFont: "Mobitec-7:4"
+                    topFont: "LECIP-8",
+                    bottomFont: "LECIP-8"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "6264",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                  {
                 	renderType: "destScroll",
                     serviceNumber: "",
                     top: "ROUTE DETAILS NOT CONFIRMED",
                     bottom: "SORRY FOR THE INCONVENIENCE!",
-                    topFont: "Mobitec-7:4",
-                    bottomFont: "Mobitec-7:4"
+                    topFont: "LECIP-8",
+                    bottomFont: "LECIP-8"
                  },
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     6262: {
@@ -2853,7 +2840,7 @@ EDSData.GASG = {
             serviceNumber: "6264",
             destination: {
                 text: "BUS DEPOT",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2861,40 +2848,40 @@ EDSData.GASG = {
                     serviceNumber: "6264",
                     top: "Sorry!",
                     bottom: "Not In Service",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "6264",
                     top: "HAPPY",
                     bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                  {
                 	renderType: "destScroll",
                     serviceNumber: "",
                     top: "THANK YOU FOR TRAVELLING WITH US!",
                     bottom: "FOLLOW OUR INSTA (BUSGAG.SG)!",
-                    topFont: "Mobitec-7:4",
-                    bottomFont: "Mobitec-7:4"
+                    topFont: "LECIP-8",
+                    bottomFont: "LECIP-8"
                  },
                 "BUSGAG ADMINS ONLY",
                 "CHARTERED",
                 "BUS HEADING TO DEPOT"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     69: {
         front: {
             renderType: "destScroll",
             top: "CHARTERED",
-            topFont: "Mobitec-7:7",
+            topFont: "Mobitec-13:7",
 
             bottom: "FOR 'busgag.sg'",
-            bottomFont: "Mobitec-7:4",
+            bottomFont: "LECIP-8",
 
             serviceNumber: ""
         }
@@ -2905,14 +2892,14 @@ EDSData.GASG = {
             serviceNumber: "825",
             destination: {
                 text: "LENTOR LOOP via",
-                font: "Mobitec-7:4"
+                font: "LECIP-8"
             },
             scrolls: [
                 "SEASONS PARK",
                 "THOMSON GROVE",
                 "CASTLE GREEN"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     8541: {
@@ -2921,7 +2908,7 @@ EDSData.GASG = {
             serviceNumber: "854",
             destination: {
                 text: "BEDOK via",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2936,7 +2923,7 @@ EDSData.GASG = {
                 "YIO CHU KANG RD",
                 "TO BE COMPLETED"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     8542: {
@@ -2945,7 +2932,7 @@ EDSData.GASG = {
             serviceNumber: "854",
             destination: {
                 text: "YISHUN via",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2960,7 +2947,7 @@ EDSData.GASG = {
                 "P I E",
                 "TO BE COMPLETED"
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "LECIP-8"
         }
     },
     901: {
@@ -2969,7 +2956,7 @@ EDSData.GASG = {
             serviceNumber: "",
             destination: {
                 text: "GA RIDE 01",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
@@ -2988,10 +2975,10 @@ EDSExtras.GASG = {
         front: {
             renderType: "destScroll",
             top: "MERRY CHRISTMAS",
-            topFont: "Mobitec-7:7",
+            topFont: "Mobitec-13:7",
 
             bottom: "HAPPY NEW YEAR",
-            bottomFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -3000,10 +2987,10 @@ EDSExtras.GASG = {
         front: {
             renderType: "destScroll",
             top: "SALAMAT HARI RAYA",
-            topFont: "Mobitec-7:7",
+            topFont: "Mobitec-13:7",
 
             bottom: "ALDERIFTI",
-            bottomFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -3039,10 +3026,10 @@ EDSExtras.GASG = {
         front: {
             renderType: "destScroll",
             top: "This Bus Service Ends Here",
-            topFont: "Mobitec-7:4",
+            topFont: "LECIP-8",
 
             bottom: "Please Do Not Board The Bus",
-            bottomFont: "Mobitec-7:4",
+            bottomFont: "LECIP-8",
 
             serviceNumber: ""
         }
@@ -3051,10 +3038,10 @@ EDSExtras.GASG = {
         front: {
             renderType: "destScroll",
             top: "Welcome Aboard",
-            topFont: "Mobitec-7:7",
+            topFont: "Mobitec-13:7",
 
             bottom: "Go-Ahead Singapore",
-            bottomFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-13:7",
 
             serviceNumber: ""
         }
@@ -3065,7 +3052,7 @@ EDSExtras.GASG = {
             serviceNumber: "",
             destination: {
                 text: "Welcome Aboard V2",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 {
