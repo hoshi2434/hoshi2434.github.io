@@ -1482,7 +1482,7 @@ EDSData.GASG = {
             serviceNumber: "62",
             destination: {
                 text: "SIMS AVE",
-                font: "LECIP-11"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "PUNGGOL PL",
@@ -1521,7 +1521,7 @@ EDSData.GASG = {
             serviceNumber: "62",
             destination: {
                 text: "PUNGGOL",
-                font: "LECIP-11"
+                font: "Mobitec-13:7"
             },
             scrolls: [
                 "ALJUNIED RD/MRT",
