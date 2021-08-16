@@ -585,7 +585,7 @@ EDSData.GASG = {
             serviceNumber: "3",
             destination: {
                 text: "TAMPINES",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
                 "PUNGGOL PL",
@@ -752,13 +752,13 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    123: { //TEMP UNAVAILABLE Cuz gas like to put hosp or smth
+    123: { //TEMP wrong data Cuz gas like to put hosp or smth
         front: {
             renderType: "standardService",
             serviceNumber: "12e",
             destination: {
                 text: "KAMPONG BAHRU",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
                 "PASIR RIS DR 3/6/1",
@@ -843,32 +843,30 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "15",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "15",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PASIR RIS DR 3/1/8",
+                " ",
                 "PASIR RIS ST 52",
+                " ",
                 "TAMPINES AVE 12/9/5/7/4/1",
+                " ",
                 "BEDOK NTH RD EXTN (EXPRESS)",
+                " ",
                 "BEDOK RESERVOIR RD",
+                " ",
                 "KAKI BUKIT AVE 1",
+                " ",
                 "EUNOS LINK",
+                " ",
                 "JALAN EUNOS",
+                " ",
                 "STILL RD",
+                " ",
                 "JOO CHIAT PLACE",
+                " ",
                 "TELOK KURAU ROAD",
-                "MARINE PARADE RD"
+                " ",
+                "MARINE PARADE RD",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -879,35 +877,33 @@ EDSData.GASG = {
             serviceNumber: "15",
             destination: {
                 text: "PASIR RIS INT",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "15",
-                    top: "PASIR RIS INT",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "15",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "MARINE PARADE RD",
+                " ",
                 "JOO CHIAT PLACE",
+                " ",
                 "STILL ROAD",
+                " ",
                 "JALAN EUNOS",
+                " ",
                 "EUNOS LINK",
+                " ",
                 "KAKI BUKIT AVE 1",
+                " ",
                 "BEDOK RESERVOIR ROAD",
+                " ",
                 "JALAN EUNOS",
+                " ",
                 "BEDOK NTH RD EXTN (EXPRESS)",
+                " ",
                 "TAMPINES AVE 1/5/4/7/9/12",
+                " ",
                 "PASIR RIS ST 52",
-                "PASIR RIS DR 8/1/3"
+                " ",
+                "PASIR RIS DR 8/1/3",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
