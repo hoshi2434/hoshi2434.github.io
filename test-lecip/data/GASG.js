@@ -468,7 +468,7 @@ EDSData.GASG = {
                 "NEW UPP CHANGI RD",
                 " ",
                 "CHANGI RD",
-                " ".
+                " ",
                 "GEYLANG RD",
                 " ",
                 "KALLANG RD",
@@ -499,7 +499,7 @@ EDSData.GASG = {
                 "SPOONER RD",
                 " ",
                 "KG BAHRU RD",
-                " ".
+                " ",
                 "EU TONG SEN ST",
                 " ",
                 "HILL ST",
