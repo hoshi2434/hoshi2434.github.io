@@ -922,8 +922,8 @@ EDSData.GASG = {
                     serviceNumber: "15A",
                     top: "TERMINATES AT",
                     bottom: "OPP EUNOS STN",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "LAWO-12:5",
+                    bottomFont: "LAWO-12:5"
                 }
             ],
             scrollFont: "Mobitec-7:4"
@@ -997,8 +997,8 @@ EDSData.GASG = {
                     serviceNumber: "17A",
                     top: "TERMINATES AT",
                     bottom: "BEDOK NTH DEPOT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "LAWO-12:5",
+                    bottomFont: "LAWO-12:5"
                 }
             ],
             scrollFont: "Mobitec-7:4"
