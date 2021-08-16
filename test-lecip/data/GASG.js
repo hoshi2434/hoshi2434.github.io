@@ -1010,31 +1010,25 @@ EDSData.GASG = {
             serviceNumber: "34",
             destination: {
                 text: "CHANGI AIRPORT",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "34",
-                    top: "Changi Airport",
-                    topFont: "Mobitec-10:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "34",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PUNGGOL PLACE",
+                " ",
                 "PUNGGOL CENTRAL",
+                " ",
                 "PUNGGOL ROAD",
+                " ",
                 "TPE",
+                " ",
                 "TAMPINES AVE 10/5/2/7",
+                " ",
                 "PIE",
+                " ",
                 "AIRPORT BOULEVARD",
-                "CHANGI AIRPORT PTB 3,1,2,4"
+                " ",
+                "CHANGI AIRPORT PTB 3,1,2,4",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1045,30 +1039,23 @@ EDSData.GASG = {
             serviceNumber: "34",
             destination: {
                 text: "PUNGGOL",
-                font: "Mobitec-7:7"
+                font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "34",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "34",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "AIRPORT BOULEVARD",
+                " ",
                 "PIE",
+                " ",
                 "TAMPINES AVE 7/2/5/10",
+                " ",
                 "TPE",
+                " ",
                 "PUNGGOL ROAD",
+                " ",
                 "PUNGGOL CENTRAL",
-                "PUNGGOL PLACE"
+                " ",
+                "PUNGGOL PLACE",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
