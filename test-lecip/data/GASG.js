@@ -914,34 +914,17 @@ EDSData.GASG = {
             serviceNumber: "15A",
             destination: {
                 text: "OPP EUNOS STN",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "15A",
-                    top: "ENDS AT",
+                    top: "TERMINATES AT",
                     bottom: "OPP EUNOS STN",
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "15A",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "PASIR RIS DR 3/1/8",
-                "PASIR RIS ST 52",
-                "TAMPINES AVE 12/9/5/7",
-                "TAMPINES AVE 4/1",
-                "BEDOK NTH RD EXTN",
-                "BEDOK RESERVOIR RD",
-                "KAKI BUKIT AVE 1",
-                "EUNOS LINK",
-                "JALAN EUNOS"
+                }
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -952,30 +935,23 @@ EDSData.GASG = {
             serviceNumber: "17",
             destination: {
                 text: "BEDOK",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "17",
-                    top: "BEDOK",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "17",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PASIR RIS DR 3/4/1",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "TAMPINES AVE 7/2",
+                " ",
                 "SIMEI AVE",
+                " ",
                 "BEDOK NORTH RD",
+                " ",
                 "BEDOK NORTH AVE 4/1",
-                "BEDOK NORTH DR"
+                " ",
+                "BEDOK NORTH DR",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -986,30 +962,23 @@ EDSData.GASG = {
             serviceNumber: "17",
             destination: {
                 text: "PASIR RIS",
-                font: "Mobitec-7:7"
+                font: "LAWO-12:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "17",
-                    top: "PASIR RIS",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "17",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "BEDOK NORTH DRIVE",
+                " ",
                 "BEDOK NORTH RD",
+                " ",
                 "BEDOK NORTH AVE 1/4",
+                " ",
                 "SIMEI AVE",
+                " ",
                 "TAMPINES AVE 2/7",
+                " ",
                 "LOYANG AVE",
-                "PASIR RIS DR 1/4/3"
+                " ",
+                "PASIR RIS DR 1/4/3",
+                " "
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1026,22 +995,11 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "17A",
-                    top: "ENDS AT",
+                    top: "TERMINATES AT",
                     bottom: "BEDOK NTH DEPOT",
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "17A",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "BEDOK NORTH DRIVE",
-                "BEDOK NORTH RD",
-                "BEDOK NORTH AVE 4"
+                }
             ],
             scrollFont: "Mobitec-7:4"
         }
