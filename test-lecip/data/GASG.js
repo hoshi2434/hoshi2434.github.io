@@ -922,8 +922,8 @@ EDSData.GASG = {
                     serviceNumber: "15A",
                     top: "TERMINATES AT",
                     bottom: "OPP EUNOS STN",
-                    topFont: "LECIP-11",
-                    bottomFont: "LEICP-11"
+                    topFont: "LAWO-12:5",
+                    bottomFont: "LAWO-12:5"
                 }
             ],
             scrollFont: "LECIP-8"
@@ -997,8 +997,8 @@ EDSData.GASG = {
                     serviceNumber: "17A",
                     top: "TERMINATES AT",
                     bottom: "BEDOK NTH DEPOT",
-                    topFont: "LECIP-11",
-                    bottomFont: "LECIP-11"
+                    topFont: "LAWO-12:5",
+                    bottomFont: "LAWO-12:5"
                 }
             ],
             scrollFont: "LECIP-8"
@@ -1086,7 +1086,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "34B",
             destination: {
-                text: "AFT TPE",
+                text: "DATA UNAVAILABLE",
                 font: "Mobitec-13:7"
             },
             scrolls: [
@@ -1169,23 +1169,7 @@ EDSData.GASG = {
                     bottom: "THE REGENT S'PORE",
                     topFont: "Mobitec-13:7",
                     bottomFont: "Mobitec-13:7"
-                },
-                "CHANGI AIRPORT PTB 3,1,2",
-                "AIRPORT BOULEVARD",
-                "T4 CRESCENT",
-                "ECP (EXPRESS)",
-                "MARINE PARADE RD",
-                "AMBER RD",
-                "MOUNTBATTEN RD",
-                "TANJONG KATONG RD STH",
-                "TEMASEK BLVD/AVE",
-                "RAFFLES BLVD/AVE",
-                "STAMFORD RD",
-                "ORCHAD BLVD",
-                "PENANG RD",
-                "SOMERSET RD",
-                "GRANGE RD",
-                "TOMLISON RD"
+                }
             ],
             scrollFont: "LECIP-8"
         }
@@ -1195,7 +1179,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "36B",
             destination: {
-                text: "SINGLAP RD",
+                text: "DATA UNAVAILABLE",
                 font: "Mobitec-13:7"
             },
             scrolls: [
@@ -1233,29 +1217,40 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43",
-                    top: "UPP EAST COAST",
-                    topFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PL",
+                " ",
                 "PUNGGOL CTRL",
+                " ",
                 "PUNGGOL WAY",
+                " ",
                 "SENGKANG EAST RD",
+                " ",
                 "SENGKANG CTRL",
+                " ",
                 "BUANGKOK DR",
+                " ",
                 "BUANGKOK GREEN/MRT",
+                " ",
                 "YIO CHU KANG RD",
+                " ",
                 "YIO CHU KANG LK",
+                " ",
                 "SERANGOON MRT/CTRL",
+                " ",
                 "UPP SERANGOON RD",
+                " ",
                 "PAYA LEBAR RD",
+                " ",
                 "TANJONG KATONG RD",
+                " ",
                 "AMBER RD",
+                " ",
                 "MARINE PARADE RD",
+                " ",
                 "BEDOK STH AVE 1",
-                "UPP EAST COAST RD"
+                " ",
+                "UPP EAST COAST RD",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -1269,30 +1264,42 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
                 "UPP EAST COAST RD",
+                " ",
                 "BEDOK SOUTH AVE 1",
+                " ",
                 "MARINE PARADE RD",
+                " ",
                 "AMBER RD",
+                " ",
                 "GEYLANG RD",
+                " ",
                 "PAYA LEBAR RD",
+                " ",
                 "UPP PAYA LEBAR RD",
+                " ",
                 "UPP SERANGOON RD",
+                " ",
                 "SERANGOON MRT/CTRL",
+                " ",
                 "YIO CHU KANG LK",
+                " ",
                 "YIO CHU KANG RD",
+                " ",
                 "BUANGKOK GREEN/MRT",
+                " ",
                 "BUANGKOK DR",
+                " ",
                 "SENGKANG CTRL",
+                " ",
                 "SENGKANG EAST RD",
+                " ",
                 "PUNGGOL WAY",
+                " ",
                 "PUNGGOL CTRL",
-                "PUNGGOL PL"
+                " ",
+                "PUNGGOL PL",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -1306,22 +1313,26 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43M",
-                    top: "Serangoon MRT",
-                    topFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PL",
+                " ",
                 "PUNGGOL CTRL",
+                " ",
                 "PUNGGOL WAY",
+                " ",
                 "SENGKANG EAST RD",
+                " ",
                 "SENGKANG CTRL",
+                " ",
                 "BUANGKOK MRT/DR",
+                " ",
                 "BUANGKOK GREEN",
+                " ",
                 "YIO CHU KANG RD",
+                " ",
                 "YIO CHU KANG LK",
-                "SERANGOON MRT/CTRL"
+                " ",
+                "SERANGOON MRT/CTRL",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -1335,20 +1346,6 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43M",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43M",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "SERANGOON CENTRAL",
                 "YIO CHU KANG LINK",
                 "YIO CHU KANG RD",
