@@ -358,10 +358,10 @@ EDSData.GASG = {
         front: {
             renderType: "boot",
             top: "V315",
-            topFont: "Mobitec-13:7",
+            topFont: "LAWO-12:5",
 
             bottom: "0308",
-            bottomFont: "Mobitec-13:7",
+            bottomFont: "LAWO-12:5",
 
             serviceNumber: ""
         }
