@@ -2135,20 +2135,6 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "354",
-                    top: "JLN LOYANG BR",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "354",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS DR 3"
             ],
             scrollFont: "LECIP-8"
@@ -2163,22 +2149,10 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "354",
-                    top: "PASIR RIS INT",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "354",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS CL",
-                "PASIR RIS DR 3"
+                " ",
+                "PASIR RIS DR 3",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2192,25 +2166,12 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "358",
-                    top: "PASIR RIS INT",
-                    bottom: "(WEST LOOP)",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "358",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS DR 3/1",
+                " ",
                 "PASIR RIS DR 10 (LOOP)",
-                "ELIAS RD"
+                " ",
+                "ELIAS RD",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2224,26 +2185,14 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "358",
-                    top: "PASIR RIS INT",
-                    bottom: "(EAST LOOP)",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "358",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS DR 6/1",
+                " ",
                 "PASIR RIS DR 4 (LOOP)",
+                " ",
                 "PASIR RIS ST 41",
-                "PASIR RIS DR 6/3"
+                " ",
+                "PASIR RIS DR 6/3",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2257,25 +2206,12 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "359",
-                    top: "PASIR RIS INT",
-                    bottom: "(WEST LOOP)",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "359",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS DR 3/12/1/10",
+                " ",
                 "PASIR RIS ST 71 (LOOP)",
-                "PASIR RIS 12/3"
+                " ",
+                "PASIR RIS 12/3",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2289,25 +2225,12 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "359",
-                    top: "PASIR RIS INT",
-                    bottom: "(EAST LOOP)",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "359",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS CTRL",
+                " ",
                 "PASIR RIS ST 51/11",
-                "PASIR RIS DR 1/3"
+                " ",
+                "PASIR RIS DR 1/3",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2321,29 +2244,20 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "403",
-                    top: "PASIR RIS INT",
-                    bottom: "PSR PARK(LOOP)",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "403",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS DR 3/1",
+                " ",
                 "PASIR RIS CTRL",
+                " ",
                 "ELIAS RD",
+                " ",
                 "PASIR RIS RD(LOOP)",
+                " ",
                 "ELIAS RD",
+                " ",
                 "PASIR RIS CTRL",
-                "PASIR RIS 1/3"
+                " ",
+                "PASIR RIS 1/3",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2357,16 +2271,14 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "384",
-                    top: "PUNGGOL INT",
-                    topFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PL",
+                " ",
                 "PUNGGOL CTRL",
+                " ",
                 "PUNGGOL WAY",
-                "NORTHSHORE DRIVE"
+                " ",
+                "NORTHSHORE DRIVE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2380,33 +2292,18 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "386",
-                    top: "PUNGGOL INT",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "386",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PL",
+                " ",
                 "PUNGGOL CTRL",
+                " ",
                 "EDGEFIELD PLAINS",
+                " ",
                 "PUNGGOL DR",
+                " ",
                 "EDGEDALE PLAINS",
+                " ",
                 "PUNGGOL FIELD",
-                "PUNGGOL EAST",
-                "PUNGGOL CTRL",
-                "EDGEDALE PLAINS",
-                "PUNGGOL DR",
-                "EDGEFIELD PLAINS",
-                "PUNGGOL CTRL",
-                "PUNGGOL PL"
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2420,33 +2317,28 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "518",
-                    top: "EXPRESSBAYFRONT",
-                    bottom: "Service     AVE    ",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "518",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                 },
                 "PASIR RIS DR 3/12/1",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "TAMPINES AVE 7/2/1",
+                " ",
                 "BEDOK NORTH MRT/RD",
+                " ",
                 "PIE, CTE",
+                " ",
                 "MOULMEIN ROAD",
+                " ",
                 "NEWTON ROAD",
+                " ",
                 "SCOTTS ROAD",
+                " ",
                 "ORCHARD ROAD",
+                " ",
                 "BRASH BASAH ROAD",
-                "TEMASEK BLVD, AVE"
+                " ",
+                "TEMASEK BLVD, AVE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2460,27 +2352,16 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "518",
-                    top: "EXPRESS PASIR RIS",
-                    bottom: "Service      INT    ",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                	renderType: "destScroll",
-                    serviceNumber: "518",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                 },
                 "ECP, KPE, PIE",
+                " ",
                 "BEDOK NORTH ROAD",
+                " ",
                 "TAMPINES AVE 1/2/7",
+                " ",
                 "LOYANG AVE",
-                "PASIR RIS DR 1/12/3"
+                " ",
+                "PASIR RIS DR 1/12/3",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2494,31 +2375,24 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "518A",
-                    top: "ENDS AT",
-                    bottom: "BAYFRONT AVE",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "518A",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PASIR RIS DR 3/12/1",
+                " ",
                 "LOYANG AVE",
+                " ",
                 "PIE, CTE",
+                " ",
                 "MOULMEIN ROAD",
+                " ",
                 "NEWTON ROAD",
+                " ",
                 "SCOTTS ROAD",
+                " ",
                 "ORCHARD ROAD",
+                " ",
                 "BRASH BASAH ROAD",
-                "TEMASEK BLVD, AVE"
+                " ",
+                "TEMASEK BLVD, AVE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2561,177 +2435,7 @@ EDSData.GASG = {
             scrollFont: "LECIP-8"
         }
     },
-    6261: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "6264",
-            destination: {
-                text: "HARBOURFRONT",
-                font: "Mobitec-13:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "WELCOME ABOARD PC6264K!",
-                    bottom: "SHOW YOUR TICKETS TO OUR STAFF",
-                    topFont: "LECIP-8",
-                    bottomFont: "LECIP-8"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "6264",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                 {
-                	renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "ROUTE DETAILS NOT CONFIRMED",
-                    bottom: "SORRY FOR THE INCONVENIENCE!",
-                    topFont: "LECIP-8",
-                    bottomFont: "LECIP-8"
-                 },
-            ],
-            scrollFont: "LECIP-8"
-        }
-    },
-    6262: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "6264",
-            destination: {
-                text: "BUS DEPOT",
-                font: "Mobitec-13:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "6264",
-                    top: "Sorry!",
-                    bottom: "Not In Service",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "6264",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                 {
-                	renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "THANK YOU FOR TRAVELLING WITH US!",
-                    bottom: "FOLLOW OUR INSTA (BUSGAG.SG)!",
-                    topFont: "LECIP-8",
-                    bottomFont: "LECIP-8"
-                 },
-                "BUSGAG ADMINS ONLY",
-                "CHARTERED",
-                "BUS HEADING TO DEPOT"
-            ],
-            scrollFont: "LECIP-8"
-        }
-    },
-    69: {
-        front: {
-            renderType: "destScroll",
-            top: "CHARTERED",
-            topFont: "Mobitec-13:7",
 
-            bottom: "FOR 'busgag.sg'",
-            bottomFont: "LECIP-8",
-
-            serviceNumber: ""
-        }
-    },
-    8251: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "825",
-            destination: {
-                text: "LENTOR LOOP via",
-                font: "LECIP-8"
-            },
-            scrolls: [
-                "SEASONS PARK",
-                "THOMSON GROVE",
-                "CASTLE GREEN"
-            ],
-            scrollFont: "LECIP-8"
-        }
-    },
-    8541: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "854",
-            destination: {
-                text: "BEDOK via",
-                font: "Mobitec-13:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "BEDOK",
-                    topFont: "Mobitec-13:7"
-                },
-                "JLN EUNOS, MRT",
-                "HOUGANG AVE 3",
-                "HOUGANG AVE 2",
-                "YIO CHU KANG RD",
-                "TO BE COMPLETED"
-            ],
-            scrollFont: "LECIP-8"
-        }
-    },
-    8542: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "854",
-            destination: {
-                text: "YISHUN via",
-                font: "Mobitec-13:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "YISHUN",
-                    topFont: "Mobitec-13:7"
-                },
-                "HOUGANG AVE 2",
-                "HOUGANG AVE 3",
-                "JLN EUNOS",
-                "P I E",
-                "TO BE COMPLETED"
-            ],
-            scrollFont: "LECIP-8"
-        }
-    },
-    901: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "GA RIDE 01",
-                font: "Mobitec-13:7"
-            },
-            scrolls: [
-                {
-                    renderType: "GARide",
-                    serviceNumber: "",
-                    top: "GA RIDE 01"
-                }
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        },
-    },
 }
 
 EDSExtras.GASG = { 
