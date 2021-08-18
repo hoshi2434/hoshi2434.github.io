@@ -1730,30 +1730,26 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "85",
-                    top: "YISHUN",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "85",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PLACE",
+                " ",
                 "PUNGGOL CENTRAL",
+                " ",
                 "PUNGGOL EAST",
+                " ",
                 "SENGKANG EAST DRIVE",
+                " ",
                 "SENGKANG EST/WST WAY",
+                " ",
                 "JALAN KAYU",
+                " ",
                 "SLE",
+                " ",
                 "LENTOR AVE",
+                " ",
                 "YISHUN AVE 2",
-                "YISHUN CTRL"
+                " ",
+                "YISHUN CTRL",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -1767,33 +1763,32 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "85",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "85",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "YISHUN CTRL",
+                " ",
                 "YISHUN AVE 2",
+                " ",
                 "LENTOR AVE",
+                " ",
                 "SLE",
+                " ",
                 "JALAN KAYU",
+                " ",
                 "SENGKANG WST/EST WAY",
+                " ",
                 "SENGKANG EAST RD",
+                " ",
                 "COMPASSVALE DR",
+                " ",
                 "RIVERVALE DR",
+                " ",
                 "SENGKANG EAST DR",
+                " ",
                 "PUNGGOL EAST",
+                " ",
                 "PUNGGOL CENTRAL",
-                "PUNGGOL PLACE"
+                " ",
+                "PUNGGOL PLACE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -1878,12 +1873,9 @@ EDSData.GASG = {
                     serviceNumber: "118A",
                     top: "ENDS AT",
                     bottom: "ITE COLLEGE EAST",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                "TAMPINES EXPRESSWAY",
-                "TAMPINES AVE 10/5/8/1",
-                "SIMEI AVE"
+                    topFont: "LAWO-12:5",
+                    bottomFont: "LAWO-12:5"
+                }
             ],
             scrollFont: "LECIP-8"
         }
@@ -1893,7 +1885,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "118B",
             destination: {
-                text: "BEF PUNGGOL RD",
+                text: "UNAVAILABLE",
                 font: "Mobitec-13:7"
             },
             scrolls: [
@@ -1902,20 +1894,9 @@ EDSData.GASG = {
                     serviceNumber: "118B",
                     top: "ENDS AT",
                     bottom: "BEF PUNGGOL RD",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "118B",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
-                "SIMEI AVE",
-                "TAMPINES AVE 1/8/5/10",
-                "TAMPINES EXPRESSWAY"
+                    topFont: "LAWO-12:5",
+                    bottomFont: "LAWO-12:5"
+                }
             ],
             scrollFont: "LECIP-8"
         }
@@ -1997,32 +1978,30 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "136",
-                    top: "PUNGGOL",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "136",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "ANG MO KIO AVE 8/3/6/1",
+                " ",
                 "LORONG CHUAN",
-                "SERANGOOM GDN WAY",
+                " ",
+                "SERANGOON GDN WAY",
+                " ",
                 "YIO CHU KANG ROAD",
+                " ",
                 "UPP SERANGOON ROAD",
+                " ",
                 "RIVERVALE ROAD",
+                " ",
                 "SENGKANG EAST WAY",
+                " ",
                 "PUNGGOL ROAD",
+                " ",
                 "PUNGGOL FIELD",
+                " ",
                 "EDGEFIELD PLAINS",
+                " ",
                 "PUNGGOL CENTRAL",
-                "PUNGGOL PLACE"
+                " ",
+                "PUNGGOL PLACE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2036,32 +2015,30 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "136",
-                    top: "ANG MO KIO",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "136",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PLACE",
+                " ",
                 "PUNGGOL CENTRAL",
+                " ",
                 "EDGEFIELD PLAINS",
+                " ",
                 "PUNGGOL FIELD",
+                " ",
                 "PUNGGOL ROAD",
+                " ",
                 "SENGKANG EAST WAY",
+                " ",
                 "RIVERVALE DRIVE",
+                " ",
                 "UPP SERANGOON ROAD",
+                " ",
                 "YIO CHU KANG ROAD",
+                " ",
                 "SERANGOON GDN WAY",
+                " ",
                 "LORONG CHUAN",
-                "ANG MO KIO AVE 1/6/3/8"
+                " ",
+                "ANG MO KIO AVE 1/6/3/8",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2075,26 +2052,18 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "381",
-                    top: "PUNGGOL INT",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "381",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PLACE",
+                " ",
                 "PUNGGOL FIELD",
+                " ",
                 "PUNGGOL WAY",
+                " ",
                 "EDGEFIELD PLAINS",
+                " ",
                 "PUNGGOL FIELD",
-                "PUNGGOL EAST"
+                " ",
+                "PUNGGOL EAST",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2108,28 +2077,22 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "382G",
-                    top: "PUNGGOL INT",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "382G",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PLACE",
+                " ",
                 "PUNGGOL FIELD",
+                " ",
                 "SUMANG CRESCENT",
+                " ",
                 "SUMANG LANE",
+                " ",
                 "SUMANG WALK",
+                " ",
                 "SUMANG LINK",
+                " ",
                 "SENTUL CRESCENT",
-                "PUNGGOL PLACE"
+                " ",
+                "PUNGGOL PLACE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
@@ -2143,28 +2106,22 @@ EDSData.GASG = {
                 font: "Mobitec-13:7"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "382W",
-                    top: "PUNGGOL INT",
-                    topFont: "Mobitec-13:7"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "382W",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
-                },
                 "PUNGGOL PLACE",
+                " ",
                 "SENTUL CRESCENT",
+                " ",
                 "SUMANG LINK",
+                " ",
                 "SUMANG WALK",
+                " ",
                 "SUMANG LANE",
+                " ",
                 "SUMANG CRESCENT",
+                " ",
                 "PUNGGOL FIELD",
-                "PUNNGOL PLACE"
+                " ",
+                "PUNNGOL PLACE",
+                " "
             ],
             scrollFont: "LECIP-8"
         }
