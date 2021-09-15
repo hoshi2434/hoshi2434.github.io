@@ -1637,6 +1637,34 @@ EDSData.TTSG = {
             ]
         }
     },
+    8541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "854",
+            destination: "BEDOK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "8541",
+                    top: "BEDOK",
+                    image: "mrt"
+                },
+                "YIO CHU KANG RD",
+                "HOUGANG AVE 2",
+                "HOUGANG AVE 3",
+                "JLN EUNOS, MRT"
+            ]
+        }
+    },
     9451: {
         front: {
             renderType: "standardService",
