@@ -7,5 +7,5 @@ State: Slow Progress
 
 Version 15082020:
 
->Do not to use this anymore. Instead, use the more reliable EDS Simulator, tinyurl.com/richtigsauerapps.
+>Do not to use this anymore it is now for PERSONAL USE.
 >Periodically update Data.
