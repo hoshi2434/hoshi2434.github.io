@@ -1654,7 +1654,7 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "8541",
+                    serviceNumber: "854",
                     top: "BEDOK",
                     image: "mrt"
                 },
