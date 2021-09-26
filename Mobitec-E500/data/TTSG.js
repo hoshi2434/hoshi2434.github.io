@@ -1891,7 +1891,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "854e",
-            destination: "YISHUN",
+            destination: "BEDOK",
             scrolls: [
                 {
                     renderType: "destScroll",
