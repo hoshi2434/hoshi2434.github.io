@@ -1106,6 +1106,84 @@ EDSData.TTSG = {
             ]
         }
     },
+    1711: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "171",
+            destination: "MARINA CENTRE",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "171",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "171",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "171",
+                    top: "MARINA CENTRE",
+                    image: "mrt"
+                },
+                "SEMBAWANG ROAD",
+                "MANDAI ROAD",
+                "BT PANJANG ROAD",
+                "UPP BT TIMAH RD",
+                "DUNEARN ROAD",
+                "ORCHARD ROAD"
+            ]
+        }
+    },
+    1712: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "171",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "171",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "171",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "171",
+                    top: "YISHUN",
+                    image: "mrt"
+                },
+                "SOMERSET ROAD",
+                "SCOTTS ROAD",
+                "BUKIT TIMAH ROAD",
+                "BT PANJANG ROAD",
+                "MANDAI ROAD",
+                "SEMBAWANG ROAD"
+            ]
+        }
+    },
     1731: {
         front: {
             renderType: "standardService",
@@ -1600,6 +1678,244 @@ EDSData.TTSG = {
             ]
         }
     },
+    8531: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "853",
+            destination: "GEYLANG LOR 1",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853",
+                    top: "GEYLANG LOR 1",
+                    image: "mrt"
+                },
+                "YISHUN CTRL 1",
+                "ANG MO KIO AVE 6",
+                "ANG MO KIO AVE 1",
+                "UPP SERANGOON RD",
+                "KALLANG BAHRU"
+            ]
+        }
+    },
+    8532: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "853",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853",
+                    top: "YISHUN",
+                    image: "mrt"
+                },
+                "KALLANG BAHRU",
+                "UPP SERANGOON RD",
+                "ANG MO KIO AVE 1",
+                "ANG MO KIO AVE 6",
+                "YISHUN CTRL 1"
+            ]
+        }
+    },
+    8533: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "853M",
+            destination: "UPP EAST COAST",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853M",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853M",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853M",
+                    top: "UPP EAST COAST",
+                    image: "mrt"
+                },
+                "YISHUN CTRL 1",
+                "ANG MO KIO AVE 6",
+                "UPP SERANGOON RD",
+                "KALLANG BAHRU",
+                "TANJONG KATONG",
+                "MARINE PARADE RD"
+            ]
+        }
+    },
+    8534: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "853M",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853M",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853M",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "853M",
+                    top: "YISHUN",
+                    image: "mrt"
+                },
+                "TANJONG KATONG",
+                "KALLANG BAHRU",
+                "UPP SERANGOON RD",
+                "ANG MO KIO AVE 6",
+                "YISHUN CTRL 1"
+            ]
+        }
+    },
+    8541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "854",
+            destination: "BEDOK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "BEDOK",
+                    image: "mrt"
+                },
+                "YIO CHU KANG RD",
+                "HOUGANG AVE 2",
+                "HOUGANG AVE 3",
+                "JLN EUNOS, MRT"
+            ]
+        }
+    },
+    8542: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "854",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854",
+                    top: "YISHUN",
+                    image: "mrt"
+                },
+                "JLN EUNOS, MRT",
+                "HOUGANG AVE 3",
+                "HOUGANG AVE 2",
+                "YIO CHU KANG RD"
+            ]
+        }
+    },
+    8543: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "854e",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854e",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "854e",
+                    top: "BEDOK",
+                    image: "mrt"
+                },
+                "YIO CHU KANG RD",
+                "HOUGANG AVE 2",
+                "HOUGANG AVE 3",
+                "JLN EUNOS",
+                "P I E"
+            ]
+        }
+    },
     9411: {
         front: {
             renderType: "standardService",
@@ -1634,34 +1950,6 @@ EDSData.TTSG = {
                 "BT BATOK WEST AVE 6",
                 "BT BATOK ST 11",
                 "BT BATOK WEST AVE 8",
-            ]
-        }
-    },
-    8541: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "854",
-            destination: "BEDOK",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "We strive to",
-                    topFont: "Mobitec-7:5:1",
-                    bottom: "serve you well!",
-                    bottomFont: "Mobitec-7:5:1",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "BEDOK",
-                    image: "mrt"
-                },
-                "YIO CHU KANG RD",
-                "HOUGANG AVE 2",
-                "HOUGANG AVE 3",
-                "JLN EUNOS, MRT"
             ]
         }
     },
