@@ -1916,6 +1916,126 @@ EDSData.TTSG = {
             ]
         }
     },
+    8551: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "855",
+            destination: "HARBOURFRONT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "855",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "855",
+                    top: "HARBOURFRONT",
+                    image: "mrt"
+                },
+                "YIO CHU KANG RD",
+                "UPP THOMSON RD",
+                "FARRER ROAD",
+                "JLN BUKIT MERAH",
+                "LOWER DELTA RD"
+            ]
+        }
+    },
+    8552: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "855",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "855",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "855",
+                    top: "YISHUN",
+                    image: "mrt"
+                },
+                "LOWER DELTA RD",
+                "JLN BUKIT MERAH",
+                "FARRER ROAD",
+                "UPP THOMSON ROAD",
+                "YIO CHU KANG RD"
+            ]
+        }
+    },
+    8561: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "856",
+            destination: "WOODLANDS",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856",
+                    top: "WOODLANDS",
+                    image: "mrt"
+                },
+                "YISHUN AVE 5",
+                "SEMBAWANG RD",
+                "CANBERRA RD / MRT",
+                "ADMIRALTY RD WEST",
+                "SENOKO AVE",
+                "ADMIRALTY RD",
+                "WDL CENTRE RD"
+            ]
+        }
+    },
+    8562: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "856",
+            destination: "YISHUN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856",
+                    top: "We strive to",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "serve you well!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856",
+                    top: "YISHUN",
+                    image: "mrt"
+                },
+                "WDL TRAIN CHECKPOINT",
+                "ADMIRALTY RD",
+                "SENOKO AVE",
+                "ADMIRALTY RD WEST",
+                "CANBERRA RD / MRT",
+                "SEMBAWANG RD",
+                "YISHUN AVE 5"
+            ]
+        }
+    },
     9411: {
         front: {
             renderType: "standardService",
