@@ -55,7 +55,7 @@ EDSFormats.HGWT= {
         },
 
         leftFlower: {
-            align: "left",
+            align: "centre-x",
             image: "logo"
         },
         displayText: {
@@ -420,8 +420,11 @@ EDSData.HGWT = {
     1111: {
         front: {
             renderType: "destScroll",
-            top: "Sorry! Not in Service!",
+            top: "Sorry!",
             topFont: "Mobitec-7:7",
+
+            bottom: "Not in Service",
+            bottomFont: "Mobitec-7:7",
 
             serviceNumber: ""
         }
