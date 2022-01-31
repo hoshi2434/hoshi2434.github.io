@@ -55,7 +55,7 @@ EDSFormats.HGWT= {
         },
 
         leftFlower: {
-            align: "left",
+            align: "centre-x,centre-y",
             image: "logo"
         },
         displayText: {
