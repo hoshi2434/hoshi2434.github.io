@@ -537,27 +537,14 @@ EDSData.HGWT = {
     },
   9742: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "974A",
-            destination: {
-                text: "ENDS AT",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "974",
-                    top: "TOMLINSON INT",
-                    topFont: "Mobitec-13:7"
-                },
-                "UPP TOMLINSON RD",
-                "TOMLINSON AVE 1",
-                "LONG HILL ROAD",
-                "HGE",
-                "TOMLINSON LINK",
-                "TOWNSVILLE AVE 1"
-            ],
-            scrollFont: "Mobitec-7:4"
+            renderType: "destScroll",
+            top: "ENDS AT T.V POLY",
+            topFont: "Mobitec-7:4",
+
+            bottom: "TOWNSVILLE MRT",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: "974A"
         }
     },
     9743: {
