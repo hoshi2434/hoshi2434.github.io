@@ -405,7 +405,7 @@ EDSData.HGWT = {
             serviceNumber: ""
         }
     },
-    1: {
+    '1': {
         front: {
             renderType: "destScroll",
             top: "",
