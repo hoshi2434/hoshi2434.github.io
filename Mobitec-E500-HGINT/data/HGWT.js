@@ -420,7 +420,7 @@ EDSData.HGWT = {
     1111: {
         front: {
             renderType: "destScroll",
-            top: "Sorry! Not in Service",
+            top: "Sorry! Not in Service!",
             topFont: "Mobitec-7:7",
 
             serviceNumber: ""
@@ -541,11 +541,11 @@ EDSData.HGWT = {
             serviceNumber: "974A",
             destination: {
                 text: "ENDS AT",
-                font: "Mobitec-7:4"
+                font: "Mobitec-7:7"
             },
             scrolls: [
-                "TOWNSVILLE POLY",
-                "TOWNSVILLE MRT"
+                "UPP TOMLINSON RD",
+                "TOMLINSON AVE 1"
             ],
             scrollFont: "Mobitec-7:4"
         }
