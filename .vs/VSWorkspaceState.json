@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\test-lecip",
+    "\\Mobitec-E500-HGINT\\data",
+    "\\Mobitec-E500\\data",
     "\\test-lecip\\data"
   ],
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
