@@ -544,8 +544,18 @@ EDSData.HGWT = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "974",
+                    top: "TOMLINSON INT",
+                    topFont: "Mobitec-13:7"
+                },
                 "UPP TOMLINSON RD",
-                "TOMLINSON AVE 1"
+                "TOMLINSON AVE 1",
+                "LONG HILL ROAD",
+                "HGE",
+                "TOMLINSON LINK",
+                "TOWNSVILLE AVE 1"
             ],
             scrollFont: "Mobitec-7:4"
         }
