@@ -665,7 +665,7 @@ EDSData.GASR = {
     },
 }
 
-EDSExtras.GASR = { 
+EDSExtras.HGWT = { 
     1: {
         front: {
             renderType: "destScroll",
