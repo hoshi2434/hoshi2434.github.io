@@ -537,14 +537,17 @@ EDSData.HGWT = {
     },
   9742: {
         front: {
-            renderType: "destScroll",
-            top: "ENDS AT T.V POLY",
-            topFont: "Mobitec-7:7",
-
-            bottom: "TOWNSVILLE MRT",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: "974A"
+            renderType: "standardService",
+            serviceNumber: "974A",
+            destination: {
+                text: "ENDS AT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "TOWNSVILLE POLY",
+                "TOWNSVILLE MRT"
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     9743: {
