@@ -380,7 +380,7 @@ EDSFormats.HGWT= {
     },
 }
 
-EDSData.GASR = {    
+EDSData.HGWT = {    
    '-1': {
         front: {
             renderType: "boot",
@@ -778,7 +778,7 @@ EDSExtras.HGWT = {
     }
 }
 
-EDSImages.GASR = {
+EDSImages.HGWT = {
     gas: [
         [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0],
