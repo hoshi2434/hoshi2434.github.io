@@ -648,6 +648,306 @@ EDSData.HGWT = {
             scrollFont: "Mobitec-7:4"
         }
     },
+9791: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "979",
+            destination: {
+                text: "TOMLINSON INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "979",
+                    top: "TOMLINSON INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "UPP TOMLINSON RD",
+                "TOMLINSON AVE 1",
+                "NORMANTON CRESCENT",
+                "HGE",
+                "LONG HILL RD, DR",
+                "RIVERVALE CRESCENT"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9811: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "981",
+            destination: {
+                text: "HILLGROVE INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "981",
+                    top: "HILLGROVE INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE AVE 1",
+                "HILLGROVE WAY",
+                "HILLGROVE AVE 2,3,5,6",
+                "BURLINGTON CRES"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9821: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "982",
+            destination: {
+                text: "HILLGROVE INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "982",
+                    top: "HILLGROVE INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE WAY",
+                "BRICKLAND ST 52",
+                "BRICKLAND CRESCENT"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9831: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "983",
+            destination: {
+                text: "HILLGROVE INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "983",
+                    top: "HILLGROVE INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE WAY",
+                "WEST TERRA AVE 1",
+                "UPP TOMLINSON RD",
+                "LONG HILL CLOSE",
+                "HILLGROVE MRT",
+                "HILLGROVE FLYOVER"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9832: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "983",
+            destination: {
+                text: "WEST TERRA INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "983",
+                    top: "WEST TERRA INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE WAY",
+                "WEST TERRA AVE 1",
+                "UPP TOMLINSON RD",
+                "LONG HILL CLOSE",
+                "HILLGROVE MRT",
+                "HILLGROVE FLYOVER"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "984",
+            destination: {
+                text: "BUDGET TER PTB1",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                     renderType: "destScroll",
+                     top: "BUDGET TER",
+                     topFont: "Mobitec-7:7",
+
+                     bottom: "PTB 1",
+                     bottomFont: "Mobitec-7:7",
+
+                     serviceNumber: "984"
+                },
+                "WEST TERRA AVE 1",
+                "TOMLINSON AVE 1",
+                "LONG HILL RD,DR",
+                "UPP TOMLINSON RD",
+                "TERMINAL AVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9842: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "984",
+            destination: {
+                text: "WEST TERRA INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "984",
+                    top: "WEST TERRA INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "TERMINAL AVE",
+                "UPP TOMLINSON RD",
+                "LONG HILL RD,DR",
+                "TOMLINSON AVE 1",
+                "WEST TERRA AVE 1"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9871: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "987",
+            destination: {
+                text: "HILLGROVE INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "987",
+                    top: "HILLGROVE INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE AVE 1",
+                "NORMANTON CIRCLE",
+                "TENNESSEE HILL ST 1",
+                "HILLGROVE TURN, WAY",
+                "HILLGROVE AVE 1, CTRL",
+                "HILLTOP AVE, LANE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9881: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "988",
+            destination: {
+                text: "HILLGROVE INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "988",
+                    top: "HILLGROVE INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE AVE 4/1/7",
+                "HILLGROVE JUNCTION",
+                "HILLGROVE LINK"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9891: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "989",
+            destination: {
+                text: "HILLGROVE INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "989",
+                    top: "HILLGROVE INT",
+                    topFont: "Mobitec-13:7"
+                },
+                "HILLGROVE AVE 1",
+                "NORMANTON RD",
+                "EDGEVILLE HILL",
+                "TENNESSEE DRIVE",
+                "STONE VILLAGE WAY",
+                "PEACE VILLAGE CRES"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9901: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "990",
+            destination: {
+                text: "HOSP. AVE TER",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                     renderType: "destScroll",
+                     top: "HOSPITAL AVENUE",
+                     topFont: "Mobitec-7:7",
+
+                     bottom: "TERMINAL",
+                     bottomFont: "Mobitec-7:7",
+
+                     serviceNumber: "990"
+                },
+                "PEACE VILLAGE CRES",
+                "STONE VILLAGE WAY",
+                "NORTHERN TIP RD",
+                "E'VILLE HILL/AVE 1,2",
+                "STONE VILLAGE WAY",
+                "PEACE VILLAGE CRES"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+9911: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "991",
+            destination: {
+                text: "HOSP. AVE TER",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                     renderType: "destScroll",
+                     top: "HOSPITAL AVENUE",
+                     topFont: "Mobitec-7:7",
+
+                     bottom: "TERMINAL",
+                     bottomFont: "Mobitec-7:7",
+
+                     serviceNumber: "990"
+                },
+                "STONE VILLAGE WAY",
+                "NORTHERN TIP RD",
+                "TENNESSEE HILL/CIRC",
+                "TENNESSEE DRIVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     901: {
         front: {
             renderType: "standardService",

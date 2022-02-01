@@ -4348,7 +4348,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "114",
+                serviceNumber: "115",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -4419,6 +4419,50 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "117",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+'117M': { //TODO SCROLLS
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "117M",
+                destination: "> SEMBAWANG INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'PUNGGOL WAY',
+                    "SELETAR A'SPACE CR",
+                    'YISHUN AVE 1',
+                    'SEMBAWANG WAY'
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "117M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "117M",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'SEMBAWANG WAY',
+                    'YISHUN AVE 1',
+                    "SELETAR A'SPACE CR",
+                    'PUNGGOL WAY'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "117M",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
