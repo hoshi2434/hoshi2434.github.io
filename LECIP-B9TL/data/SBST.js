@@ -257,6 +257,30 @@ EDSData.SBST = {
             }
         }
     },
+    2: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "VER. 320",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "LECIP"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "VER. 320",
+                destinationFont: "LECIP-6:5",
+                scrolls: [
+                    "LECIP"
+                ],
+                scrollFont: "LECIP-6:5"
+            }
+        }
+    },
     "1N": {
         1: {
             front: {
