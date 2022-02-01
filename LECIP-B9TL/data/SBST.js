@@ -4423,20 +4423,20 @@ EDSData.SBST = {
             }
         }
     },
-'117M': { //TODO SCROLLS
+'117M': {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117M",
                 destination: "> SEMBAWANG INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     'PUNGGOL WAY',
                     "SELETAR A'SPACE CR",
                     'YISHUN AVE 1',
                     'SEMBAWANG WAY'
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
