@@ -272,7 +272,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "VER. 320",
-                font: "LECIP-7"5",
+                font: "LECIP-7:5",
                 spacing: 2
             }
         }
