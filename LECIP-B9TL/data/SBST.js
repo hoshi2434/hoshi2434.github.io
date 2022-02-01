@@ -272,7 +272,7 @@ EDSData.SBST = {
             rear:{
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "VER. 320",
+                destination: "V320",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "LECIP"
