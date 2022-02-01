@@ -269,7 +269,8 @@ EDSData.SBST = {
                 ],
                 scrollFont: "LECIP-7:5"
             },
-            rear:renderType: "standardService",
+            rear:{
+                renderType: "standardService",
                 serviceNumber: "",
                 destination: "VER. 320",
                 destinationFont: "LECIP-7:5",
