@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Mobitec-E500",
-    "\\Mobitec-E500-HGINT",
+    "\\LECIP-B9TL",
+    "\\LECIP-B9TL\\data",
     "\\Mobitec-E500-HGINT\\data",
     "\\Mobitec-E500-HGINT\\js"
   ],
-  "SelectedNode": "\\Mobitec-E500\\eds.js",
+  "SelectedNode": "\\LECIP-B9TL\\data\\SBST.js",
   "PreviewInSolutionExplorer": false
 }

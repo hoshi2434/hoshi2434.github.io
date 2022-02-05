@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
-    // rearEDS = new LEDMatrix(rearEDSWidth, edsHeight, document.getElementById('rear-eds'));
+    rearEDS = new LEDMatrix(rearEDSWidth, edsHeight, document.getElementById('rear-eds'));
 });
 
 window.addEventListener('resize', generateLEDCssCode);

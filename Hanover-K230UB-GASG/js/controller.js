@@ -104,16 +104,16 @@ function padCentre(text) {
 }
 
 function getParsedData(code, direction) {
-    let frontDisplay = EDSData.SBST[code][direction].front;
-    let parsedFront = parseFormat(EDSFormats.SBST, frontDisplay, EDSImages.SBST, frontEDS);
+    let frontDisplay = EDSData.GASG[code][direction].front;
+    let parsedFront = parseFormat(EDSFormats.GASG, frontDisplay, EDSImages.GASG, frontEDS);
 
     return {front: parsedFront};
 }
 
 function getDisplayName(code, direction) {
-    let data = EDSData.SBST[code][direction];
+    let data = EDSData.GASG[code][direction];
 
-    let {displayName} = new FormattingTemplate({displayName: EDSFormats.SBST[data.front.renderType].text}, data.front).solveAll();
+    let {displayName} = new FormattingTemplate({displayName: EDSFormats.GASG[data.front.renderType].text}, data.front).solveAll();
     if (displayName.text) displayName = displayName.text;
 
     return displayName;
@@ -128,7 +128,7 @@ function showFromDisplayName(displayName) {
 
 function setCode(code, direction) {
     code = code.replace(/^0+/, '');
-    if (!EDSData.SBST[code]) return;
+    if (!EDSData.GASG[code]) return;
 
     let {front} = getParsedData(code, direction);
     render(front, frontEDS);
@@ -141,7 +141,7 @@ function setCode(code, direction) {
 }
 
 function setup() {
-    allEDSCodes = Object.keys(EDSData.SBST).map(code => {return Object.keys(EDSData.SBST[code]).map(direction => code + '.' + direction)}).reduce((acc, a)=>acc.concat(a), []);
+    allEDSCodes = Object.keys(EDSData.GASG).map(code => {return Object.keys(EDSData.GASG[code]).map(direction => code + '.' + direction)}).reduce((acc, a)=>acc.concat(a), []);
 
     for (let keynum = 0; keynum < 10; keynum++) {
         let element = document.getElementById('keypad-' + keynum);
