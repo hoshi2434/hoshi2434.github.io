@@ -4358,6 +4358,29 @@ EDSData.SBST = {
             }
         }
     },
+    114: {//Dest not cfm but will update when data is cfmed
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "114",
+                destination: "BUANGKOK STN-BUANGKOK CRES",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'SENGKANG CTRL',
+                    'BUANGKOK DRIVE',
+                    'BUANGKOK LINK',
+                    'BUANGKOK CRES'
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "114",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     115: {// TODO:  SCROLLS
         1: {
             front: {
