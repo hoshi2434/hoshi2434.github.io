@@ -987,6 +987,23 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1141: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "114",
+            destination: {
+                text: "BUANGKOK MRT-BUANGKOK CRES",
+                font: "Mobitec-6:5"
+            },
+            scrolls: [
+                    'SENGKANG CTRL',
+                    'BUANGKOK DRIVE',
+                    'BUANGKOK LINK',
+                    'BUANGKOK CRES'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     1161: {
         front: {
             renderType: "standardService",
