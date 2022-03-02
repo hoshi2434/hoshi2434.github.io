@@ -282,7 +282,7 @@ EDSData.GASG = {
             rear: {
                 renderType: 'twoline',
                 top: "FREE",
-                topFont: "LECIP-7:4", // check font
+                topFont: "LECIP-7:4",
 
                 bottom: "SHUTTLE",
                 bottomFont: "LECIP-7:4"
