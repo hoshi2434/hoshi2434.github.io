@@ -361,7 +361,19 @@ EDSData.GASG = {
                 destination: "SIMS AVE",
                 destinationFont: "LECIP-11",
                 scrolls: [
-                    "PUNGGOL PL"
+                "PUNGGOL PL",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
+                "SENGKANG EAST DR",
+                "UPP SERANGOON RD",
+                "HOUGANG AVE 8/6/10/2/3",
+                "TAMPINES RD",
+                "HOUGANG AVE 1",
+                "LORONG AH SOO",
+                "UPP PAYA LEBAR RD",
+                "MACPHERSON RD",
+                "ALJUNIED RD/MRT",
+                "GEYLANG RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -375,21 +387,27 @@ EDSData.GASG = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "5",
-                destination: "> PASIR RIS INT",
-                destinationFont: "LECIP-10",
+                serviceNumber: "62",
+                destination: "PUNGGOL",
+                destinationFont: "LECIP-11",
                 scrolls: [
-                    "TIONG BAHRU RD",
-                    "SCOTTS RD",
-                    "THOMSON RD",
-                    "BEDOK RESERVOIR RD",
-                    "UPP CHANGI RD EAST"
+                "ALJUNIED RD/MRT",
+                "MACPHERSON RD",
+                "UPP PAYA LEBAR RD",
+                "LORONG AH SOO",
+                "HOUGANG AVE 1",
+                "TAMPINES RD",
+                "HOUGANG AVE 3/2/10/6/8",
+                "UPP SERANGOON RD",
+                "SENGKANG EAST DR",
+                "PUNGGOL FIELD",
+                "PUNGGOL PL"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "5",
+                serviceNumber: "62",
                 font: "LECIP-20:12",
                 spacing: 2
             }
