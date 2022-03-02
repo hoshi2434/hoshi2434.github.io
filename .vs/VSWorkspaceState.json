@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LECIP-B9TL",
-    "\\LECIP-B9TL\\data"
+    "\\LECIP-B9TL-GASG-OFFICIAL",
+    "\\LECIP-B9TL-GASG-OFFICIAL\\data",
+    "\\Mobitec-E500",
+    "\\Mobitec-E500\\data"
   ],
-  "SelectedNode": "\\LECIP-B9TL\\data\\SBST.js",
+  "SelectedNode": "\\Mobitec-E500\\data\\GASG.js",
   "PreviewInSolutionExplorer": false
 }
