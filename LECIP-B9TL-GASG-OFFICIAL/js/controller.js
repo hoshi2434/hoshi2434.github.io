@@ -34,16 +34,17 @@ function registerKeyPress(key) {
         }
     } else if (key === 'F4') {
         if (currentScreen === 'home') {
-            let newDirection = 3 - currentDirection;
+            let newDirection = 2;
             if (!EDSData[currentOperator][currentService][newDirection]) return;
 
             setCode(currentService, newDirection);
         }
     } else if (key === 'F3') {
-        if (currentScreen === 'home') {
-            let index = operators.indexOf(currentOperator);
-            if (++index === operators.length) index = 0;
-            currentOperator = operators[index];
+       if (currentScreen === 'home') {
+            let newDirection =  1;
+            if (!EDSData[currentOperator][currentService][newDirection]) return;
+
+            setCode(currentService, newDirection);
         }
     } else if (key === 'UP') {
         if (currentScreen === 'service-input') {
@@ -128,8 +129,9 @@ function startup() {
     var textSets = [
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
-        ['V122', '0305']
-        ['LECIP', 'Displays']
+        ['V122', '0305'],
+        ['LECIP', 'Displays'],
+        ['DRIVE SAFE!', 'DATA OK']
     ];
 
     textSets.forEach((lines, index) => {

@@ -8,7 +8,7 @@ EDSFormats.GASG = {
             text: "$serviceNumber",
             font: {
                 $$cond: {
-                    "$serviceFont === null": "LECIP-20:12",
+                    "$serviceFont === null": "LECIP-19",
                     "else": "$serviceFont"
                 }
             },
@@ -226,14 +226,6 @@ EDSFormats.GASG = {
 }
 
 EDSData.GASG = {
-    // "1": {
-    //     1: {
-    //         front: {
-    //             renderType: "mrtPrototype",
-    //             station: "ANG MO KIO"
-    //         }
-    //     }
-    // },
     1111: {
         1: {
             front: {
@@ -264,10 +256,10 @@ EDSData.GASG = {
             rear: {
                 renderType: 'twoline',
                 top: "GO AHEAD",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
-                bottom: "SG",
-                bottomFont: "LECIP-7:4"
+                bottom: "S'PORE",
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -347,9 +339,17 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "message",
-                text: "VER. 30JAN20-DD",
+                text: "VER. 02MAR22-DD",
                 font: "LECIP-14:6",
                 spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "VER",
+                topFont: "LECIP-7:4",
+
+                bottom: "DISP2",
+                bottomFont: "LECIP-7:4"
             }
         }
     },
@@ -380,7 +380,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "62",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -408,7 +408,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "62",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
