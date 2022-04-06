@@ -353,6 +353,74 @@ EDSData.GASG = {
             }
         }
     },
+    2: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "2",
+                destination: "KAMPONG BAHRU",
+                destinationFont: "LECIP-11",
+                scrolls: [
+                "CHANGI VILLAGE RD",
+                "LOYANG AVE",
+                "LOYANG WAY",
+                "UPP CHANGI RD NTH/EAST",
+                "UPP CHANGI LINK",
+                "UPP CHANGI RD",
+                "BEDOK RD",
+                "NEW UPP CHANGI RD",
+                "CHANGI RD",
+                "GEYLANG RD",
+                "KALLANG RD",
+                "VICTORIA ST",
+                "HILL ST",
+                "NEW BRIDGE RD",
+                "KG BAHRU RD",
+                "SPOONER RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "2",
+                destination: "CHANGI VILLAGE",
+                destinationFont: "LECIP-11",
+                scrolls: [
+                "SPOONER RD",
+                "KG BAHRU RD",
+                "EU TONG SEN ST",
+                "HILL ST",
+                "VICTORIA ST",
+                "KALLANG RD",
+                "SIMS AVE",
+                "SIMS AVE EAST",
+                "NEW UPP CHANGI RD",
+                "BEDOK RD",
+                "UPP CHANGI RD",
+                "UPP CHANGI LK",
+                "UPP CHANGI RD EAST/NTH",
+                "LOYANG WAY",
+                "LOYANG AVE",
+                "CHANGI VILLAGE RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     62: {
         1: {
             front: {
@@ -361,6 +429,12 @@ EDSData.GASG = {
                 destination: "SIMS AVE",
                 destinationFont: "LECIP-11",
                 scrolls: [
+                {
+                renderType: "message",
+                text: "SIMS AVE",
+                font: "LECIP-20:9",
+                spacing: 2
+                },
                 "PUNGGOL PL",
                 "PUNGGOL FIELD",
                 "PUNGGOL EAST",
