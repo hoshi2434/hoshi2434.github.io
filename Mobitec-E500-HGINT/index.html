@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='/matrix.js'></script>
+    <script src='/fonts.js'></script>
+    <script src='/eds-renderer.js'></script>
+    <script src='/matrix-primitives.js'></script>
+    <script src='/Mobitec-E500-HGINT/eds.js'></script>
+
+    <script src='/Mobitec-E500-HGINT/data/HGWT.js'></script>
+    <link rel='stylesheet' href='/Mobitec-E500-HGINT/css/eds.css'>
+    <link rel='stylesheet' href='/Mobitec-E500-HGINT/css/controller.css'>
+    <link rel='stylesheet' href='/Mobitec-E500-HGINT/css/style.css'>
+
+    <script src='/Mobitec-E500/js/controller.js'></script>
+    <style id='led-style'>
+    </style>
+
+    <meta name='viewport' content='user-scalable=no' />
+</head>
+<body>
+    <div id='controller-container'>
+        <div id='controller'>
+            <div id='controller-left'>
+                <span id='mobitec-label'>mobitec</span>
+                <span id='mobitec-model-label'>ICU 602</span>
+            </div>
+            <div id='controller-right'>
+                <div id='controller-main-left'>
+                    <div id='controller-screen'>
+                        <div id='controller-screen-home' class='controller-screen'>
+                            <div id='output-preview'>
+                                <canvas id='preview-canvas' width='576' height='64'></canvas>
+                            </div>
+                            <div id='output-info'>
+                            	<span>Please Drive Safe!</span>
+                                <span>Dest : 0</span>
+                                <span>Extra: 0</span>
+                            </div>
+                        </div>
+                        <div id='controller-screen-dest' class='controller-screen' style='display: none'>
+                            <div class='table-labels' id='label-dest'>
+                                <span>Dest</span>
+                                <span>Line No.</span>
+                                <span>Destination</span>
+                            </div>
+                            <div class='dest-table' id='dest-table'>
+                            </div>
+                        </div>
+
+                        <div id='function-label-row'>
+                            <div class='function-label'><span>Dest</span></div>
+                            <div class='function-label'><span>Extra</span></div>
+                            <div class='function-empty'><span> </span></div>
+                            <div class='function-empty'><span> </span></div>
+                            <div class='function-label'><span>Clear All</span></div>
+                        </div>
+                    </div>
+                    <div id='function-buttons'>
+                        <div id='button-home' class='button'><img id='home-button-icon' src='/Mobitec-E500-GAR/res/house.png' alt='home'></img></div>
+                        <div id='button-f1' class='button'><span>F1</span></div>
+                        <div id='button-f2' class='button'><span>F2</span></div>
+                        <div id='button-f3' class='button'><span>F3</span></div>
+                        <div id='button-f4' class='button'><span>F4</span></div>
+                        <div id='button-f5' class='button'><span>F5</span></div>
+                    </div>
+                </div>
+                <div id='controller-main-right'>
+                    <div id='numberpad'>
+                        <div id='numberpad-main'>
+                            <div id='button-1' class='button'><span>1</span><span>    </span></div>
+                            <div id='button-2' class='button'><span>2</span><span> ABC</span></div>
+                            <div id='button-3' class='button'><span>3</span><span> DEF</span></div>
+                            <div id='button-4' class='button'><span>4</span><span> GHI</span></div>
+                            <div id='button-5' class='button'><span>5</span><span> JKL</span></div>
+                            <div id='button-6' class='button'><span>6</span><span> MNO</span></div>
+                            <div id='button-7' class='button'><span>7</span><span>PQRS</span></div>
+                            <div id='button-8' class='button'><span>8</span><span> TUV</span></div>
+                            <div id='button-9' class='button'><span>9</span><span>WXYZ</span></div>
+                        </div>
+                        <div id='button-0' class='button'><span>0</span><span> &#9141; </span></div>
+                    </div>
+                    <div id='selection-pad'>
+                        <div id='direction-pad'>
+                            <div></div><div id='button-up' class='button'>&uarr;</div><div></div>
+                            <div id='button-left' class='button'>&larr;</div><div></div><div id='button-right' class='button'>&rarr;</div>
+                            <div></div><div id='button-down' class='button'>&darr;</div><div></div>
+                        </div>
+                        <div id='yesno-pad'>
+                            <div id='button-no' class='button'><img id='no-button-icon' src='/Mobitec-E500-GAR/res/cross.png' alt='no'></img></div>
+                            <div id='button-yes' class='button'><img id='yes-button-icon' src='/Mobitec-E500-GAR/res/tick.png' alt='yes'></img></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
+        </div>
+    </div>
+</body>
+</html>

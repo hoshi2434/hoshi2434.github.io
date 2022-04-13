@@ -1,8 +1,8 @@
 window.frontEDS = null; window.controllerPreview = null;
 
-let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'GASG';
+let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'HGWT';
 
-let startupCodes = {'SMRT': 7, 'TTSG': 1111, 'SBST': 1111, 'GASG': 1, 'BUSG': 1, 'STSF': 0, 'GASR': 1, 'HGWT': 1}
+let startupCodes = {'HGWT': 1}
 
 let EDSFormats = {};
 let EDSData = {};

@@ -1,11 +1,17 @@
 # plaggeds.github.io
-Updated: 15 August 2021
+Updated: 5 Febuary 2022
 
-Dev notes: Still updating for now till other project finishes. Changed from using github to using Microsoft Visual Studio 2019.
+Dev notes: Slowly fixing this
 
-State: Slow Progress
+State: Taking Time...
 
-Version 15082020:
+Version 05022022:
 
->Do not to use this anymore it is now for PERSONAL USE.
->Periodically update Data.
+HANOVER ERIC+
+>Hanover has alignment issues. Will fix soon
+
+MOBITEC ICU602
+>Added Omsi 2 Hillgrove Town Map EDS Data
+
+LECIP
+>Added 117M and Modified 115 rear eds to normal

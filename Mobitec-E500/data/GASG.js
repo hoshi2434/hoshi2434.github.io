@@ -1698,14 +1698,6 @@ EDSData.GASG = {
                     top: "SIMS AVE",
                     topFont: "Mobitec-13:7"
                 },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "62",
-                    top: "HAPPY",
-                    bottom: "VALENTINE'S DAY",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "PUNGGOL PL",
                 "PUNGGOL FIELD",
                 "PUNGGOL EAST",
