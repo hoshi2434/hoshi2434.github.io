@@ -429,12 +429,6 @@ EDSData.GASG = {
                 destination: "SIMS AVE",
                 destinationFont: "LECIP-11",
                 scrolls: [
-                {
-                renderType: "message",
-                text: "SIMS AVE",
-                font: "LECIP-20:9",
-                spacing: 2
-                },
                 "PUNGGOL PL",
                 "PUNGGOL FIELD",
                 "PUNGGOL EAST",
