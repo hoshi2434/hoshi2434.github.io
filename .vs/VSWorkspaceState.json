@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LECIP-B9TL",
+    "\\LECIP-B9TL-ANS",
+    "\\LECIP-B9TL-ANS\\data",
+    "\\LECIP-B9TL-ANS\\js",
+    "\\LECIP-B9TL\\js"
   ],
   "PreviewInSolutionExplorer": false
 }

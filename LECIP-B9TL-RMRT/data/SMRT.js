@@ -466,12 +466,12 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "logo",
-                text: "SMRT LOGO",
+                text: "RMRT LOGO",
                 image: "logo"
             },
             rear: {
                 renderType: "logo",
-                text: "SMRT LOGO",
+                text: "RMRT LOGO",
                 image: "logosmall"
             }
         }
@@ -716,32 +716,181 @@ EDSData.SMRT = {
             }
         }
     },
-    9912:{
+    9849:{
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "991",
+                serviceNumber: "984",
                 destination: {
-                    text: "BUKIT BATOK via",
+                    text: "ASTERWALE INT via",
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "CHOA CHU KANG AVE 1,3",
-                    "BT BATOK WEST AVE 6,3",
-                    "BT BATOK WEST AVE 5,8"
+                    "ASTERWALE CTRL",
+                    "ASTERWALE CRES",
+                    "ASTERWALE WAY",
+                    "JLN BT KECIL (LOOP)"
                 ],
-                scrollFont: 'Arial-8;Space-Width=0'
+                scrollFont: 'Arial-8'
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "991",
+                serviceNumber: "984",
                 font: "Arial-15",
                 spacing: 2
             }
         }
     },
-
-
+    9861:{
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "986",
+                destination: {
+                    text: "ASTW CANAL LK via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ASTERWALE RD",
+                    "ASTERWALE PEAK",
+                    "ASTERWALE CTRL",
+                    "ASTW CANAL LINK"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "986",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    9862:{
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "986",
+                destination: {
+                    text: "ASTW DEPOT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ASTERWALE CTRL",
+                    "ASTERWALE AVE 1",
+                    "ASTERWALE RD",
+                    "AASTERWALE PEAK"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "986",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    9881:{
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "988",
+                destination: {
+                    text: "ASTERWALE INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ASTERWALE RD",
+                    "ASTERWALE ST 22",
+                    "ASTW ST 23 (LOOP)"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "988",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    9891:{
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "989",
+                destination: {
+                    text: "ASTERWALE INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ASTERWALE WAY",
+                    "ASTERWALE LINK",
+                    "ASTERWALE RD",
+                    "ASTERWALE AVE 1",
+                    "ASTERWALE ST 11",
+                    "ASTW COAST RD"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "989",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    9892:{
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "989A",
+                destination: {
+                    text: "ENDS AT BLK 536",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ASTERWALE WAY"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "989A",
+                font: "Arial-8",
+                spacing: 2
+            }
+        }
+    },
+    9893:{
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "989M",
+                destination: {
+                    text: "ASTW INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ASTERWALE CTRL",
+                    "ASTERWALE WAY",
+                    "ASTERWALE LINK",
+                    "ASTERWALE RD",
+                    "ASTERWALE AVE 1",
+                    "JLN BT KECIL (LOOP)"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "989M",
+                font: "Arial-8",
+                spacing: 2
+            }
+        }
+    },
 "5714": {
         1: {
             front: {
