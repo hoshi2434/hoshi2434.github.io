@@ -192,10 +192,12 @@ EDSData.SMRT = {
                 spacing: 2
             },
             rear: { // check
-                renderType: 'message',
-                text: 'ANS',
-                font: 'LECIP-15',
-                spacing: 2
+                renderType: 'twoline',
+                top: "A&S",
+                topFont: "LECIP-8",
+
+                bottom: " ",
+                bottomFont: "LECIP-8"
             }
         }
     },
@@ -223,10 +225,12 @@ EDSData.SMRT = {
                 scrollFont: 'LECIP-8'
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "A&S",
-                font: "LECIP-8",
-                spacing: 1
+                renderType: 'twoline',
+                top: "A&S",
+                topFont: "LECIP-8",
+
+                bottom: " ",
+                bottomFont: "LECIP-8"
             }
         }
     },
@@ -272,7 +276,7 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "CB1",
-                font: "LECIP-15",
+                font: "Hanover-19:11",
                 spacing: 2
             }
         }
@@ -302,7 +306,7 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "PR1",
-                font: "LECIP-15",
+                font: "Hanover-19:11",
                 spacing: 2
             }
         }
