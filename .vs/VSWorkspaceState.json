@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LECIP-B9TL",
     "\\LECIP-B9TL-ANS",
     "\\LECIP-B9TL-ANS\\data",
-    "\\LECIP-B9TL-ANS\\js",
-    "\\LECIP-B9TL\\js"
+    "\\LECIP-B9TL-ANS\\js"
   ],
+  "SelectedNode": "\\LECIP-B9TL-ANS\\data\\SBST.js",
   "PreviewInSolutionExplorer": false
 }

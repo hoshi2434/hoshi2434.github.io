@@ -1,11 +1,11 @@
-let currentOperator = 'ANST';
+let currentOperator = 'SMRT';
 let currentScreen = '';
 let currentService = '';
 let currentDirection = '';
 let currentDestination = '';
 let inputs = [0,0,0,0];
 
-let operators = ['ANST', 'SBST'];
+let operators = ['SBST', 'SMRT'];
 
 function registerNumericalKeyPress(key) {
     if (currentScreen === 'home' || currentScreen === 'service-input') {
@@ -34,17 +34,16 @@ function registerKeyPress(key) {
         }
     } else if (key === 'F4') {
         if (currentScreen === 'home') {
-            let newDirection = 2;
+            let newDirection = 3 - currentDirection;
             if (!EDSData[currentOperator][currentService][newDirection]) return;
 
             setCode(currentService, newDirection);
         }
     } else if (key === 'F3') {
-       if (currentScreen === 'home') {
-            let newDirection =  1;
-            if (!EDSData[currentOperator][currentService][newDirection]) return;
-
-            setCode(currentService, newDirection);
+        if (currentScreen === 'home') {
+            let index = operators.indexOf(currentOperator);
+            if (++index === operators.length) index = 0;
+            currentOperator = operators[index];
         }
     } else if (key === 'UP') {
         if (currentScreen === 'service-input') {
@@ -129,9 +128,8 @@ function startup() {
     var textSets = [
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
-        ['V122', '0305'],
-        ['LECIP', 'Displays'],
-        ['DRIVE SAFE!', 'DATA OK']
+        ['V122', '0305']
+        ['LECIP', 'Displays']
     ];
 
     textSets.forEach((lines, index) => {
@@ -159,7 +157,7 @@ function firmware() {
     document.getElementById('keypad-f4').addEventListener('click', registerKeyPress.bind(null, 'F4'));
     document.getElementById('keypad-up').addEventListener('click', registerKeyPress.bind(null, 'UP'));
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
-    setCode('1111', 1);
+    setCode('1', 1);
 
     currentScreen = 'home';
 }
