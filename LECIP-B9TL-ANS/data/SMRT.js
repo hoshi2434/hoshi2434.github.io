@@ -310,6 +310,35 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
+    },"RR1": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "RR",
+                destination: {
+                    text: "RAIL REPLACEMENT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "ASHBURY<>TIVERTON",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT WELCOMES YOU",
+                topFont: "LECIP-8",
+
+                bottom: "ONBOARD THE NEW DELUXE MOVER",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "RR",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
     },
 };
 
