@@ -29,16 +29,14 @@ EDSFormats.HGWT= {
                     spacing: 1
                 }
             },
-            align: "left",
+            align: "centre-x",
             margin: {
-                left: "width(leftFlower) + len(2)"
+                left: "len(2)"
             }
         },
         rightFlower: {
-            align: "left",
-            margin: {
-                left: "width(leftFlower) + width(displayText) + len(4)"
-            },
+            align: "right",
+         
             image: "L"
         },
         text: "UNDER INSTRUCTION"
@@ -417,8 +415,18 @@ EDSData.HGWT = {
             serviceNumber: ""
         }
     },
-    1111: {
+    1: {
         front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "A&S Transit",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                    "For Enquiries, Call 6383 1111",
+                    "Or Visit WWW.ANSTRANSIT.COM",
+                    {
             renderType: "destScroll",
             top: "Sorry!",
             topFont: "Mobitec-7:7",
@@ -428,89 +436,84 @@ EDSData.HGWT = {
 
             serviceNumber: ""
         }
+
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
     },
-    9999: {
+    2: {
         front: {
             renderType: "destScroll",
-            top: "Ver 26.01.2020-Mobi",
+            top: "Vehicle Under Testing",
             topFont: "Mobitec-7:7",
+
+            bottom: "Please Do Not Board",
+            bottomFont: "Mobitec-7:7",
 
             serviceNumber: ""
         }
     },
-    3333: {
+    3: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
             destination: {
                 text: "Under Instruction",
-                font: "Mobitec-7:7"
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
                     renderType: "L",
                     serviceNumber: "",
-                    top: "Driver",
-                    bottom: "Under Instruction"
+                    top: "Driver Under",
+                    bottom: "Orientation"
                 }
             ],
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    4444: {
-        front: {
-            renderType: "destScroll",
-            top: "On Test",
-            topFont: "Mobitec-10:7",
-
-            serviceNumber: ""
-        }
-    },
-    5555: {
-        front: {
-            renderType: "destScroll",
-            top: "On Charter",
-            topFont: "Mobitec-10:7",
-
-            serviceNumber: ""
-        }
-    },
-    2222: {
+    4: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
             destination: {
-                text: "GAS LOGO",
-                font: "Mobitec-7:7"
+                text: "MAN Message",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "gar-logo",
-                    serviceNumber: "",
-                    top: " ",
-                    bottom: " "
-                }
+                    {
+            renderType: "destScroll",
+            top: "A&S TRANSIT INTRODUCES",
+            topFont: "SMRT-LAWO-7",
+
+            bottom: "THE MAN A22 CITYBUS",
+            bottomFont: "SMRT-LAWO-7",
+
+            serviceNumber: ""
+                    },
+                    {
+            renderType: "destScroll",
+            top: "A&S TRANSIT INTRODUCES",
+            topFont: "SMRT-LAWO-7",
+
+            bottom: "THE PEOPLE MOVERS",
+            bottomFont: "SMRT-LAWO-7",
+
+            serviceNumber: ""
+                    },
+                    {
+            renderType: "destScroll",
+            top: "Call 6383 1111 or",
+            topFont: "Mobitec-7:7",
+
+            bottom: "Visit www.anstransit.com",
+            bottomFont: "Mobitec-6:5",
+
+            serviceNumber: ""
+                    },
+
             ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    5556: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "ROUTE TRAINING",
-                font: "Mobitec-10:7"
-            },
-            scrolls: [
-                {
-                    renderType: "routeTRG",
-                    serviceNumber: "",
-                    top: "ROUTE TRAINING",
-                    bottom: " "
-                }
-            ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-6:5"
         }
     },
     9741: {
@@ -947,24 +950,6 @@ EDSData.HGWT = {
             ],
             scrollFont: "Mobitec-7:4"
         }
-    },
-    901: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "GA RIDE 01",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "GARide",
-                    serviceNumber: "",
-                    top: "GA RIDE 01"
-                }
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        },
     },
 }
 

@@ -234,6 +234,549 @@ EDSData.SMRT = {
             }
         }
     },
+    3: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "ANS",
+                destination: {
+                    text: "A&S TRANSIT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "WORKER SHUTTLE",
+                    "NOT FOR BOARDING"
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "STAFF",
+                topFont: "LECIP-6:3",
+
+                bottom: "SHUTTLE",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    100: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: {
+                    text: "STAFF SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "STAFF TRANSPORT HUB",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "BRISTOL AIRPORT SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "STAFF",
+                topFont: "LECIP-8",
+
+                bottom: "TER.",
+                bottomFont: "LECIP-8"
+            }
+        }
+    },
+    101: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: {
+                    text: "STAFF SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BRISTOL AIRPORT TER.",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "BRISTOL AIRPORT SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "STAFF",
+                topFont: "LECIP-8",
+
+                bottom: "TER.",
+                bottomFont: "LECIP-8"
+            }
+        }
+    },
+    102: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: {
+                    text: "SILVER ZONE SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BRISTOL TER.>>SILVER ZONE",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "BRISTOL AIRPORT SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SILVER",
+                topFont: "LECIP-8",
+
+                bottom: "SERVICE",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    103: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: {
+                    text: "SILVER ZONE SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "SILVER ZONE>>BRISTOL TER.",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "BRISTOL AIRPORT SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SILVER",
+                topFont: "LECIP-8",
+
+                bottom: "SERVICE",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    104: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: {
+                    text: "LONG STAY SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "via BRISTOL TERMINAL",
+                    "via LONG STAY CARPARK A, B, C",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "BRISTOL AIRPORT SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'SMRT-LAWO-7'
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "LONG",
+                topFont: "LECIP-8",
+
+                bottom: "STAY",
+                bottomFont: "LECIP-8"
+            }
+        }
+    },
+    "A1": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A",
+                destination: {
+                    text: "ASTERWALE RETAIL SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "OPP BLK 201 <> GIANT&IKEA",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "ASTERWALE RETAIL SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "B1": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "B",
+                destination: {
+                    text: "ASTERWALE RETAIL SHUTTLE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "FROM OPP BLK 201 (ASTW SQ)",
+                    "TO COURTS & GAIN CITY",
+                    {
+                renderType: 'twoline',
+                top: "BRINGING YOU CLOSER",
+                topFont: "LECIP-8",
+
+                bottom: "TO THE THINGS YOU LOVE",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "WELCOME ABOARD A&S TRANSIT'S",
+                topFont: "LECIP-8",
+
+                bottom: "ASTERWALE RETAIL SHUTTLE",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "B",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A11": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A1",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "BAUERNHOF INTERCHANGE",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A1",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A12": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A1",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "AIRPORT PASSENGER TER.",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A1",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A21": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A2",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "GRUNDORF BAY",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A2",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A22": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A2",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "AIRPORT PASSENGER TER.",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A2",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A31": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A3",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "SOUTH VALLEY HOSP.",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A3",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A32": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A3",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "AIRPORT PASSENGER TER.",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A3",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A41": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A4",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "HONG SHING PORT",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A4",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    "A42": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "A4",
+                destination: {
+                    text: "AIRPORT EXPRESS",
+                    font: "Gorba-9"
+                },
+                scrolls: [
+                    "AIRPORT PASSENGER TER.",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'Mobitec-7:4'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A4",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
 "CB1": {
         1: {
             front: {
@@ -310,7 +853,8 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },"RR1": {
+    },
+    "RR1": {
         1: {
             front: {
                 renderType: "standardService",
@@ -337,6 +881,104 @@ EDSData.SMRT = {
                 serviceNumber: "RR",
                 font: "Hanover-19:11",
                 spacing: 2
+            }
+        }
+    },
+    "83A1": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "83A",
+                destination: {
+                    text: "WESTFIELD POLICE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "HEADQUATERS",
+                    {
+                renderType: 'twoline',
+                top: "A&S WELCOMES YOU ONBOARD",
+                topFont: "LECIP-8",
+
+                bottom: "CALL 6383 1111 FOR INFO!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "83A",
+                font: "LECIP-8",
+                spacing: 2
+            }
+        }
+    },
+    "83A2": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "83A",
+                destination: {
+                    text: "WAIVESWORTH",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "INTERCHANGE",
+                    {
+                renderType: 'twoline',
+                top: "A&S WELCOMES YOU ONBOARD",
+                topFont: "LECIP-8",
+
+                bottom: "CALL 6383 1111 FOR INFO!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "83A",
+                font: "LECIP-8",
+                spacing: 2
+            }
+        }
+    },
+    "76X1": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "76X",
+                destination: {
+                    text: "EXPRESS SERVICE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BAUERNHOF<>ILLUM. LN",
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT WELCOMES YOU",
+                topFont: "LECIP-8",
+
+                bottom: "ONBOARD THE NEW B8RLE!",
+                bottomFont: "LECIP-8"
+                    },
+                    {
+                renderType: 'twoline',
+                top: "A&S TRANSIT'S EXPRESS SVC",
+                topFont: "LECIP-8",
+
+                bottom: "SIT BACK AND RELAX!",
+                bottomFont: "LECIP-8"
+                    }
+                ],
+                scrollFont: 'LECIP-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "76X",
+                font: "Gorba-16:8",
+                spacing: 1
             }
         }
     },

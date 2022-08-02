@@ -515,7 +515,7 @@ EDSData.SMRT = {
                 renderType: "message",
                 text: "FREE BRIDGING BUS",
                 font: "Arial-8",
-                marginLeft: 0, // whack first
+                marginLeft: 0,
                 spacing: 1
             },
             rear: { // check
@@ -557,7 +557,7 @@ EDSData.SMRT = {
                 renderType: "message",
                 text: "GONG XI FA CAI",
                 font: "Arial-8",
-                marginLeft: 0, // whack first
+                marginLeft: 0,
                 spacing: 1
             },
             rear: { // check
@@ -577,7 +577,7 @@ EDSData.SMRT = {
                 renderType: "message",
                 text: "SELAMAT HARI RAYA",
                 font: "Arial-8",
-                marginLeft: 0, // whack first
+                marginLeft: 0,
                 spacing: 1
             },
             rear: { // check
@@ -597,7 +597,7 @@ EDSData.SMRT = {
                 renderType: "message",
                 text: "HAPPY DEEPAVALI",
                 font: "Arial-8",
-                marginLeft: 0, // whack first
+                marginLeft: 0,
                 spacing: 1
             },
             rear: { // check
@@ -617,7 +617,7 @@ EDSData.SMRT = {
                 renderType: "message",
                 text: "HAPPY NATIONAL DAY",
                 font: "Arial-8",
-                marginLeft: 0, // whack first
+                marginLeft: 0,
                 spacing: 1
             },
             rear: { // check
@@ -887,28 +887,6 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "989M",
                 font: "Arial-8",
-                spacing: 2
-            }
-        }
-    },
-"5714": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "KOPI",
-                destination: {
-                    text: "I SPILL KOPI ON",
-                    font: "ArialBold-8"
-                },
-                scrolls: [
-                    "SG5714D"
-                ],
-                scrollFont: 'Calibri-7'
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "KOPI",
-                font: "Arial-15",
                 spacing: 2
             }
         }
